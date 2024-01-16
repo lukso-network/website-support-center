@@ -1,10 +1,24 @@
 ---
 sidebar_label: '👉🏻 Introduction'
 sidebar_position: 1
-description: Support for LUKSO extension
+description: Support for LUKSO Extension
 ---
 
-# Support for LUKSO extension
+# Support for LUKSO Extension
+
+## Where can I download the Universal Profile Extension?
+
+You can download the Universal Profile Extension from the [Chrome Store](https://chromewebstore.google.com/detail/universal-profiles/abpickdkkbnbcoepogfhkhennhfhehfn?pli=1).
+
+## Which browsers does the extension support?
+
+Currently, the Universal Profile Extension only supports [Chrome](https://www.google.com/intl/en/chrome) and [Brave](https://brave.com/). Other browser might work too, but are not officially supported.
+
+:::caution Using Unsupported Browsers
+
+Using unsupported browsers might result in broken interfaces or the extension not being recognized by dApps. We highly recommend to wait until official support is extended.
+
+:::
 
 ## Whats the best way to use LUKSO?
 
