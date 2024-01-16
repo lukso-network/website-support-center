@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Controller Recovery Incident'
+sidebar_label: '🔑 Controller Recovery Incident'
 sidebar_position: 1
 ---
 

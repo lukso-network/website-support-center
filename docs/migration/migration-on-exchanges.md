@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Exchanges'
+sidebar_label: '🏦 Migration on Exchanges'
 sidebar_position: 4
 description: 'LYXe Migration and Exchanges'
 ---

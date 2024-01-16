@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Introduction'
+sidebar_label: '👉🏻 Introduction'
 sidebar_position: 1
 description: Support for LUKSO LYXe Migration
 ---
@@ -10,7 +10,7 @@ description: Support for LUKSO LYXe Migration
 
 You can migrate LYXe to LYX using the official [Migration Bridge](https://migrate.lukso.network/). Please check the `lukso.network` domain in order to guarantee that you are on the official app, before connecting your wallet.
 
-## What is the minimal amount of LYX that can be bridged?
+## What is the minimal amount that can be bridged?
 
 You need at least 1 LYXe within your connected wallet to start the migration. You can send any decimal values.
 
@@ -26,6 +26,6 @@ The LYX will be sent to the same blockchain address (account/wallet) used during
 
 The migration process started on the 4th of July, 2023. As stated in the [Migration Article](https://medium.com/lukso/the-lyxe-migration-process-374053e5ddf5) the bridge is planned to stay open up to 4 years until July 2027, allowing anyone to migrate. The Foundation for the New Creative Economies can pause the migration bridge. Please refer to the official announcements from the [LUKSO Twitter Account](https://twitter.com/lukso_io).
 
-## Will LYXe be deprecated after the migration bridge closes?
+## Will LYXe be deprecated when migration closes?
 
 Since LYXe is the official representation of LYX on Ethereum that was used to power off the [rICO](https://medium.com/lukso/re-launching-the-reversible-ico-5289989ce7ed), the token itself will exist forever. However, we can not guarantee any price differences from LYXe to LYX after they can not be migrated anymore.

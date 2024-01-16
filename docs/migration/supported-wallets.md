@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Supported Wallets'
+sidebar_label: '👝 Supported Wallets'
 sidebar_position: 2
 description: 'LUKSO Migration: Supported Wallets'
 ---
@@ -14,7 +14,7 @@ Only regular EVM-compatible browser-based wallets (Externally Owned Accounts) ar
 
 If you migrate yourself but don't have a browser-based wallet, e.g., holding your LYXe on a Ledger or Trezor, we recommend installing an EVM-compatible browser-based wallet. After generating a new blockchain address on the installed wallet, you can send the LYXe to your new wallet and begin migrating from the browser. One of the most commonly used browser-based wallets is [MetaMask](https://metamask.io/download/), which can be installed and added to your browser within a few steps. MetaMask also supports wallet imports for both Ledger and Trezor hardware wallets.
 
-## How do I migrate if I have LYXe on a hardware wallet?
+## How do I migrate if I have a hardware wallet?
 
 If you have LYXe on a hardware wallet like Ledger or Trezor, you can send them to a supported crypto exchange or migrate independently by connecting your hardware wallet to a browser-based wallet. Make sure your hardware wallet supports external connections to browser-based wallets.
 

@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Hardware Wallets'
+sidebar_label: '🛡️ Hardware Wallets'
 sidebar_position: 3
 description: LUKSO Hardware Wallet Support
 ---

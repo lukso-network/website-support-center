@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Wallet Support'
+sidebar_label: '👛 Wallet Support'
 sidebar_position: 2
 description: LUKSO Wallet Support
 ---
