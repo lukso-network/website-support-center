@@ -1,6 +1,7 @@
 ---
 sidebar_label: '🔑 Controller Recovery Incident'
 sidebar_position: 1
+description: 'LUKSO Support: Controller Recovery Incident Jan 2024'
 ---
 
 # Controller Recovery Incident
