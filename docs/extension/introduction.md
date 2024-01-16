@@ -12,7 +12,7 @@ You can download the Universal Profile Extension from the [Chrome Store](https:/
 
 ## Which browsers does the extension support?
 
-Currently, the Universal Profile Extension only supports [Chrome](https://www.google.com/intl/en/chrome) and [Brave](https://brave.com/). Other browser might work too, but are not officially supported.
+Currently, the Universal Profile Extension only supports [Chrome](https://www.google.com/intl/en/chrome) and [Brave](https://brave.com/).
 
 :::caution Using Unsupported Browsers
 
