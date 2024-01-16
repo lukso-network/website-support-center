@@ -6,8 +6,26 @@ description: Support for LUKSO LYXe Migration
 
 # Support for LYXe Migration
 
-:::warning
+## How can I migrate LYXe to LYX?
 
-This page is a Work In Progress
+You can migrate LYXe to LYX using the official [Migration Bridge](https://migrate.lukso.network/). Please check the `lukso.network` domain in order to guarantee that you are on the official app, before connecting your wallet.
 
-:::
+## What is the minimal amount of LYX that can be bridged?
+
+You need at least 1 LYXe within your connected wallet to start the migration. You can send any decimal values.
+
+## How much will it cost to migrate the LYXe?
+
+Since LYXe is managed on Ethereum, you will need some ETH to cover the Gas costs of the transaction when using the migration dApp. The transfer will cost less than 200k Gas, corresponding to [an average](https://etherscan.io/gastracker) of 0,004 ETH. Remember that these prices can fluctuate if the network is at capacity.
+
+## Where will the LYX be migrated to?
+
+The LYX will be sent to the same blockchain address (account/wallet) used during the migration. Within supported exchanges, the accounts will automatically be updated from LYXe to LYX if they have not been manually transferred to external wallets.
+
+## How long will the LYXe migration be open for?
+
+The migration process started on the 4th of July, 2023. As stated in the [Migration Article](https://medium.com/lukso/the-lyxe-migration-process-374053e5ddf5) the bridge is planned to stay open up to 4 years until July 2027, allowing anyone to migrate. The Foundation for the New Creative Economies can pause the migration bridge. Please refer to the official announcements from the [LUKSO Twitter Account](https://twitter.com/lukso_io).
+
+## Will LYXe be deprecated after the migration bridge closes?
+
+Since LYXe is the official representation of LYX on Ethereum that was used to power off the [rICO](https://medium.com/lukso/re-launching-the-reversible-ico-5289989ce7ed), the token itself will exist forever. However, we can not guarantee any price differences from LYXe to LYX after they can not be migrated anymore.
