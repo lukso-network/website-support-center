@@ -23,6 +23,12 @@ export default {
       items: [
         {
           type: 'doc',
+          docId: 'general/introduction',
+          position: 'left',
+          label: 'General',
+        },
+        {
+          type: 'doc',
           docId: 'extension/introduction',
           position: 'left',
           label: 'Extension',
