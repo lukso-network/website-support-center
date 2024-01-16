@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Transaction Process'
+sidebar_label: '🔄 Transaction Process'
 sidebar_position: 3
 description: 'LUKSO Migration: Transaction Process'
 ---

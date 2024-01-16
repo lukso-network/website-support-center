@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Common Errors'
+sidebar_label: '⚙️ Common Errors'
 sidebar_position: 4
 description: Common Errors
 ---
