@@ -6,6 +6,10 @@ import styles from './index.module.scss';
 import Box from '../components/Box';
 import Headline from '../components/Headline';
 
+import GeneralIcon from '../../static/img/icons/icon-general-gradient.png';
+import ExtensionIcon from '../../static/img/icons/icon-extension-gradient.png';
+import MigrationIcon from '../../static/img/icons/icon-migration-gradient.png';
+
 function Index() {
   return (
     <Layout description="LUKSO Support Center">
@@ -15,16 +19,25 @@ function Index() {
         <br />
         <div className={styles.cardContainer}>
           <Box
-            // icon={NetworksIcon}
-            link="./extension/introduction"
-            title="Extension"
-            content="Get help on the extension"
+            icon={GeneralIcon}
+            link="./general/introduction"
+            title="General"
+            className="general"
+            content="Get help related to wallet support and network interactions"
           />
           <Box
-            // icon={NetworksIcon}
+            icon={ExtensionIcon}
+            link="./extension/introduction"
+            title="Extension"
+            className="extension"
+            content="Get help on the Universal Profile Browser Extension"
+          />
+          <Box
+            icon={MigrationIcon}
             link="./migration/introduction"
             title="LYXe Migration"
-            content="Get help on the LYXe migration"
+            className="migration"
+            content="Get help on the LYXe migration service"
           />
         </div>
       </div>

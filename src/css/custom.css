@@ -46,7 +46,6 @@ html[data-theme='dark'] {
   suffix: '';
 }
 
-
 .header-github-link:hover {
   opacity: 0.6;
 }
@@ -68,6 +67,18 @@ html[data-theme='dark'] .header-github-link:before {
 
 html[data-theme='dark'] .headline {
   background-image: url('../../static/img/icons/ellipse-top-gradient-dark.png');
+}
+
+html[data-theme='dark'] .general .img {
+  background-image: url('../../static/img/icons/icon-general-gradient-dark.png') !important;
+}
+
+html[data-theme='dark'] .migration .img {
+  background-image: url('../../static/img/icons/icon-migration-gradient-dark.png') !important;
+}
+
+html[data-theme='dark'] .extension .img {
+  background-image: url('../../static/img/icons/icon-extension-gradient-dark.png') !important;
 }
 
 .discord-logo {
