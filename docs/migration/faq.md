@@ -73,7 +73,7 @@ If you want to see the balance within your wallet, you can add LUKSO to your wal
 
 ## How to store LYX?
 
-You can store LYX using the [Universal Profile Browser Extension](/install-up-browser-extension) or any Ethereum-compatible wallet or hardware wallet. Further details can be found on the [Wallet Support Page](#TODO).
+You can store LYX using the [Universal Profile Browser Extension](https://docs.lukso.tech/install-up-browser-extension) or any Ethereum-compatible wallet or hardware wallet. Further details can be found on the [Wallet Support Page](#TODO).
 
 :::caution
 
