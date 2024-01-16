@@ -1,5 +1,5 @@
 ---
-sidebar_label: '🔒 Create Backup'
+sidebar_label: '📥 Create Backup'
 sidebar_position: 2
 description: 'Extension Support: Feature Requests'
 ---

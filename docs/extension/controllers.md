@@ -4,6 +4,8 @@ sidebar_position: 2
 description: 'LUKSO Support: Universal Profile Controllers'
 ---
 
+# Controllers
+
 ## What are the controllers of the Universal Profile?
 
 Each Universal Profile within an extension holds a separate private key to send transactions on behalf of the user, e.g., controlling it. Such controllers can be exported, added, or removed. The controllers can be found within the **Controllers** window of the extension:
@@ -26,7 +28,7 @@ Due to the [Controller Incident](./incidents/controller-recovery.md) of the Univ
 
 ## Can I use a regular wallet to control my Universal Profile?
 
-As a developer, you can connect a regular wallet to the network where the Universal Profile was deployed and **manually add its EOA** as a controller. You will then have to send all transactions through the [Key Manager](../../standards/universal-profile/lsp6-key-manager) of the Universal Profile to execute them as your persona. However, we recommend directly using the [Universal Profile Extension](/install-up-browser-extension) to interact with dApps on LUKSO.
+As a developer, you can connect a regular wallet to the network where the Universal Profile was deployed and **manually add its EOA** as a controller. You will then have to send all transactions through the [Key Manager](https://docs.lukso.tech/standards/universal-profile/lsp6-key-manager../../standards/universal-profile/lsp6-key-manager) of the Universal Profile to execute them as your persona. However, we recommend directly using the [Universal Profile Extension](https://docs.lukso.tech/install-up-browser-extension) to interact with dApps on LUKSO.
 
 ## Can I use an existing EOA to control my Universal Profile?
 

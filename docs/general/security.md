@@ -10,7 +10,7 @@ description: Support for Universal Profile Security
 
 The safety of a Universal Profile **depends on the security steps taken by its owner**. If only one EOA controller owns the profile, the security level is equivalent to regular EOA wallets. If a more secure access control system is built and multiple controllers are added with different permissions, the security level of the Universal Profile would be **as robust as a multi-signature wallet**. Also, custom ownership contracts can be added as controllers. In essence, the security of a UP directly corresponds to the security measures put in place by the owner.
 
-## Why should I use Universal Profile Extension over other wallets?
+## Why should I use the Universal Profile Extension?
 
 The Universal Profile Extension offers several advantages over traditional wallet services like MetaMask or Rainbow. Regular wallets only manage the cryptographic key-pair, the blockchain account. The account is only secured by a static private seed phrase that can't **be changed or exposed**. If the phrase is leaked or lost, all your digital assets and reputation associated with the account **would be lost with it**.
 

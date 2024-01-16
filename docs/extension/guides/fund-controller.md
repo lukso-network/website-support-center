@@ -1,10 +1,10 @@
 ---
-sidebar_label: '💸 Fund Controller Key'
+sidebar_label: '💸 Fund Controller'
 sidebar_position: 3
-description: 'Extension Support: Fund Controller Key'
+description: 'Extension Support: Fund Controller'
 ---
 
-# Fund Controller Key
+# Fund Controller
 
 To use your funds to send transactions from your Universal Profile, you must send LYX or LYXt to the extension's controller. Sending it to the controller will ensure the transaction's gas costs are funded.
 

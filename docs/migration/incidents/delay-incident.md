@@ -1,10 +1,10 @@
 ---
-sidebar_label: '⛓ January 2024'
+sidebar_label: '🐌 Delay January 2024'
 sidebar_position: 1
-description: 'LUKSO Support: Migration Incident Jan 2024'
+description: 'LUKSO Support: Migration Delay Jan 2024'
 ---
 
-# January 2024 Incident
+# Delay January 2024
 
 On the 14th of January 2024, a sudden change in the LUKSO mainnet blockchain activity, following the [release of a very gas intensive NFT project](https://twitter.com/feindura/status/1746262322950083047), created a wave of pending transactions from our migration system.
 

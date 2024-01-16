@@ -16,7 +16,7 @@ The token migration usually takes about 10-15min for the transaction to be final
 
 :::danger Current Incident
 
-Due to the current network utilization, the migration process might take longer than expected. Please read more within [Migration Incidents January 2024](./incidents/january-2024.md)
+Due to the current network utilization, the migration process might take longer than expected. Please read more within [Migration Delay January 2024](./incidents/delay-incident.md)
 
 :::
 

@@ -1,14 +1,14 @@
 ---
-sidebar_label: '🛟 Verify 2FA Recovery'
+sidebar_label: '🛟 Check 2FA Recovery'
 sidebar_position: 1
-description: 'LUKSO Support: How to verify 2FA Recovery'
+description: 'LUKSO Support: How to check 2FA Recovery'
 ---
 
-# Verify 2FA Recovery
+# Check 2FA Recovery
 
 If you ever want to recover your profile, a new controller will be added to this Universal Profile from a new extension setup. You must verify multiple steps to check if this new controller can be added to your Universal Profile by the recovery service:
 
-# 1. Verify the recovery controller in your extension
+# Verify the recovery controller in your extension
 
 If you visit the controller menu in the Universal Profile Browser Extension, there need to be at least three controllers:
 
@@ -30,7 +30,7 @@ The names of the controllers can vary, depending on the time of your Universal P
 
 :::
 
-## 2. Verify the recovery controller on the profile explorer
+## Verify the recovery controller on the profile explorer
 
 Next, we must check if the recovery was successfully added via the LUKSO Relay Service.
 
@@ -58,7 +58,7 @@ If your Universal Profile Recovery controller is not showing up on [UniversalPro
 
 :::
 
-# 3. Verify the authentication code and email
+# Verify the authentication code and email
 
 During the 2FA setup, you will be asked to provide an **email or web account** associated with the recovery process. Verify if you **received the recovery email** and **set up an authenticator code** using one of the supported apps. Additionally, ensure that the 2FA code for the Universal Profile Recovery **can be accessed** on your authenticator app of choice.
 
