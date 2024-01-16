@@ -13,7 +13,14 @@ export default {
   projectName: 'website-support-center', // Usually your repo name.
   plugins: ['docusaurus-plugin-sass'],
   themeConfig: {
-    // image: 'img/lukso-docs-opengraph.jpg',
+    announcementBar: {
+      id: 'incident',
+      content:
+        '🚧 &nbsp; Due to a recently discovered controller malfunction, a large amount of people are experiencing issues with the extension. Please check out the latest <a href="/extension/incidents">Extension Incidents and Fixes</a> &nbsp; 🚧',
+      backgroundColor: '#FEF8E6',
+      textColor: 'black',
+      isCloseable: false,
+    },
     navbar: {
       title: 'LUKSO Support',
       logo: {
