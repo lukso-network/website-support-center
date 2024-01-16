@@ -1,6 +1,7 @@
 ---
 sidebar_label: '⛓ January 2024'
 sidebar_position: 1
+description: 'LUKSO Support: Migration Incident Jan 2024'
 ---
 
 # January 2024 Incident
