@@ -1,6 +1,6 @@
 ---
 sidebar_label: '💰 Get Controller Funds'
-sidebar_position: 3
+sidebar_position: 4
 description: 'Extension Support: Get Controller Funds'
 ---
 
