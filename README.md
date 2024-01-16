@@ -1,0 +1,34 @@
+# LUKSO Support Center
+
+This website is built using [Docusaurus 3](https://docusaurus.io/), a modern static website generator.
+It is the official Technical Documentation Website of LUKSO.
+
+Live URL: <https://support.lukso.network/>
+
+## Installation
+
+```console
+yarn install
+```
+
+## Local Development
+
+```console
+yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+## Build
+
+```console
+yarn build
+```
+
+## Update Libraries
+
+```console
+yarn upgrade-interactive
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
