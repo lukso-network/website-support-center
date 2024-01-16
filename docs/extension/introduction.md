@@ -8,7 +8,7 @@ description: Support for LUKSO extension
 
 ## Whats the best way to use LUKSO?
 
-It's suggested to use the [Universal Profile Extension](/install-up-browser-extension) while interacting with apps and services on LUKSO. The extension offers you a much more user-friendly and feature-rich experience than you would get using regular wallets.
+It's suggested to use the [Universal Profile Extension](https://docs.lukso.tech/install-up-browser-extension) while interacting with apps and services on LUKSO. The extension offers you a much more user-friendly and feature-rich experience than you would get using regular wallets.
 
 ## Is the Universal Profile Extension a wallet?
 
