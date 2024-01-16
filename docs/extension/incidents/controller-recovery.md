@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'January 2024'
+sidebar_label: 'Controller Recovery Incident'
 sidebar_position: 1
 ---
 
-# Controller Incident on Recovery and Import
+# Controller Recovery Incident
 
 Following up to the enormous increase in downloads and extension users bedinning of 2024, the team discovered a controller malfunction on the 11th of January 2024. This resulted in controllers of the extensions not properly being added to the Universal Profile on **recovery** or **import**.
 
