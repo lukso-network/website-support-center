@@ -4,17 +4,19 @@ sidebar_position: 4
 description: 'Extension Support: Get Controller Funds'
 ---
 
-## Get Controller Funds
+# Get Controller Funds
 
 There is currently no way to get back funds from the controller directly within the extension. If you want to pay for your transactions instead of using any Relay Service, we recommend only sending minimal LYX, e.g., `0.1 LYX`.
 
 However, as the controllers of your Universal Profile are regular wallet accounts, these can be imported into any other Ethereum wallet with custom network support. To get back funds from a controller, please open the Settings and reveal your private key of the related Extension controller.
 
+<div style={{ textAlign: 'center' }}>
 <img
     src="/img/extension/reveal-private-key.png"
     alt="Reveal Private Keys"
-    width="300"
+    width="400"
 />
+</div>
 
 :::caution Controller Export
 
