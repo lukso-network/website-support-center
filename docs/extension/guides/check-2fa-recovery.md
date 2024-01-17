@@ -18,11 +18,15 @@ If you visit the controller menu in the Universal Profile Browser Extension, the
 
 To confirm that the permissions of the recovery controller were adequately set up, click on the controller of the Universal Profile Recovery and verify that the **Add Controller** permission is enabled.
 
+<div style={{textAlign: 'center'}}>
+
 <img
     src="/img/extension/2fa-controller.png"
     alt="2FA Controller"
-    width="400"
+    width="800"
 />
+
+</div>
 
 :::info Controller Names
 
@@ -38,12 +42,12 @@ Next, we must check if the recovery was successfully added via the LUKSO Relay S
 2. Open the profile explorer on [UniversalProfile.cloud](https://universalprofile.cloud/?network=mainnet).
 3. **Input the address** of the Universal Profile Recovery **into the search bar**.
 
-If it was successfully added, it will show a recovery profile.
+If it was successfully added, it will show a recovery profile as in the following picture:
 
 <img
     src="/img/extension/recovery-search.png"
     alt="Recovery Search"
-    width="400"
+    width="500"
 />
 
 :::info Recovery Name

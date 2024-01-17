@@ -32,11 +32,15 @@ You can connect your Universal Profile to [my.universalprofile.cloud](https://my
 
 The profile name displayed on platforms and services is retrieved from the metadata linked to the smart contract. Such metadata, images, or descriptions can be individually set when creating or updating the Universal Profile. Therefore, multiple users can choose similar names or pictures.
 
+<div style={{textAlign: 'center'}}>
+
 <img
     src="/img/general/profile-name.png"
     alt="Universal Profile Name"
-    width="300"
+    width="200"
 />
+
+</div>
 
 What is unique about a Universal Profile are its address and the identicon. The address is indicated with the first four characters behind the profile name. In case the first characters of the address should be similar or identical, the identicon further helps to distinguish them. The combination of attributes was done to allow complete customization without lacking authentication.
 
