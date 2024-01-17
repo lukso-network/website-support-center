@@ -23,3 +23,15 @@ Here you can find guides on how to add a custom network to supported browser wal
 If you want to use LUKSO Universal Profiles and get all the benefits from using a [smart account extension](https://medium.com/lukso/aa-is-not-coming-aa-is-here-4d87b12ba11a), <br/> please use the [LUKSO Universal Profile Extension](https://my.universalprofile.cloud).
 
 :::
+
+## What to do when the transaction fails with a nonce error?
+
+Your transactions on LUKSO might fail due to a nonce error within your regular wallet. The issue mainly comes from the wallet (like MetaMask) not properly synchronizing the nonce for custom networks that have been set.
+
+:::info Nonce
+
+In Ethereum networks, a nonce is a number used to keep track of transactions sent from a specific wallet address. It ensures that each transaction is unique and processed only once, helping prevent double-spending and maintaining the order of transactions. It's like a serial number for transactions from a specific account.
+
+:::
+
+To fix the nonce issue, please [clear your account activity in MetaMask](https://support.metamask.io/hc/en-us/articles/360015488891-How-to-clear-your-account-activity-reset-account) or wallet of your choice.
