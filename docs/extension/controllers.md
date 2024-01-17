@@ -75,7 +75,7 @@ To remove permissions, use the extension to view all controllers with permission
 
 :::success Upcoming Feature
 
-The team is currently working on a [feature request](../general/feature-requests.md) to _completely remove old controllers_, not only their individual permissions. This also includes the [feature request](../general/feature-requests.md) of _showing hidden controllers_ again.
+The team is currently working on a [feature request](../general/feature-requests.md) to _completely remove old controllers_, not only their individual permissions. This also includes _showing hidden controllers_ again.
 
 :::
 
