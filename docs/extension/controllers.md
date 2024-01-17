@@ -10,11 +10,15 @@ description: 'LUKSO Support: Universal Profile Controllers'
 
 Each Universal Profile within an extension holds a separate private key to send transactions on behalf of the user, e.g., controlling it. Such controllers can be exported, added, or removed. The controllers can be found within the **Controllers** window of the extension:
 
+<div style={{textAlign: 'center'}}>
+
 <img
     src="/img/extension/controller-window.png"
     alt="Controller Window"
     width="400"
 />
+
+</div>
 
 ## Can I add 2FA recovery to an existing Universal Profile?
 
