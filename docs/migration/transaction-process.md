@@ -29,3 +29,7 @@ Any account that accidentally sent LYXe to the [LYXe Token address](https://ethe
 You can check your balance using the [LUKSO Mainnet Block Explorer](https://explorer.execution.testnet.lukso.network/) and searching for your address.
 
 If you want to see the balance within your wallet, you can add LUKSO to your wallet by manually adding the RPC endpoint as described within our official [Network Properties](https://docs.lukso.tech/networks/mainnet/parameters).
+
+## What can I do when my transaction status stalls?
+
+The migration transaction might be correctly executed on Ethereum and LUKSO, but the status is not updated on the [migration application](https://migrate.lukso.network/) in the browser. If you want to send a new transaction and [already verified that the transaction has been executed](#how-can-i-see-my-transaction-and-lyx), please reset [your browser history](https://support.google.com/accounts/answer/32050?hl=en&co=GENIE.Platform%3DDesktop) and re-open the page. You will be brought to the home screen again without any pending state.
