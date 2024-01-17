@@ -11,7 +11,24 @@ export default {
   favicon: 'img/favicon.png',
   organizationName: 'lukso-network', // Usually your GitHub org/user name.
   projectName: 'website-support-center', // Usually your repo name.
-  plugins: ['docusaurus-plugin-sass'],
+  plugins: [
+    'docusaurus-plugin-sass',
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/extension/feature-requests',
+            to: '/general/feature-requests',
+          },
+          {
+            from: '/migration/incidents/january-2024',
+            to: '/migration/incidents/delay-incident',
+          },
+        ],
+      },
+    ],
+  ],
   themeConfig: {
     announcementBar: {
       id: 'incident',
