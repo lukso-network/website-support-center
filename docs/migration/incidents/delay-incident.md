@@ -36,4 +36,4 @@ No deposited LYXe is lost or at risk. User migrations will be processed when the
 [`0x02223747136b50f217a7b5991fa67eef3dedd12628bf507fef43208e7b39cba2`](https://explorer.execution.mainnet.lukso.network/tx/0x02223747136b50f217a7b5991fa67eef3dedd12628bf507fef43208e7b39cba2) (nonce `3534`)
 
 - Jan 17th, 2:00pm UTC: the missing two deposits [3537](https://etherscan.io/tx/0x405b1b200f21f1f692d6111fceb550a8152a52f0555a6c28a11a379748c24220) and [3538](https://etherscan.io/tx/0x83da2134290cc44a45edbc544be0b8c9e9a8a846c68231b99e7c79e89b1dc568) were successfully processed.
-- **Jan 17th, 3:00pm UTC: the website has been unpaused - all systems are operational again ✅**
+- **Jan 17th, 2:28pm UTC: the website has been unpaused - all systems are operational again ✅**
