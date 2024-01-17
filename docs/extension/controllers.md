@@ -58,3 +58,13 @@ If you want to reset the controller permissions to their initial state, you can 
 ![Default Permissions of the Universal Profile Recovery](../../static/img/extension/default-permission-up-recovery.png)
 
 </details>
+
+## Can I add a Ledger account as a controller of my profile?
+
+Currently, we do _not officially support_ adding custom controllers to your Universal Profile. This can be done programmatically, but is not officially supported.
+
+:::success Upcoming Feature
+
+This question has been heard and the team is working on this [feature request](feature-requests.md).
+
+:::

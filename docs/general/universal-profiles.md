@@ -57,3 +57,7 @@ A Universal Profile can hold any asset on the same network it's deployed on. On 
 ## Can I control assets using Universal Profiles on any blockchain?
 
 You can manage your assets through a Universal Profile on any blockchain the contract is deployed on. This would also include cases where the standardization was rewritten in a different language. If a service or project would allow you to create Universal Profiles on Ethereum, you could manage your assets through it.
+
+## Why do Universal Profile transactions show up as internal transactions?
+
+The Universal Profile is a **smart contract**. Unlike a regular wallet, where _transactions are made directly by the address owning the funds_, the transactions on the Universal Profile are **executed by one of it's controllers**. This division of execution and ownership of assets requires the execution of custom logic of the smart contract. The key manager has to check the permissions of the controller, before any on-chain action is made. This additional logic, established using [LSP smart contracts](https://docs.lukso.tech/standards/introduction) is the reason for transactions appearing as internal.
