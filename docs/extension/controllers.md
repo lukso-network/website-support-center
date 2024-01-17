@@ -33,3 +33,28 @@ As a developer, you can connect a regular wallet to the network where the Univer
 ## Can I use an existing EOA to control my Universal Profile?
 
 You can add any new or existing Externally Owned Account as a controller to your deployed Universal Profile of a specific chain. This also includes already existing keys from wallets. However, please remember that your previous assets and token remain on the EOA address.
+
+## What are the default permissions of the controllers?
+
+If you want to reset the controller permissions to their initial state, you can set the permissions to the default values described in the following pictures:
+
+<details>
+    <summary>Show default permissions of the Universal Profile Extension</summary>
+
+![Default Permissions of the Universal Profile Extension](../../static/img/extension/default-permission-up-extension.png)
+
+</details>
+
+<details>
+    <summary>Show default permissions of the Universal Receiver</summary>
+
+![Default Permissions of the Universal Receiver](../../static/img/extension/default-permission-universal-receiver.png)
+
+</details>
+
+<details>
+    <summary>Show default permissions of the Universal Profile Recovery</summary>
+
+![Default Permissions of the Universal Profile Recovery](../../static/img/extension/default-permission-up-recovery.png)
+
+</details>
