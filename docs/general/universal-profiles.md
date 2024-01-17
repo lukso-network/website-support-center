@@ -61,3 +61,17 @@ You can manage your assets through a Universal Profile on any blockchain the con
 ## Why do Universal Profile transactions show up as internal transactions?
 
 The Universal Profile is a **smart contract**. Unlike a regular wallet, where _transactions are made directly by the address owning the funds_, the transactions on the Universal Profile are **executed by one of it's controllers**. This division of execution and ownership of assets requires the execution of custom logic of the smart contract. The key manager has to check the permissions of the controller, before any on-chain action is made. This additional logic, established using [LSP smart contracts](https://docs.lukso.tech/standards/introduction) is the reason for transactions appearing as internal.
+
+## Is it possible to create a profile with the same address as my wallet?
+
+The Universal Profile is a smart contract account deployed using a regular wallet key (EOA). Hence it _cannot overwrite or have the same address as an existing browser- or hardware wallet_.
+
+## How can I delete or import profiles on the explorer?
+
+Currently, there's no way to access previous profiles showing up on [universalprofile.cloud](https://universalprofile.cloud/), if you lost access or the deployment was not completed. If you want to delete a profile that you can still access within the Universal Profile Browser Extension, please edit the metadata and remove all the contents like pictures and names.
+
+:::success Upcoming Feature
+
+The [feature request](./feature-requests.md) of removing and importing profiles is planned for one of the next releases of the extension and explorer. To avoid losing access to profiles, **do not re-install or reset your Universal Profile Browser Extension if you want to re-import them**, as this will clear hidden private keys within the browser.
+
+:::
