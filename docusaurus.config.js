@@ -19,7 +19,7 @@ export default {
         '🚧 &nbsp; Due to a recently discovered controller malfunction, a large amount of people are experiencing issues with the extension. Please check out the latest <a href="/extension/incidents/controller-recovery">Extension Incidents and Fixes</a> &nbsp; 🚧',
       backgroundColor: '#FEF8E6',
       textColor: 'black',
-      isCloseable: false,
+      isCloseable: true,
     },
     navbar: {
       title: 'LUKSO Support',
