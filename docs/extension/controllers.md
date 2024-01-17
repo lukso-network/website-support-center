@@ -20,9 +20,9 @@ Each Universal Profile within an extension holds a separate private key to send 
 
 At the current state (11th January 2024), the 2FA recovery method from LUKSO can only be added during the creation of a Universal Profile on [UniversalProfile.cloud](https://universalprofile.cloud/).
 
-:::info Upcoming Update
+:::info Upcoming Feature
 
-Due to the [Controller Incident](./incidents/controller-recovery.md) of the Universal Profile Extension in January 2024.
+Due to the [Controller Incident](./incidents/controller-recovery.md) of the Universal Profile Extension in January 2024, adding 2FA after the initial deployment will be added to the dashboard of [my.universalprofile.cloud](https://my.universalprofile.cloud/)
 
 :::
 

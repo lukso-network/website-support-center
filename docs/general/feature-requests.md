@@ -30,4 +30,4 @@ Right now, you can only access profiles that were imported from an active Univer
 
 ## Why can't I delete profiles from the extension?
 
-Right now, you can not remove profiles from the dashboard on [my.universalprofile.cloud](https://my.universalprofile.cloud/recover/pick-recovery-account) or the Universal Profile Extension. Soon, there will be a feature to clean old profiles.
+Right now, you can not remove profiles from the dashboard on [my.universalprofile.cloud](https://my.universalprofile.cloud/) or the Universal Profile Extension. Soon, there will be a feature to clean old profiles.
