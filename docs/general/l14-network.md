@@ -16,6 +16,10 @@ Due to the ongoing migration of the L14 network, the reissuing of login links ha
 
 :::
 
+## Can I import my L14 Universal Profile to the Universal Profile Browser Extension?
+
+The Universal Profile Browser Extension is only compatible with Testnet and Mainnet networks. L14 Universal Profiles cannot be added to the Universal Profile Browser Extension, they first need to be migrated to Mainnet to be compatible.
+
 ## Will Universal Profiles on L14 be migrated to Mainnet?
 
 LUKSO will migrate all Universal Profiles previously created on the L14 Testnet by [The Dematerialised Marketplace](https://thedematerialised.com/), the [Universal Profile Explorer](https://universalprofile.cloud/) or official collaborations like [Out Of the Ether](https://outoftheether.net/). If you deployed custom profiles on older testnets, you would be responsible for migrating them to the mainnet yourself.
