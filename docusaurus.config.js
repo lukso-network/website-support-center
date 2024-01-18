@@ -1,7 +1,7 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 
 export default {
-  title: 'LUKSO Support Cemter',
+  title: 'LUKSO Support Center',
   tagline: 'Support center for LUKSO products.',
   url: 'https://support.lukso.network',
   baseUrl: '/',
