@@ -18,6 +18,12 @@ If you migrate yourself but don't have a browser-based wallet, e.g., holding you
 
 If you have LYXe on a hardware wallet like Ledger or Trezor, you can send them to a supported crypto exchange or migrate independently by connecting your hardware wallet to a browser-based wallet. Make sure your hardware wallet supports external connections to browser-based wallets.
 
+:::tip
+
+You can also check our [Hardware Wallet](../general/hardware-wallets) page for related information.
+
+:::
+
 ## How to store LYX?
 
 You can store LYX using the [Universal Profile Browser Extension](https://docs.lukso.tech/install-up-browser-extension) or any Ethereum-compatible wallet or hardware wallet. Further details can be found on the [Wallet Support Page](#TODO).
