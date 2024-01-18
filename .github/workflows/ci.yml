@@ -8,7 +8,7 @@ jobs:
   checks:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: 🛎️ Checkout 🛎️
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
@@ -18,8 +18,11 @@ jobs:
           node-version: '18.18.1'
           cache: 'yarn'
 
-      - name: Install ⚙️
+      - name: ⚙️ Install
         run: yarn install --frozen-lockfile
 
-      - name: Prettier 🎨
+      - name: 🎨 Prettier
+        run: yarn run prettier
+
+      - name: 🏗️ Build
         run: yarn run prettier
