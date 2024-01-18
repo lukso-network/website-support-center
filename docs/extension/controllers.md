@@ -20,6 +20,12 @@ Each Universal Profile within an extension holds a separate private key to send 
 
 </div>
 
+:::info Extension Controller Name
+
+The controller of the extension will either be named **UP Extension** or have the **name of it's blockchain address**. It can be renamed locally in your extension at any time.
+
+:::
+
 ## Can I add 2FA recovery to an existing Universal Profile?
 
 At the current state (11th January 2024), the 2FA recovery method from LUKSO can only be added during the creation of a Universal Profile on [UniversalProfile.cloud](https://universalprofile.cloud/).

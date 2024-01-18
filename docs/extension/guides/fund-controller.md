@@ -22,7 +22,7 @@ You can find the address of the extension's controller within the permission sec
 
 :::info Extension Controller Name
 
-The controller of the extension will either be named **UP Extension** or have the name of it's blockchain address. It can be renamed locally in your extension at any time.
+The controller of the extension will either be named **UP Extension** or have the **name of it's blockchain address**. It can be renamed locally in your extension at any time.
 
 :::
 
