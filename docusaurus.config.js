@@ -38,6 +38,14 @@ export default {
       textColor: 'black',
       isCloseable: true,
     },
+    algolia: {
+      appId: '3CF67NQPKT',
+      apiKey: 'ef0674e3be4fd52a84b6f37fba3dc333',
+      indexName: 'lukso_support_center',
+      // container: '<YOUR_CSS_CONTAINER_SELECTOR>',
+      // transformItems: function (items) {},
+      // searchParameters: {},
+    },
     navbar: {
       title: 'LUKSO Support',
       logo: {
