@@ -20,9 +20,17 @@ Each Universal Profile within an extension holds a separate private key to send 
 
 </div>
 
-:::info Extension Controller Name
+After the initial creation, there can be up to 3 controllers:
 
-The controller of the extension will either be named **UP Extension** or have the **name of it's blockchain address**. It can be renamed locally in your extension at any time.
+- The Universal Profile Browser Extension (used for profile interactions)
+- The Universal Receiver (used to write asset updates on the profile)
+- The Universal Profile Recovery (used as a backup for the profile)
+
+If you import or recover your Universal Profile, it will result in the addition of another (UP Extension) controller, as each extension has its permissions on the Universal Profile. However, as names are saved locally, old extension controllers will have the name of the plain blockchain address. If you want more clarity, you can change the names of the controllers when clicking on them.
+
+:::info Controller Names
+
+The names of the controllers can vary, depending on the time of your Universal Profile setup. The controller of the extension will either be named **UP Extension** or have the **name of it's blockchain address**. The recovery controller can either be named **UP Recovery** or **recovery-up\<number\>**. Every controller can be renamed locally in your extension at any time.
 
 :::
 
