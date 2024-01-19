@@ -26,3 +26,9 @@ You can trade or swap LYX using the following platforms:
 - [Ledger Live Onramp](https://support.ledger.com/hc/en-us/articles/15847276545053-Lukso-LYX-?docs=true).
 
 3rd-party services might also create decentralized marketplaces later on.
+
+:::danger Smart Contract Transactions
+
+Never send LYX directly from your Universal Profile to an Exchange. This might result in your funds being locked. Please check out the [Exchange Guide](../general/using-exchanges.md) in case you want to send your migrated LYX back to the exchange.
+
+:::
