@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import OriginalSearchBar from '../components/SearchBar';
 
 import styles from './index.module.scss';
 
@@ -15,7 +16,7 @@ function Index() {
     <Layout description="LUKSO Support Center">
       <div className={styles.container}>
         <Headline />
-        {/* TODO add search bar here */}
+        <OriginalSearchBar />
         <br />
         <div className={styles.cardContainer}>
           <Box
