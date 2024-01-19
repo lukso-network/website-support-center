@@ -49,3 +49,9 @@ If you are using a regular wallet, [add LUKSO](https://docs.lukso.tech/networks/
 />
 
 </div>
+
+:::danger Importance of Backups
+
+If you continuously use your funds to send transactions on various extensions, we highly recommend always saving the private keys of the extension controllers. You can display and copy them by _revealing the private key_ within the _Settings_ screen. This backup is essential as every extension has an individual controller. If you import or recover the profile without saving the previous private key, you cannot [get back your controller funds](./get-controller-funds.md) after.
+
+:::
