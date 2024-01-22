@@ -20,9 +20,9 @@ You can find the address of the extension's controller within the permission sec
 
 </div>
 
-:::info Extension Controller Name
+:::info Controller Names
 
-The controller of the extension will either be named **UP Extension** or have the **name of it's blockchain address**. It can be renamed locally in your extension at any time.
+The names of the controllers can vary, depending on the time of your Universal Profile setup. The controller of the extension will either be named **UP Extension** or have the **name of it's blockchain address**. The controller can be _renamed locally_ in your extension at any time.
 
 :::
 
