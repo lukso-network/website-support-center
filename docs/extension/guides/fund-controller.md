@@ -52,11 +52,11 @@ If you are using a regular wallet, [add LUKSO](https://docs.lukso.tech/networks/
 
 :::danger Importance of Backups
 
-We highly recommend to only send small amounts of LYX to the controller of your extension and ensure to **save the private keys** of the entension controllers. You can display and copy them by _revealing the private key_ within the _Settings_ screen. This backup is essential as every extension has an individual controller. If you import or recover the profile without saving the previous private key, you cannot [get back your controller funds](./get-controller-funds.md) after.
+We highly recommend to only send small amounts of LYX to the controller of your extension and ensure to **save their private keys**. You can display and copy them by _revealing the private key_ within the _Settings_ screen. This backup is essential as every extension has an individual controller. If you import or recover the profile without saving the previous private key, you cannot [get back your controller funds](./get-controller-funds.md) after.
 
 :::
 
-Once the extension's controller is funded with LYX, you can select it within the transaction screen of the Universal Profile Extension. Instead of using the default Transaction Relay Service of LUKSO:
+Once the extension's controller is funded with LYX, you can select it within the transaction screen of the Universal Profile Extension:
 
 <div style={{textAlign: 'center'}}>
 
