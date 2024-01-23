@@ -20,6 +20,22 @@ If you lost access to the Universal Profile Browser Extension, there are multipl
 
 :::caution
 
-The Universal Profile Browser Extension currently does not feature a way to import profiles using the plain private key described in _File Export_. Therefore, we recommend setting up 2FA during creation or importing the profile into another browser extension via a QR code. Optionally, the private key of a controller (EOA) could be imported into a regular wallet to send transactions manually.
+The Universal Profile Browser Extension currently does not feature a way to import profiles using the plain private key described in _File Export_. Therefore, we **recommend setting up 2FA** during creation. Optionally, the private key of a controller (EOA) could be imported into a regular wallet to send transactions manually.
+
+:::
+
+## Frequently Asked Questions
+
+### Are 2FA backups secured in a decentralized manner?
+
+The 2FA recovery system for Universal Profiles on [my.universalprofile.cloud](https://my.universalprofile.cloud/) is operated from LUKSO. It is not decentralized but is a mix of Web2 and Web3 security measures. Initially, a recovery controller is added to the smart contract of the Universal Profile, only [having minimal permissions](../controllers.md) to add a new controller address. This controller key is stored and secured by LUKSO. The UP Recovery service can only add new controllers to a Universal Profile if the user gives permissions using his authenticator code and email login. When the UP Recovery process is initiated, a new controller key is generated in the user's local browser extension. After receiving the approval from the linked 2FA, the UP Recovery service builds a transaction, adding the previously generated controller to the Universal Profile. This transaction is then executed from the recovery controller and sent to the LUKSO Transaction Relay Service, which automatically executes the transaction on behalf of the user.
+
+### Is there a fully decentralized backup method?
+
+If you do not trust 2FA and want an autonomous backup, users can choose the **File Export**. This process reveals the private key of the extension's controller. Please ensure that the revealed private key is stored somewhere safe.
+
+:::success Upcoming Feature
+
+Currently, the extension does not support importing profiles based on a private key. This [feature request](../../general/feature-requests.md) will soon be integrated into the Universal Profile Browser extension. A similar tool will allow you to manually add controllers from an existing private key, making it possible to add a hardware wallet as a recovery controller.
 
 :::
