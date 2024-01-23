@@ -16,10 +16,4 @@ This error occurs if a user deployed his Universal Profile through a 3rd party p
     width="400"
 />
 
-To **solve this issue**, users have to add a new controller to their Universal Profile. This controller must then be funded with LYX to execute transactions without any Transaction Relay Service. Within the transaction screen of the Universal Profile Extension, users can then define the controller they want to use like in the following picture:
-
-<img
-    src="/img/general/transaction-controller-setting.png"
-    alt="Transaction Controller Setting"
-    width="400"
-/>
+To **solve this issue**, users have to [**fund the extension's controller**](../extension/guides/fund-controller.md) with LYX to execute transactions without any Transaction Relay Service. Within the transaction screen, users can then select to use their own controller's funds.

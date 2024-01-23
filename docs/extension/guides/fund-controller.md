@@ -52,6 +52,24 @@ If you are using a regular wallet, [add LUKSO](https://docs.lukso.tech/networks/
 
 :::danger Importance of Backups
 
-If you continuously use your funds to send transactions on various extensions, we highly recommend always saving the private keys of the extension controllers. You can display and copy them by _revealing the private key_ within the _Settings_ screen. This backup is essential as every extension has an individual controller. If you import or recover the profile without saving the previous private key, you cannot [get back your controller funds](./get-controller-funds.md) after.
+We highly recommend to only send small amounts of LYX to the controller of your extension and ensure to **save their private keys**. You can display and copy them by _revealing the private key_ within the _Settings_ screen. This backup is essential as every extension has an individual controller. If you import or recover the profile without saving the previous private key, you cannot [get back your controller funds](./get-controller-funds.md) after.
+
+:::
+
+Once the extension's controller is funded with LYX, you can select it within the transaction screen of the Universal Profile Extension:
+
+<div style={{textAlign: 'center'}}>
+
+<img
+    src="/img/extension/transaction-controller-setting.png"
+    alt="Transaction Controller Setting"
+    width="400"
+/>
+
+</div>
+
+:::success Default Payment
+
+Once your funded controller is selected in the extension, it will stay as default payment option for transactions until its changed back to the Transaction Relay Service.
 
 :::
