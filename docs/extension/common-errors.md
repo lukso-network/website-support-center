@@ -61,3 +61,33 @@ If you neither have 2FA, access to the profile within the extension, or the back
 The dashboard of [my.universalprofile.cloud](https://my.universalprofile.cloud/) is currently undergoing updates based on recent [feature requests](../general/feature-requests.md) only to show the recovery button for eligible profiles. On top of that, we're currently working on a feature to allow 2FA backups for already existing profiles created on [universalprofile.cloud](https://universalprofile.cloud/).
 
 :::
+
+### "Universal Profile could not be added to the extension"
+
+<div style={{textAlign: 'center'}}>
+
+<img
+    src="/img/extension/add-up-stall.png"
+    alt="Add Profile to Extension Error"
+    width="600"
+/>
+
+</div>
+
+If the created Universal Profile on [universalprofile.cloud](https://universalprofile.cloud/) can not be added to your Universal Profile Browser extension, a pending transaction is yet to be signed or verified.
+
+- If your browser extension is locked, please **log back in** and check for an approval screen to import the profile.
+- If you switched your network in the _Settings_ screen of the extension, please **switch the network** and check if the pending request appears.
+- If there is no pending request in the extension, please **retry to add the profile after some minutes**, as the page status might not have been correctly synchronized with the transaction verification on the blockchain.
+
+:::info Additional Developer Support
+
+If the error persists, please contact our support on the [LUKSO Discord server](https://discord.com/invite/lukso) within the **BUGS and SUPPORT** category. You can **right-click** on the screen to **inspect the page** to provide further details about the issue. Within the **console** of the **inspector window**, you should see a more detailed error code from the extension. Please attach a screenshot of the console and your previously defined profile name so we can track down the root cause of your issue.
+
+:::
+
+:::success Restarting the profile creation
+
+Optionally, you can create a new profile, as no data or information has been added to the Universal Profile yet- except its name. Therefore, you can **clear your browser's cache** and restart your profile creation on [universalprofile.cloud](https://universalprofile.cloud/) from scratch.
+
+:::
