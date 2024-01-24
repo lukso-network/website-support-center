@@ -26,7 +26,7 @@ If you remove all permissions of a controller, it will be automatically hidden w
 
 ## Why can't I recover profiles from the dashboard?
 
-Right now, you can only access profiles that were imported from an active Universal Profile Extension or recovered from the 2FA authentication. Soon, there will be a feature to recover deployed profiles from private keys still stored within the browser. Therefore, do not reset or delete the Universal Profile Browser Extension.
+Right now, you can only access profiles that were imported from an active Universal Profile Extension or recovered from the 2FA authentication. Soon, there will be a feature to recover deployed profiles from private keys still stored within the browser. Therefore, do not reset or delete the Universal Profile Browser Extension. If you have problems recovering your profile, please have a look into the [Common Errors](../extension/common-errors.md) and how they can be fixed.
 
 ## Why can't I delete profiles from the extension?
 
