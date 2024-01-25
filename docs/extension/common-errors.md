@@ -91,3 +91,21 @@ If the error persists, please contact our support on the [LUKSO Discord server](
 Optionally, you can create a new profile, as no data or information has been added to the Universal Profile yet- except its name. Therefore, you can **clear your browser's cache** and restart your profile creation on [universalprofile.cloud](https://universalprofile.cloud/) from scratch.
 
 :::
+
+### "Could not fetch user data", "No profile detected."
+
+It might happen that your profile data, like pictures and name, can not be fetched from web pages and apps:
+
+<div style={{textAlign: 'center'}}>
+
+<img
+    src="/img/extension/error-fetch-data.png"
+    alt="Error fetching profile data"
+    width="300"
+/>
+
+</div>
+
+To **solve this issue**, please **edit and re-deploy** your profile metadata **within the Universal Profile Browser Extension**. This will update the metadata file using the correct and up-to-date schema, so apps are able to fetch it again:
+
+![Edit Universal Profile](../../static/img/general/edit-profile.png)
