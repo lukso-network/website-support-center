@@ -17,6 +17,21 @@ export default {
       '@docusaurus/plugin-client-redirects',
       {
         redirects: [
+          // General links to products page
+          {
+            from: '/extension/',
+            to: '/extension/introduction',
+          },
+          {
+            from: '/migration/',
+            to: '/migration/introduction',
+          },
+          {
+            from: '/general/',
+            to: '/general/introduction',
+          },
+
+          // Outdated and updated pages
           {
             from: '/extension/feature-requests',
             to: '/general/feature-requests',
