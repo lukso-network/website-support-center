@@ -109,3 +109,19 @@ It might happen that your profile data, like pictures and name, can not be fetch
 To **solve this issue**, please **edit and re-deploy** your profile metadata **within the Universal Profile Browser Extension**. This will update the metadata file using the correct and up-to-date schema, so apps are able to fetch it again:
 
 ![Edit Universal Profile](../../static/img/general/edit-profile.png)
+
+### "Incorrect 2FA Code"
+
+This error might occur when you want to recover your Universal Profile using the authenticator app, but logged in with an email or Google Account **that was never attached to the 2FA recovery** process:
+
+<div style={{textAlign: 'center'}}>
+
+<img
+    src="/img/extension/2fa-auth-fail.png"
+    alt="Incorrect 2FA Code"
+    width="300"
+/>
+
+</div>
+
+To **solve this issue**, please verify that you are logging in with the **same Email or Google Account to which the authenticator code was set up**. This email or Google Account might differ from the one used for authentication upon the profile creation.
