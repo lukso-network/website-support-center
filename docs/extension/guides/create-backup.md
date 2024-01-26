@@ -20,7 +20,7 @@ If you lost access to the Universal Profile Browser Extension, there are multipl
 
 :::caution
 
-The Universal Profile Browser Extension currently does not feature a way to import profiles using the plain private key described in _File Export_. Therefore, we **recommend setting up 2FA** during creation. Optionally, the private key of a controller (EOA) could be imported into a regular wallet to send transactions manually.
+The Universal Profile Browser Extension currently does not feature a way to import profiles using the plain private key described in _File Export_. Therefore, we **recommend setting up 2FA** during creation. Optionally, the private key of a controller (EOA) could be imported into a regular wallet to send transactions manually. You can find further information in the [Controller](../controllers.md) section.
 
 :::
 
