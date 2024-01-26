@@ -22,6 +22,12 @@ This error occurs if a user deployed his Universal Profile through a 3rd party p
 
 To **solve this issue**, users have to [**fund the extension's controller**](../extension/guides/fund-controller.md) with LYX to execute transactions without any Transaction Relay Service. Within the transaction screen, users can then select to use their own controller's funds.
 
+:::caution
+
+If you face this error in combination with **no sign permissions** after recovering your profile, the issue is likely related to [our recent controller incident](./incidents/controller-recovery.md). Therefore, please make sure that you either have [2FA recovery set up correctly](./guides/check-2fa-recovery.md) or revealed the private key of the [extension's controller](controllers.md) within the Settings screen. Both methods will ensure you will be able to regain access to your Universal Profile. More information can be found in the [Backup](./guides/create-backup.md) section.
+
+:::
+
 ### "No recovery set up for this Universal Profile"
 
 If you want to recover your profile from the dashboard, the page might show a recovery button for all of your profiles, even if a particular profile does not have a recovery set up:
