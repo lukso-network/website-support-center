@@ -18,14 +18,6 @@ You need at least 1 LYXe within your connected wallet to start the migration. Yo
 
 Since LYXe is managed on Ethereum, you will need some ETH to cover the Gas costs of the transaction when using the migration dApp. The transfer will cost less than 200k Gas, corresponding to [an average](https://etherscan.io/gastracker) of 0,004 ETH. Remember that these prices can fluctuate if the network is at capacity.
 
-### I'm getting very high gas fees when using MetaMask, what's going on?
-
-There used to be a frontend glitch which would not round the LYXe amount properly when using the "max button". This would cause the system to try to send slightly more LYXe than the balance of your wallet further causing extremely high gas fees because of an obviously wrong transaction. This issue is now solved and there is no need to round down the value anymore.
-
-If you are using MetaMask and have very few ETH to pay for the transaction fees, MetaMask may go in a weird gas estimation state where it would also show you very high gas fees (more than 0.5 ETH) vs a normal below 0.01 ETH gas fee. If you are in that situation, please make sure your wallet has enough ETH to pay for the transaction. You can see [previous deposit transactions](https://etherscan.io/address/0xdE000042830A211533662637fE66760f1F2cD717#tokentxns) to get an overview of fees paid by other users.
-
-A few users also reported that using another browser, or profile, or another wallet could solve the high gas issue.
-
 ## Where will the LYX be migrated to?
 
 The LYX will be sent to the same blockchain address (account/wallet) used during the migration. Within supported exchanges, the accounts will automatically be updated from LYXe to LYX if they have not been manually transferred to external wallets.
