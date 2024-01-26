@@ -12,6 +12,12 @@ If you lost access to the Universal Profile Browser Extension, there are multipl
 - **QR Import**: You can import any Universal Profile address into your extension. The import process will create a new local controller. Before it can can be used, the new controller needs to added to the Universal Profile by one of your existing controllers with sufficient permissions. Within the new extension, you will receive a QR code of a transaction that can be scanned or copied. When this QR code is received and the related transaction executed by an existing extension, this new controller will gain permissions on the Universal Profile.
 - **File Export**: You can export the Universal Profile directly as a text file, including the private key of the extension's controller. Make sure to store it somewhere safe. This private key will allow you to regain access to the profiles and their current controllers within the Universal Profiles.
 
+:::info Individual 2FA Controllers
+
+Please note that each Universal Profile has to add a **separate** [UP Recovery controller](../controllers.md) to [complete the 2FA recovery setup](./check-2fa-recovery.md). If you created multiple Universal Profiles through [UniversalProfile.cloud](https://universalprofile.cloud/), please ensure that you **add the 2FA Recovery** during **every single** deployment process. The connected account and authentication code will stay the same across all profiles of one network and is used to authenticate on the LUKSO Transaction Relay Service.
+
+:::
+
 :::danger Paused Import Functionality
 
 **QR Import** is currently disabled due to the recent [Controller Recovery Incident](../incidents/controller-recovery.md)
