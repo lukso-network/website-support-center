@@ -26,11 +26,31 @@ After the initial creation, there can be up to 3 controllers:
 - The Universal Receiver (used to write asset updates on the profile)
 - The Universal Profile Recovery (used as a backup for the profile)
 
-If you import or recover your Universal Profile, it will result in the addition of another (UP Extension) controller, as each extension has its permissions on the Universal Profile. However, as names are saved locally, old extension controllers will have the name of the plain blockchain address. If you want more clarity, you can change the names of the controllers when clicking on them.
-
 :::info Controller Names
 
 The names of the controllers can vary, depending on the time of your Universal Profile setup. The controller of the extension will either be named **UP Extension** or have the **name of it's blockchain address**. The recovery controller can either be named **UP Recovery**, **Create and manage your UP**, or **recovery-up\<number\>**. Every controller can be _renamed locally_ in your extension at any time.
+
+:::
+
+## What happens during imports and recovery?
+
+If you **import or recover** your Universal Profile, it will result in the addition of another **UP Extension** controller. Each extension controller has **individual permissions**. Adding a new controller is done automatically using a transaction, either coming from the 2FA recovery service or sending a transaction from a previously added controller with sufficient permissions. If you never set up 2FA, please ensure that you reveal the private key of an original extension within the _Settings_ screen. This backup file will guarantee access to the profile later on.
+
+:::danger
+
+Please do not **reinstall or reset** your extension if you do not have either of the following safeguards:
+
+- [2FA Recovery set up correctly](./guides/check-2fa-recovery.md)
+- [Revealed the private key using File Export](./guides/create-backup.md)
+- Access to the profile within another extension
+
+Otherwise, **you will not be able to access your profile, including LYX and assets**, as no new controller can be added without a transaction from one of the existing ones. Not having access to a working controller will cause endless import screens, waiting for a recovery transaction that can never be signed.
+
+:::
+
+:::success Upcoming Feature
+
+We are working on a feature to add controllers using previously saved private keys. The process will allow users to choose autonomous backups using accounts from hardware wallets or 3rd-party wallets. Please hold tight for further announcements.
 
 :::
 
@@ -40,7 +60,7 @@ At the current state (11th January 2024), the 2FA recovery method from LUKSO can
 
 :::success Upcoming Feature
 
-Due to the [Controller Incident](./incidents/controller-recovery.md) of the Universal Profile Extension in January 2024, adding 2FA after the initial deployment will be added to the dashboard of [my.universalprofile.cloud](https://my.universalprofile.cloud/)
+Due to the [Controller Incident](./incidents/controller-recovery.md) of the Universal Profile Extension in January 2024, we are currently working on a way to let non-2FA profiles add recovery within the dashboard of [my.universalprofile.cloud](https://my.universalprofile.cloud/).
 
 :::
 
