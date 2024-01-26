@@ -24,6 +24,13 @@ The Universal Profile Browser Extension currently does not feature a way to impo
 
 :::
 
+## 2FA Recovery Walkthrough
+
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/rbIqA7N6Fn4?si=2mfC8_0AG6JD-7e3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
 ## Frequently Asked Questions
 
 ### Are 2FA backups secured in a decentralized manner?
