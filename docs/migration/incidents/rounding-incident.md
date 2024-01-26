@@ -1,10 +1,10 @@
 ---
-sidebar_label: 'Rounding Issue'
+sidebar_label: 'Rounding Issue 2023'
 sidebar_position: 1
 description: 'LUKSO Support: Rounding Issue'
 ---
 
-# Rounding Issue
+# Rounding Issue 2023
 
 :::success Resolved
 
