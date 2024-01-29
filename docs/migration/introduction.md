@@ -37,10 +37,17 @@ If you encounter high gas fees when migrating LYXe to LYX, there could be severa
 - **Nonce-related**: Please re-try to migrate your LYXe using your browser wallet after **resetting your wallet activity**. Transaction problems might be related to the nonce not being updated correctly, letting the transaction fail, or raising its gas. Here you can find an example guide: [How to reset the activity on MetaMask](https://support.metamask.io/hc/en-us/articles/360015488891-How-to-clear-your-account-activity-reset-account).
 - **Gas-related**: If you only have a small amount of Ether to pay for the migration on Ethereum, MetaMask may estimate the gas a bit higher than your balance, causing very high gas fees of more than 0.5 ETH, instead of the regular 0.01 ETH. To solve the issue, please **make sure your wallet has enough Ether to pay for the transaction** at the current [transaction prices](https://etherscan.io/gastracker). You can also adjust the transaction speed to be on the lower end.
 - **Browser-related**: Some users managed to migrate with regular gas fees using a new browser like Microsoft Edge and Brave. Therefore, please try to import your private key or connect your hardware wallet to a MetaMask wallet in a new desktop browser. The environment change will reset potential settings and cached data.
-- **Decimal-related**: It could be related to some gas fee rounding issue, still apprearing sporadically. Here, the system tries to send slightly more LYXe than the balance of your wallet, resulting in extremely high gas fees because of the invalid transaction. Instead of migrating the total amount of LYX, please try to remove the last digit of the decimals. Instead of migrating `1.123456789` LYXe, try to change the amount to `1.12345678` LYXe.
 
 :::success Comparing Gas Fees
 
 If you are curious of what the average gas price should be, you can **compare the gas fees** of your transaction with the [latest executed migration transactions](https://etherscan.io/address/0xdE000042830A211533662637fE66760f1F2cD717#tokentxns) on Ethereum.
+
+:::
+
+:::info Previous Rounding Issue
+
+There used to be a issue within the migration frontend which would not round the LYXe amount properly when trying to send the maximum amount of LYX the wallet holds. The rounding issue caused the system to send slightly more LYXe than the balance of the wallet, resulting in extremely high gas fees because of the invalid transaction. Instead of migrating the total amount of LYX, one solution was to remove the last digit of the decimals by only migrating `1.12345678` instead of `1.123456789` LYXe.
+
+**This issue has been resolved on December 18th, 2024. Users do not have to round down their LYXe amounts**.
 
 :::
