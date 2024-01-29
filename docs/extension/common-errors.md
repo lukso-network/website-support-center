@@ -6,7 +6,7 @@ description: Common Errors
 
 # Common Errors
 
-### "Universal Profile is not allowed by this Transaction Relay Service"
+## Universal Profile is not allowed by this Transaction Relay Service
 
 This error occurs if a user deployed his Universal Profile through a 3rd party platform that has its own Transaction Relay Service (like [_Universal.Page_](https://universal.page)). If the externally created profile gets imported into the Universal Profile Browser Extension, it is not compatible with LUKSO's own Transaction Relay Service, responsible for paying for user transactions on the network.
 
@@ -28,7 +28,7 @@ If you face this error in combination with **no sign permissions** after recover
 
 :::
 
-### "No recovery set up for this Universal Profile"
+## No recovery set up for this Universal Profile
 
 If you want to recover your profile from the dashboard, the page might show a recovery button for all of your profiles, even if a particular profile does not have a recovery set up:
 
@@ -68,7 +68,7 @@ The dashboard of [my.universalprofile.cloud](https://my.universalprofile.cloud/)
 
 :::
 
-### "Universal Profile could not be added to the extension"
+## Universal Profile could not be added to the extension
 
 <div style={{textAlign: 'center'}}>
 
@@ -98,7 +98,7 @@ Optionally, you can create a new profile, as no data or information has been add
 
 :::
 
-### "Could not fetch user data", "No profile detected."
+## Could not fetch user data / No profile detected.
 
 It might happen that your profile data, like pictures and name, can not be fetched from web pages and apps:
 
@@ -116,7 +116,7 @@ To **solve this issue**, please **edit and re-deploy** your profile metadata **w
 
 ![Edit Universal Profile](../../static/img/general/edit-profile.png)
 
-### "Incorrect 2FA Code"
+## Incorrect 2FA Code
 
 This error might occur when you want to recover your Universal Profile using the authenticator app, but logged in with an email or Google Account **that was never attached to the 2FA recovery** process:
 
