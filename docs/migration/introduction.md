@@ -20,6 +20,8 @@ Since LYXe is managed on Ethereum, you will need some ETH to cover the Gas costs
 
 ### What can be done about high gas fees on MetaMask?
 
+There used to be a frontend glitch which would not round the LYXe amount properly when using the "max button". This would cause the system to try to send slightly more LYXe than the balance of your wallet further causing extremely high gas fees because of an obviously wrong transaction. This issue is now solved and there is no need to round down the value anymore.
+
 If you encounter high gas fees when migrating LYXe to LYX, there could be several reasons for this:
 
 - **Nonce-related**: Please re-try to migrate your LYXe using your browser wallet after **resetting your wallet activity**. Transaction problems might be related to the nonce not being updated correctly, letting the transaction fail, or raising its gas. Here you can find an example guide: [How to reset the activity on MetaMask](https://support.metamask.io/hc/en-us/articles/360015488891-How-to-clear-your-account-activity-reset-account).
