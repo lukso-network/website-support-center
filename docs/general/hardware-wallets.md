@@ -34,6 +34,6 @@ Follow these steps to solve the issue:
 
 :::caution Security Permissions
 
-Be careful with using your hardware wallet as enabled unsafe actions might include mismatched keys or allowing extreme network charges. If you only want to send a transaction on LUKSO once, but are using Trezor regularly, **we highly recommend turning this setting off again after the transaction went through**.
+Be careful with using your hardware wallet as enabled unsafe actions might include mismatched keys or allowing extreme network charges. If you only want to send a transaction on LUKSO once, but are using Trezor regularly, **we highly recommend turning this setting on again after the transaction went through**.
 
 :::
