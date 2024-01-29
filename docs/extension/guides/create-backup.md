@@ -24,6 +24,12 @@ Please note that each Universal Profile has to add a **separate** [UP Recovery c
 
 :::
 
+:::danger Securing Controllers
+
+Due to the nature of [backups and recovery](../controllers.md#what-happens-during-imports-and-recovery), the **controllers of an extension will not be included within 2FA recovery**. If you [fund the extension's controllers](./fund-controller.md) to pay for your transactions, please **always reveal the private key**, e.g., choose **File Export**. Otherwise, you won't be able to [get your controller funds back](./get-controller-funds.md).
+
+:::
+
 :::caution
 
 The Universal Profile Browser Extension currently does not feature a way to import profiles using the plain private key described in _File Export_. Therefore, we **recommend setting up 2FA** during creation. Optionally, the private key of a controller (EOA) could be imported into a regular wallet to send transactions manually. You can find further information in the [Controller](../controllers.md) section.
