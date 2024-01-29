@@ -26,11 +26,6 @@ You can check your LYX balance using the [LUKSO Mainnet Block Explorer](https://
 
 If you want to see the LYX balance displayed in your wallet, you can add LUKSO to your wallet as a custom network using the details from [Network Properties](https://docs.lukso.tech/networks/mainnet/parameters).
 
-- network name: Mainnet
-- URL RPC: https://rpc.lukso.gateway.fm
-- chain ID: 42
-- currency symbol: LYX
-
 ## What can I do when my transaction status stalls?
 
 The migration transaction might be correctly executed on Ethereum and LUKSO, but the status is not updated on the [migration application](https://migrate.lukso.network/) in the browser. If you want to send a new transaction and [already verified that the transaction has been executed](#how-can-i-see-my-transaction-and-lyx), please reset [your browser history](https://support.google.com/accounts/answer/32050?hl=en&co=GENIE.Platform%3DDesktop) and re-open the page. You will be brought to the home screen again without any pending state.
