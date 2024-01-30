@@ -8,7 +8,7 @@ description: 'LUKSO Support: Migration Delay January 2024'
 
 :::success Resolved
 
-This incident has been resolved on the 17th of January at 2:28pm UTC
+This incident has been resolved on the 17th of January 2024 at 2:28pm UTC
 
 :::
 
