@@ -131,3 +131,25 @@ This error might occur when you want to recover your Universal Profile using the
 </div>
 
 To **solve this issue**, please verify that you are logging in with the **same Email or Google Account to which the authenticator code was set up**. This email or Google Account might differ from the one used for authentication upon the profile creation.
+
+## Recovery Session Expired
+
+This error might occur when you are trying to recover your profile from 2FA and are logging into a mismatched email or Google Account or if too much time has passed since the start of the recovery process. The Transaction Relay Service will abort the connection if an authentication code has never been set up for this specific account.
+
+<div style={{textAlign: 'center'}}>
+
+<img
+    src="/img/extension/re-authenticate.png"
+    alt="Authentication Expired"
+    width="300"
+/>
+
+</div>
+
+To **solve this issue**, please verify that you are logging in with the **same Email or Google Account to which the authenticator code was set up**. If you are uncertain, please check if you still have the confirmation email. After confirmation, continue by connecting to [my.universalprofile.cloud](https://my.universalprofile.cloud/) and start the recovery again.
+
+:::info
+
+No profile or controller key will be generated and added to the Universal Profile extension if the recovery session expires. There will be **no pending process**. You can login and restart the recovery immediately.
+
+:::
