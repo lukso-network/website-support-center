@@ -24,9 +24,9 @@ If you are logged in, you will also be able to transfer assets:
 
 ## Where can I manage my Universal Profile?
 
-You can connect your Universal Profile to [my.universalprofile.cloud](https://my.universalprofile.cloud/) to manage recovery or create new profiles.
+You can connect your Universal Profile to [my.universalprofile.cloud](https://my.universalprofile.cloud/) to check and add 2FA recovery or create new profiles.
 
-![Universal Profile Management](../../static/img/general/my-up.png)
+![Universal Profile Management](../../static/img/general/recovery-dashboard.png)
 
 ## Is my Universal Profile name unique?
 

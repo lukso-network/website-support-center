@@ -54,13 +54,21 @@ We are working on a feature to add controllers using previously saved private ke
 
 :::
 
-## Can I add 2FA recovery to an existing Universal Profile?
+## How can I add 2FA recovery to an existing Universal Profile?
 
-At the current state (11th January 2024), the 2FA recovery method from LUKSO can only be added during the creation of a Universal Profile on [UniversalProfile.cloud](https://universalprofile.cloud/).
+To check the 2FA recovery status and add 2FA, please visit the dashboard on [my.universalprofile.cloud](https://my.universalprofile.cloud/). The Universal Profile card will show the current **2FA recovery status** at the top right corner. If 2FA has not been added yet, continue by clicking the **Add Recovery** button.
 
-:::success Upcoming Feature
+![2FA Recovery Dashboard](/img/general/recovery-dashboard.png)
 
-Due to the [Controller Incident](./incidents/controller-recovery.md) of the Universal Profile Extension in January 2024, we are currently working on a way to let non-2FA profiles add recovery within the dashboard of [my.universalprofile.cloud](https://my.universalprofile.cloud/).
+:::info
+
+The 2FA recovery feature is only available for Universal Profiles directly created on [universalprofile.cloud](https://my.universalprofile.cloud/) and that can still be accessed within a Universal Profile Browser Extension. If you lost access before adding 2FA recovery, you can only recover the Universal Profile by using **File Backup**.
+
+:::
+
+:::note Dashboard Refresh
+
+If the dashboard is not showing the _recovery indicators_ or _Add Recovery_ button, please **refresh or disconnect** and log-in again using your Universal Profile Browser Extension.
 
 :::
 
