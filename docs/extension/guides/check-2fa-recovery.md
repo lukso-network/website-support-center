@@ -16,7 +16,7 @@ If you visit the controller menu in the Universal Profile Browser Extension, the
 - The Universal Receiver (used to write asset updates on the profile)
 - The Universal Profile Recovery (used as a backup for the profile)
 
-To confirm that the permissions of the recovery controller were adequately set up, click on the controller of the Universal Profile Recovery and verify that the **Add Controller** permission is enabled.
+To confirm that the permissions of the recovery controller were [adequately set up](../controllers.md#what-are-the-default-permissions-of-the-controllers), click on the controller of the Universal Profile Recovery and verify that the **Add Controller** permission is enabled.
 
 <div style={{textAlign: 'center'}}>
 
@@ -34,27 +34,11 @@ The names of the controllers can vary, depending on the time of your Universal P
 
 :::
 
-## Verify the recovery controller on the profile explorer
+## Verify the recovery controller on the dashboard
 
-Next, we must check if the recovery was successfully added via the LUKSO Relay Service.
+Next, please check if the recovery was successfully added via the LUKSO Relay Service by logging into the dashboard of [my.universalprofile.cloud](https://my.universalprofile.cloud/). If 2FA was successfully added, the profile card will show a green checkmark at the top right corner:
 
-1. **Copy the address of your Universal Profile Recovery** from the controller menu of the Universal Profile Extension
-2. Open the profile explorer on [UniversalProfile.cloud](https://universalprofile.cloud/?network=mainnet).
-3. **Input the address** of the Universal Profile Recovery **into the search bar**.
-
-If it was successfully added, it will show a recovery profile as in the following picture:
-
-<img
-    src="/img/extension/recovery-search.png"
-    alt="Recovery Search"
-    width="500"
-/>
-
-:::info Recovery Name
-
-The name of the Universal Recovery controller can vary, depending on the time of your Universal Profile creation.
-
-:::
+![2FA Recovery Dashboard](/img/general/recovery-dashboard.png)
 
 :::caution
 
