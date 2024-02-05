@@ -37,10 +37,6 @@ export default {
             to: '/general/feature-requests',
           },
           {
-            from: '/migration/incidents/january-2024',
-            to: '/migration/incidents/delay-incident',
-          },
-          {
             from: '/general/common-errors',
             to: '/extension/common-errors',
           },
