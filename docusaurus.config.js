@@ -44,6 +44,10 @@ export default {
             from: '/general/common-errors',
             to: '/extension/common-errors',
           },
+          {
+            from: '/migration/incidents/delay-incident',
+            to: '/migration/incidents/january',
+          },
         ],
       },
     ],
