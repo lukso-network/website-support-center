@@ -19,3 +19,7 @@ In addition, regular accounts lack some of the the functionality of UPs such as 
 Universal Profiles help bring **convenience** and **user-friendliness** into the blockchain space. They are **robust and flexible** smart contract-based accounts that support features like social recovery, relay transactions, rights management, upgradeable security, and attachable data right out of the box. Since they consist of programmable and modular smart contracts, they even allow upgrading these accounts with enhanced functionalities.
 
 In essence, using UniversalProfile provides a **safer environment for managing your digital assets** and offers an array of features that make your day-to-day interactions with blockchains easier.
+
+## How can I access my Universal Profile if I lost my 2FA code?
+
+Unfortunately, LUKSO does not offer a method to regenerate, reset, or add new authentication codes for 2FA recovery of the Transaction Relay Service if you lost access to your phone. The security depends on the **2FA app and service** you are using. Most 2FA apps have their own backup or synchronization mechanisms, used to create additional layers of protection.
