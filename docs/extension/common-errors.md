@@ -30,19 +30,7 @@ If you face this error in combination with **no sign permissions** after recover
 
 ## No recovery set up for this Universal Profile
 
-If you want to recover your profile from the dashboard, the page might show a recovery button for all of your profiles, even if a particular profile does not have a recovery set up:
-
-<div style={{textAlign: 'center'}}>
-
-<img
-    src="/img/extension/recovery-dashboard.png"
-    alt="Recovery Dashboard"
-    width="600"
-/>
-
-</div>
-
-When you continue with the recovery, you will retrieve an error message like the following:
+When you want to recover a profile using 2FA on the [my.universalprofile.cloud](https://my.universalprofile.cloud/) dashboard, you might retrieve an error message like the following:
 
 <div style={{textAlign: 'center'}}>
 
@@ -54,17 +42,14 @@ When you continue with the recovery, you will retrieve an error message like the
 
 </div>
 
-To **solve this issue**, please [**verify that 2FA is set up on a specific profile**](../extension/guides/check-2fa-recovery.md) before starting the recovery process. If 2FA was not set up, you can not recover your profile from the dashboard. Please look into the optional [**Backup**](./guides/create-backup.md) solutions.
+To **solve this issue**, please
 
-:::caution
+- [**verify that 2FA is set up on a specific profile**](../extension/guides/check-2fa-recovery.md): If 2FA was not set up, you can not recover your profile from the dashboard. Please look into the optional [Backup](./guides/create-backup.md) solutions.
+- **verify that you logged in with the correct email account**: The email or Google Account you've used might differ from the one that you previously set for authentication. Chrome may automatically connect with the Google account of your browser profile instead of asking for another login. If the accounts do not match, the Transaction Relay Service won't recognize the account, indicating that no recovery was set up.
+
+:::danger
 
 If you neither have 2FA, access to the profile within the extension, or the backup file of a profile's controller, there will be no way to regain access.
-
-:::
-
-:::success Upcoming Feature
-
-The dashboard of [my.universalprofile.cloud](https://my.universalprofile.cloud/) is currently undergoing updates based on recent [feature requests](../general/feature-requests.md) only to show the recovery button for eligible profiles. On top of that, we're currently working on a feature to allow 2FA backups for already existing profiles created on [universalprofile.cloud](https://universalprofile.cloud/).
 
 :::
 
