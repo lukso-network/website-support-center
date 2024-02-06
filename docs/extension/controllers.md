@@ -117,11 +117,11 @@ This question has been heard and the team is working on this [feature request](.
 
 ## How can I remove controllers and permissions?
 
-To remove permissions, use the extension to view all controllers with permissions on the profile. You can toggle off permissions individually. If you want to remove the controller, please toggle off every permission. Controllers with _no permissions will be hidden within_ the extension.
+To remove permissions, use the extension to view all controllers with permissions on the profile. You can toggle off permissions individually. Controllers can not be removed completely via the extension. Controllers without permissions will continue to show but with a `No control` label.
 
 :::success Upcoming Feature
 
-The team is currently working on a [feature request](../general/feature-requests.md) to _completely remove old controllers_, not only their individual permissions. This also includes _showing hidden controllers_ again.
+The team is currently working on a [feature request](../general/feature-requests.md) to _completely remove old controllers_, not only their individual permissions.
 
 :::
 
