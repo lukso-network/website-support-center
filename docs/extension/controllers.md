@@ -60,6 +60,14 @@ To check the 2FA recovery status and add 2FA, please visit the dashboard on [my.
 
 ![2FA Recovery Dashboard](/img/general/recovery-dashboard.png)
 
+:::warning
+
+Each extension has its own controller, and each controller has its own private key. Any controller is sufficient for recovering your Universal Profile as long as it has the right permissions.
+
+After the recovery process, you will see in the extension the private key corresponsing to the **current** controller. The initial controller which was in your first browser extension is not carried over during the recovery process. Therefore, **before performing recovery please make sure to back up your private key, otherwise any funds associated with the initial controller will be lost**.
+
+:::
+
 :::info
 
 The 2FA recovery feature is only available for Universal Profiles directly created on [universalprofile.cloud](https://my.universalprofile.cloud/) and that can still be accessed within a Universal Profile Browser Extension. If you lost access before adding 2FA recovery, you can only recover the Universal Profile by using **File Backup**.
