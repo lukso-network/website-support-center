@@ -37,3 +37,11 @@ If you use the Universal Profile Browser Extension to store assets and token, pl
 ## Will the extension affect other wallets in the browser?
 
 The extension injects into the blockchain provider, which may occasionally result in the _Universal Profile Extension_ appearing instead of other wallets. If this is not wanted, users can manually disable the extension within the [extension settings](https://support.google.com/chrome_webstore/answer/2664769?hl=en) of the browser. However, the extension **does not affect or modify the functionality of other wallets**.
+
+## Is the password stored locally on my PC? How does the verification process look like if the password is correct or not?
+
+Your password is not stored anywhere, including locally on your PC. When you type in your password it is temporarily stored in memory in your PC. When the app goes to sleep, it is deleted from memory.
+
+The password that you type is used to encrypt all your private keys and store the encrypted private keys in your local storage. The keys can only be unencrypted when you enter your password again.
+
+When you enter your password correctly, it serves as the means to decrypt your private keys, granting you access to your profile. Conversely, if an incorrect password is entered, the decryption process will fail, indicating to the Universal Profile Browser Extension that the password provided is incorrect.
