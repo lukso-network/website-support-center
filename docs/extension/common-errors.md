@@ -6,6 +6,16 @@ description: Common Errors
 
 # Common Errors
 
+## Extension only connects to one Universal Profile
+
+The UP extension currently only supports **one active profile connection** at a time. If you disconnect from an application, the connection on the initial profile of the extension will remain, preventing you from establishing an additional connection. To solve this issue, open the extension and navigate to the _Connections_ menu of the initial profile. Here, remove the desired connection. When trying to re-connect, the extension will ask you which Universal Profile you would like to connect.
+
+:::tip Upcoming Feature
+
+The Extension Team is working on bringing multi-connection support and implementing a global connection screen that allows users to easily toggle between active connections.
+
+:::
+
 ## Universal Profile is not allowed by this Transaction Relay Service
 
 This error occurs if a user deployed his Universal Profile through a 3rd party platform that has its own Transaction Relay Service (like [_Universal.Page_](https://universal.page)). If the externally created profile gets imported into the Universal Profile Browser Extension, it is not compatible with LUKSO's own Transaction Relay Service, responsible for paying for user transactions on the network.
