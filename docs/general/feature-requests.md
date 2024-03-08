@@ -6,16 +6,6 @@ description: 'Support Center: Feature Requests'
 
 # Feature Requests
 
-## Why can’t I use the private key for recovery?
-
-At the moment, the option to recover an existing profile from a backup file is not available. The team is working on this feature and it will be made available soon.
-
-:::success Private Key Reveal
-
-Until the feature is ready, you can already reveal the private keys of the Universal Profile controllers of your extension for backup purposes. Please store it somewhere safe.
-
-:::
-
 ## Why can't I delete my old private keys?
 
 At the moment, the Universal Profile Browser Extension only allows to disable permissions of old controller keys. If you want to improve security, please disable all permissions of an old controller. You can learn more within the [Controllers](../extension/controllers.md) page. Soon, there will be a feature to manually remove controllers completely.
