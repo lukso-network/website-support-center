@@ -47,3 +47,17 @@ After your recovery account is set in the wallet, head to the [Wallet Recovery S
 The address of the connected wallet account is then used to execute the controller transaction from the Universal Profile Extension.
 
 ![Execute the Controller Transaction](/img/extension/set-recovery-2.png)
+
+After the transaction has been executed, your new recovery controller will be set and will show up in the _Controllers_ menu of the Universal Profile.
+
+:::tip Set Controller Names
+
+By default, the new recovery controller will be named after the account's address. To better distinguish between different controllers, it's recommended to _rename them locally_ by opening the controller view and clicking the pencil next to its name.
+
+<img
+    src="/img/extension/controller-name.png"
+    alt="Controller Name Change"
+    width="600"
+/>
+
+:::
