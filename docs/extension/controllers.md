@@ -41,16 +41,11 @@ If you **import or recover** your Universal Profile, it will result in the addit
 Please do not **reinstall or reset** your extension if you do not have either of the following safeguards:
 
 - [2FA Recovery set up correctly](./guides/check-2fa-recovery.md)
+- [Wallet Recovery](./guides/set-wallet-recovery.md)
 - [Revealed the private key using File Export](./guides/create-backup.md)
 - Access to the profile within another extension
 
 Otherwise, **you will not be able to access your profile, including LYX and assets**, as no new controller can be added without a transaction from one of the existing ones. Not having access to a working controller will cause endless import screens, waiting for a recovery transaction that can never be signed.
-
-:::
-
-:::success Upcoming Feature
-
-We are working on a feature to add controllers using previously saved private keys. The process will allow users to choose autonomous backups using accounts from hardware wallets or 3rd-party wallets. Please hold tight for further announcements.
 
 :::
 
@@ -115,13 +110,7 @@ If you want to reset the controller permissions to their initial state, you can 
 
 ## Can I add a Ledger account as a controller of my profile?
 
-Currently, we do _not officially support_ adding custom controllers to your Universal Profile. This can be done programmatically, but is not officially supported.
-
-:::success Upcoming Feature
-
-This question has been heard and the team is working on this [feature request](../general/feature-requests.md).
-
-:::
+Yes, you can add blockchain accounts or hardware wallets (like Ledger or Trezor) for recovery using the [Wallet Recovery Setup](../extension/guides/set-wallet-recovery.md).
 
 ## How can I remove controllers and permissions?
 
