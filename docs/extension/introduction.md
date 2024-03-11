@@ -37,3 +37,7 @@ If you use the Universal Profile Browser Extension to store assets and token, pl
 ## Will the extension affect other wallets in the browser?
 
 The extension injects into the blockchain provider, which may occasionally result in the _Universal Profile Extension_ appearing instead of other wallets. If this is not wanted, users can manually disable the extension within the [extension settings](https://support.google.com/chrome_webstore/answer/2664769?hl=en) of the browser. However, the extension **does not affect or modify the functionality of other wallets**.
+
+## How does the extension store and verify the password?
+
+The password of the Universal Profile Extension is used to encrypt the private keys of your controllers. These encrypted private keys are stored in your local browser. The password is only temporarily stored in memory when the keys are encrypted during login. If the wrong password is entered, the decryption will fail, indicating an incorrect password.
