@@ -1,7 +1,7 @@
 ---
 sidebar_label: '🔐 Wallet Recovery'
 sidebar_position: 7
-description: 'Extension Support: How to recover a Universal Profile using your private key'
+description: 'How to recover a Universal Profile using your private key or 3rd-party wallet'
 ---
 
 # Wallet Recovery
@@ -14,7 +14,7 @@ In order to recover your Universal Profile, you will need the [Universal Profile
 
 :::tip Wallet Support
 
-The [Wallet Recovery Setup](https://my.universalprofile.cloud/3rd-party/add-recovery) officially supports **MetaMask**as the wallet. If you experience issues with other wallets, please try again using MetaMask.
+The [Wallet Recovery Setup](https://my.universalprofile.cloud/3rd-party/add-recovery) officially supports **MetaMask** as the wallet. If you experience issues with other wallets, please try again using MetaMask.
 
 :::
 
@@ -24,6 +24,12 @@ Before you can recover your Universal Profile, ensure that:
 - **The recovery controller has enough LYX/LYXt to execute the recovery**: During the recovery process, the Universal Profile Extension will generate a new controller key that will be added to the wallet's recovery account. To set the controller and permissions, you will have to execute a transaction costing approximately `0.01` LYX/LYXt. The amount can vary based on network usage. Please fund your controller address from an existing and working wallet or Universal Profile.
 - **The extension and wallet are set to the same LUKSO network**: Within your wallet, please [add and switch to the LUKSO network](https://docs.lukso.tech/networks/mainnet/parameters#add-lukso-to-wallets). The network must match that of the Universal Profile Browser Extension in order to call and verify the Universal Profile controllers.
 - **The Universal Profile has not been imported into the extension**: You can only recover the Universal Profile if it has not been imported into the Universal Profile Extension already. If the profile already exists, please use a different browser or carefully check if the extension can be reinstalled without losing access to other profiles. You should only delete the extension if you don't have any other profiles, backed up all private keys from the settings screen, or have 2FA or wallet recovery set on all the other profiles.
+
+:::info Using Hardware Wallets
+
+If you are using a hardware wallet to recover your Universal Profile, please ensure that the correct security settings are enabled. For Ledger, you must allow **blind signing** within the Ethereum app on the device to execute smart contract transactions like the recovery. If you are using Trezor, you will have to adjust the [strict security rules](../../general/hardware-wallets.md#how-to-send-transactions-using-trezor-wallet) due to the network ID.
+
+:::
 
 :::caution Restarting the Recovery Process
 

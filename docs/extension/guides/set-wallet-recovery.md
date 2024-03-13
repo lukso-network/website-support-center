@@ -1,12 +1,12 @@
 ---
-sidebar_label: '🦊 Set Wallet Recovery'
+sidebar_label: '👛 Set Wallet Recovery'
 sidebar_position: 6
-description: 'Extension Support: How to set up wallet recovery'
+description: 'How to set up wallet recovery on the LUKSO Universal Profile Extension?'
 ---
 
 # Set Wallet Recovery
 
-If you want an autonomous backup for your Universal Profile, you can add an existing wallet as a recovery controller.
+If you want a personal backup solution for your Universal Profile, you can add another wallet as a recovery controller.
 
 ## Preparation
 
@@ -14,11 +14,11 @@ To add a new controller account to your Universal Profile, you will need the [Un
 
 :::tip Wallet Support
 
-The [Wallet Recovery Setup](https://my.universalprofile.cloud/3rd-party/add-recovery) officially supports **MetaMask**as the wallet. If you experience issues with other wallets, please try again using MetaMask.
+The [Wallet Recovery Setup](https://my.universalprofile.cloud/3rd-party/add-recovery) supports **MetaMask** as the wallet. If you experience issues with other wallets, please try again using MetaMask.
 
 :::
 
-After installing both extensions in your browser, you can set up the recovery account. Based on the wallet, you can either:
+After installing both extensions in your browser, you can set up the recovery account. Depending on the wallet, you can either:
 
 - use one of the _default wallet accounts_
 - import an _account from a private key_
@@ -38,7 +38,7 @@ Open the wallet and add or select the account from a source of your choice:
 
 ## Connect the Extensions
 
-After your recovery account is set in the wallet, head to the [Wallet Recovery Setup](https://my.universalprofile.cloud/3rd-party/add-recovery) and connect both extensions to the service.
+After your recovery account is set in the wallet, head to the [Wallet Recovery Setup](https://my.universalprofile.cloud/3rd-party/add-recovery) and connect both extensions.
 
 ![Connect the Extensions](/img/extension/set-recovery-1.png)
 
