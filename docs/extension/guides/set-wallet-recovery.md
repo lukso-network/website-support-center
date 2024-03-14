@@ -14,7 +14,7 @@ To add a new controller account to your Universal Profile, you will need the [Un
 
 :::tip Wallet Support
 
-The [Wallet Recovery Setup](https://my.universalprofile.cloud/3rd-party/add-recovery) supports **MetaMask** as the wallet. If you experience issues with other wallets, please try again using MetaMask.
+The [Wallet Recovery Setup](https://my.universalprofile.cloud/3rd-party/add-recovery) supports **MetaMask** as the wallet. If you experience issues with other wallets, please try again by importing your seed or private key into MetaMask.
 
 :::
 
@@ -36,6 +36,12 @@ Open the wallet and add or select the account from a source of your choice:
 
 </div>
 
+:::info Hardware Wallet Support
+
+Hardware wallets can not be connected directly and must be imported into a browser wallet first. If your browser wallet lacks hardware-wallet support, we recommend installing MetaMask and importing the hardware-wallet account there.
+
+:::
+
 ## Connect the Extensions
 
 After your recovery account is set in the wallet, head to the [Wallet Recovery Setup](https://my.universalprofile.cloud/3rd-party/add-recovery) and connect both extensions.
@@ -52,7 +58,7 @@ After the transaction has been executed, your new recovery controller will be se
 
 :::tip Set Controller Names
 
-By default, the new recovery controller will be named after the account's address. To better distinguish between different controllers, it's recommended to _rename them locally_ by opening the controller view and clicking the pencil next to its name.
+By default, the new recovery controller will be named after the page description **Create and Manage your Universal Profile**. To better distinguish between different controllers, it's recommended to _rename them locally_ by opening the controller view and clicking the pencil next to its name. You can chose a more specific name like _MetaMask Recovery_ or _Ledger Recovery_. Renaming the controllers wont affect any functionality.
 
 <img
     src="/img/extension/controller-name.png"
