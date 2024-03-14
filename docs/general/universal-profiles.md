@@ -70,12 +70,12 @@ The Universal Profile is a **smart contract**. Unlike a regular wallet, where _t
 
 The Universal Profile is a smart contract account deployed using a regular wallet key (EOA). Hence it _cannot overwrite or have the same address as an existing browser- or hardware wallet_.
 
-## How can I delete or import profiles on the explorer?
+## How can I delete profiles on the explorer?
 
-Currently, there's no way to access previous profiles showing up on [universalprofile.cloud](https://universalprofile.cloud/), if you lost access or the deployment was not completed. If you want to delete a profile that you can still access within the Universal Profile Browser Extension, please edit the metadata and remove all the contents like pictures and names.
+Currently, there's no way to delete profiles showing up on [universalprofile.cloud](https://universalprofile.cloud/) if you lost access or the deployment was not completed. To delete a profile that you can still access within the Universal Profile Browser Extension, please edit the metadata and remove all the contents like pictures and names.
 
 :::success Upcoming Feature
 
-The [feature request](./feature-requests.md) of removing and importing profiles is planned for one of the next releases of the extension and explorer. To avoid losing access to profiles, **do not re-install or reset your Universal Profile Browser Extension if you want to re-import them**, as this will clear hidden private keys within the browser.
+Removing profiles [is planned](./feature-requests.md) for upcoming releases of the _Universal Profile Browser Extension_ and [universalprofile.cloud](https://universalprofile.cloud).
 
 :::

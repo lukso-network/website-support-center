@@ -32,6 +32,12 @@ To confirm that the permissions of the recovery controller were [adequately set 
 
 The names of the controllers can vary, depending on the time of your Universal Profile setup. The controller of the extension will either be named **UP Extension** or have the **name of it's blockchain address**. The recovery controller can either be named **UP Recovery**, **Create and manage your UP**, or **recovery-up\<number\>**. Every controller can be _renamed locally_ in your extension at any time.
 
+<img
+    src="/img/extension/controller-name.png"
+    alt="Controller Name Change"
+    width="600"
+/>
+
 :::
 
 ## Verify the recovery controller on the dashboard

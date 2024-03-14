@@ -8,13 +8,20 @@ description: 'Extension Support: Create Backup'
 
 If you lost access to the Universal Profile Browser Extension, there are multiple ways to secure your Universal Profile :
 
-- **2FA**: You can set up 2FA for the Universal Profile on [UniversalProfile.cloud](https://universalprofile.cloud/). 2FA is the recommended way of backing up a Universal Profile and will add a new recovery controller to the profile, secured on LUKSO's end. This controller has permission to add new controllers if access to an old extension is lost. For security reasons, users must provide an authentication code from a mobile device and approve via email before a new controller can be added using LUKSO's recovery service.
+- **2FA Recovery**: You can set up 2FA for the Universal Profile on [my.universalprofile.cloud](https://my.universalprofile.cloud/). 2FA is the recommended way of backing up a Universal Profile and will add a new recovery controller to the profile, secured on LUKSO's end. The recovery controller has permissions to add additional controllers if access to an old extension is lost. For security reasons, users must provide an authentication code from a mobile device and approve via email before a new controller can be added using LUKSO's recovery service.
+- **3rd Party Wallet Recovery**: You can give recovery rights to an other blockchain account or controller on [my.universalProfile.cloud](https://mw.universalprofile.cloud/). This blockchain account then gains permissions to add additional controllers if access to an old extension is lost. Wallet recovery can also be used if you want to regain access to your Universal Profile using the revealed private key of the profile's extension controller.
 - **QR Import**: You can import any Universal Profile address into your extension. The import process will create a new local controller. Before it can can be used, the new controller needs to added to the Universal Profile by one of your existing controllers with sufficient permissions. Within the new extension, you will receive a QR code of a transaction that can be scanned or copied. When this QR code is received and the related transaction executed by an existing extension, this new controller will gain permissions on the Universal Profile.
-- **File Export**: You can export the Universal Profile directly as a text file, including the private key of the extension's controller. Make sure to store it somewhere safe. This private key will allow you to regain access to the profiles and their current controllers within the Universal Profiles.
+- **File Export**: You can export the private keys from the settings. Make sure to export the text into a file and store it safe. Those private keys will allow anyone to regain access to the profiles based on the controller's permissions.
 
 :::info Individual 2FA Controllers
 
 Please note that each Universal Profile has to add a **separate** [UP Recovery controller](../controllers.md) to [complete the 2FA recovery setup](./check-2fa-recovery.md). If you created multiple Universal Profiles through [UniversalProfile.cloud](https://universalprofile.cloud/), please ensure that you **add the 2FA Recovery** during **every single** deployment process. The connected account and authentication code will stay the same across all profiles of one network and is used to authenticate on the LUKSO Transaction Relay Service.
+
+:::
+
+:::tip
+
+To reduce risk of losing access, it is **recommended** to set up **[2FA](../controllers.md#how-can-i-add-2fa-recovery-to-an-existing-universal-profile)** or **[Wallet Recovery](./set-wallet-recovery.md)**.
 
 :::
 
@@ -26,13 +33,7 @@ Please note that each Universal Profile has to add a **separate** [UP Recovery c
 
 :::danger Securing Controllers
 
-Due to the nature of [backups and recovery](../controllers.md#what-happens-during-imports-and-recovery), the **controllers of an extension will not be included within 2FA recovery**. If you [fund the extension's controllers](./fund-controller.md) to pay for your transactions, please **always reveal the private key**, e.g., choose **File Export**. Otherwise, you won't be able to [get your controller funds back](./get-controller-funds.md).
-
-:::
-
-:::caution
-
-The Universal Profile Browser Extension currently does not feature a way to import profiles using the plain private key described in _File Export_. Therefore, we **recommend [setting up 2FA](../controllers.md#how-can-i-add-2fa-recovery-to-an-existing-universal-profile)**. Optionally, the private key of a controller (EOA) could be imported into a regular wallet to send transactions manually. You can find further information in the [Controller](../controllers.md) section.
+Due to the nature of [backups and recovery](../controllers.md#what-happens-during-imports-and-recovery), the **controllers of an extension will not be included within 2FA recovery**. If you [fund the extension's controllers](./fund-controller.md) to pay for your transactions, please **always backup the their related private key** in the settings screen. Otherwise, you won't be able to [get your controller funds back](./get-controller-funds.md).
 
 :::
 
@@ -51,10 +52,4 @@ The 2FA recovery system for Universal Profiles on [my.universalprofile.cloud](ht
 
 ### Is there a fully decentralized backup method?
 
-If you do not trust 2FA and want an autonomous backup, users can choose the **File Export**. This process reveals the private key of the extension's controller. Please ensure that the revealed private key is stored somewhere safe.
-
-:::success Upcoming Feature
-
-Currently, the extension does not support importing profiles based on a private key. This [feature request](../../general/feature-requests.md) will soon be integrated into the Universal Profile Browser extension. A similar tool will allow you to manually add controllers from an existing private key, making it possible to add a hardware wallet as a recovery controller.
-
-:::
+If you do not trust 2FA and want an personal backup solution, you can restore your Universal Profile by [recovering from a private key](./wallet-recovery.md) add by adding additional recovery controllers using the [Wallet Recovery Setup](./set-wallet-recovery.md).
