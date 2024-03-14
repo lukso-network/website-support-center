@@ -1,10 +1,10 @@
 ---
-sidebar_label: '🔐 Wallet Recovery'
+sidebar_label: '🔐 Recover from Wallet'
 sidebar_position: 7
 description: 'How to recover a Universal Profile using your private key or 3rd-party wallet'
 ---
 
-# Wallet Recovery
+# Recover from Wallet
 
 If you've set a **recovery controller** using the [Wallet Recovery Setup](./set-wallet-recovery.md) or have an **existing private key**, you can use these controllers to restore your Universal Profile.
 
