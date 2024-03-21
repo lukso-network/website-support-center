@@ -79,3 +79,11 @@ Currently, there's no way to delete profiles showing up on [universalprofile.clo
 Removing profiles [is planned](./feature-requests.md) for upcoming releases of the _Universal Profile Browser Extension_ and [universalprofile.cloud](https://universalprofile.cloud).
 
 :::
+
+## Why are received assets not added to my Universal Profile?
+
+If your assets are not getting added to your Universal Profile, it means that the Universal Receiver is not able to edit the storage elements of your Universal Profile. **To solve this issue**, you will need access to your Universal Profile and a second Universal Profile on the same network.
+
+First, please open the original profile within the Universal Profile Browser Extension and [re-apply the default permissions](../extension/controllers.md) to the Universal Receiver's controller.
+
+After the permissions have been renewed, transfer the asset to the second Universal Profile and back to the original profile. The transfer will automatically trigger the Universal Receiver, which will automatically add it to its received assets.
