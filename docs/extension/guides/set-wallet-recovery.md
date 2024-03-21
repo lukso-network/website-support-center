@@ -58,7 +58,7 @@ After the transaction has been executed, your new recovery controller will be se
 
 :::tip Set Controller Names
 
-By default, the new recovery controller will be named **Recovery key?**. To better distinguish between different controllers, it's recommended to _locally rename the key_ by opening the controller view and clicking the pencil next to its name. You can chose a more specific name like _MetaMask Recovery_ or _Ledger Recovery_. Renaming the controllers wont affect any functionality.
+By default, the new recovery controller will be named **Recovery key?**. To better distinguish between different controllers, it's recommended to _locally rename the key_ by opening the controller view and clicking the pencil next to its name. You can chose a more specific name like _MetaMask Recovery_ or _Ledger Recovery_. Renaming the controllers won't affect any functionality.
 
 <img
     src="/img/extension/controller-recovery-rename.png"
