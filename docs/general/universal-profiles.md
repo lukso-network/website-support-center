@@ -54,7 +54,7 @@ You can not send aquired LYXe directly to your Universal Profile address, as LYX
 
 :::
 
-## Which tokens and coins can my UniversalProfile hold?
+## Which tokens and coins can my Universal Profile hold?
 
 A Universal Profile can hold any asset on the same network it's deployed on. On LUKSO, the native coin is LYX. While native coins from other networks can't be held directly in Universal Profiles deployed on LUKSO, external services might also create token bridges for external assets.
 
