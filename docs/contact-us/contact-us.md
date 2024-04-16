@@ -11,4 +11,4 @@ description: General Support Page for LUKSO
 Our two channels for support are:
 
 - [Discord](https://discord.com/channels/359064931246538762/1227624285259038731)
-- [email](mailto:lukso@support.network)
+- [email](mailto:support@lukso.network)
