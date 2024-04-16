@@ -82,6 +82,12 @@ export default {
           position: 'left',
           label: 'LYXe Migration',
         },
+        {
+          type: 'doc',
+          docId: 'contact-us/contact-us',
+          position: 'left',
+          label: 'Contact Us',
+        },
       ],
     },
     footer: {
