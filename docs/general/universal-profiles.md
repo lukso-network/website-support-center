@@ -4,6 +4,9 @@ sidebar_position: 5
 description: Support Page for Universal Profiles
 ---
 
+import React from 'react'
+import LoomVideo from '../../src/components/LoomVideo'
+
 # Universal Profiles
 
 ## Where can I see my Universal Profile ?
@@ -12,15 +15,11 @@ You can find your Universal Profile on the Universal Profile Explorer at [univer
 
 ![Universal Profile Explorer](../../static/img/general/up-cloud.png)
 
-## Where can I send assets of my Universal Profile?
+## How can I send assets from my Universal Profile?
 
 The Universal Profile Extension **does not directly manage token information**. Instead, it is designed to work with various decentralized applications (dApps) that can seamlessly integrate with your Universal Profile and interact with its information and controllers. You can connect your Universal Profile to [wallet.universalprofile.cloud](https://wallet.universalprofile.cloud/) to send token transactions.
 
-![Universal Profile Wallet](../../static/img/general/up-wallet.png)
-
-If you are logged in, you will also be able to transfer assets:
-
-![Asset Transfer](../../static/img/general/asset-transfer.png)
+<LoomVideo src="https://www.loom.com/embed/47b4f4e671b248219cac48726358a791?sid=a88bd596-8860-4677-83c9-33384ccfdcb1" />
 
 ## Where can I manage my Universal Profile?
 
