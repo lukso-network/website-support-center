@@ -79,10 +79,25 @@ Removing profiles [is planned](./feature-requests.md) for upcoming releases of t
 
 :::
 
-## Why are received assets not added to my Universal Profile?
+## My Tokens or NFTs are missing from universalprofile.cloud, how do I add them?
 
-If your assets are not getting added to your Universal Profile, it means that the Universal Receiver is not able to edit the storage elements of your Universal Profile. **To solve this issue**, you will need access to your Universal Profile and a second Universal Profile on the same network.
+If your assets are not getting added to your Universal Profile, it is likely that the Universal Receiver is not able to edit the storage elements of your Universal Profile.
 
-First, please open the original profile within the Universal Profile Browser Extension and [re-apply the default permissions](../extension/controllers.md) to the Universal Receiver's controller.
+To solve this issue, [watch this video](https://www.loom.com/share/ff12158265e6482d837d5f9d420b87dd) or follow the steps below:
 
-After the permissions have been renewed, transfer the asset to the second Universal Profile and back to the original profile. The transfer will automatically trigger the Universal Receiver, which will automatically add it to its received assets.
+1. Open the UP! extension, click the "controllers" tab
+2. Find your "UP Receiver"
+3. Enable the "Profile data" AND "Re-entrancy" permissions
+4. Go to your [Wallet](https://wallet.universalprofile.cloud/)
+5. Connect your profile
+6. Click on your profile, then "settings"
+7. Click "Add missing assets"
+8. Add the token or NFT contract address and click "continue"
+
+<!-- ONCE THE CHANGE FOR THE SETTINGS URL HAS BEEN DEPLOYED -->
+<!-- 1. Open the UP! extension, click the "controllers" tab
+2. Find your "UP Receiver"
+3. Enable the "Profile data" as well as "Re-entrancy" permissions
+4. After that, go to our [Missing Assets](https://wallet.universalprofile.cloud/settings/missing-assets) page
+5. Connect your profile
+6. Add the token or NFT contract address and click "continue" -->
