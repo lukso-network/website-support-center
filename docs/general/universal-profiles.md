@@ -95,7 +95,7 @@ To solve this issue, [watch this video](https://www.loom.com/share/ff12158265e64
 8. Add the token or NFT contract address and click "continue"
 
 <!-- ONCE THE CHANGE FOR THE SETTINGS URL HAS BEEN DEPLOYED -->
-<!-- 1. Open the UP! extension, click the "controllers" tab
+<!-- 1. Open the Universal Profile Browser Extension and click the "controllers" tab
 2. Find your "UP Receiver"
 3. Enable the "Profile data" as well as "Re-entrancy" permissions
 4. After that, go to our [Missing Assets](https://wallet.universalprofile.cloud/settings/missing-assets) page
