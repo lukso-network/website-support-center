@@ -85,7 +85,7 @@ If your assets are not getting added to your Universal Profile, it is likely tha
 
 To solve this issue, [watch this video](https://www.loom.com/share/ff12158265e6482d837d5f9d420b87dd) or follow the steps below:
 
-1. Open the UP! extension, click the "controllers" tab
+1. Open the Universal Profile Browser Extension and click the "controllers" tab
 2. Find your "UP Receiver"
 3. Enable the "Profile data" AND "Re-entrancy" permissions
 4. Go to your [Wallet](https://wallet.universalprofile.cloud/)
