@@ -85,19 +85,14 @@ If your assets are not getting added to your Universal Profile, it is likely tha
 
 To solve this issue, [watch this video](https://www.loom.com/share/ff12158265e6482d837d5f9d420b87dd) or follow the steps below:
 
-1. Open the Universal Profile Browser Extension and click the "controllers" tab
-2. Find your "UP Receiver"
-3. Enable the "Profile data" AND "Re-entrancy" permissions
-4. Go to your [Wallet](https://wallet.universalprofile.cloud/)
-5. Connect your profile
-6. Click on your profile, then "settings"
-7. Click "Add missing assets"
-8. Add the token or NFT contract address and click "continue"
+1. First, 🆙 extension:
 
-<!-- ONCE THE CHANGE FOR THE SETTINGS URL HAS BEEN DEPLOYED -->
-<!-- 1. Open the Universal Profile Browser Extension and click the "controllers" tab
-2. Find your "UP Receiver"
-3. Enable the "Profile data" as well as "Re-entrancy" permissions
-4. After that, go to our [Missing Assets](https://wallet.universalprofile.cloud/settings/missing-assets) page
-5. Connect your profile
-6. Add the token or NFT contract address and click "continue" -->
+- Open the Universal Profile Browser Extension and click the "controllers" tab
+- Find your "UP Receiver"
+- Enable the "Profile data" as well as "Re-entrancy" permissions
+
+2. Then, wallet:
+
+- After that, go to our [Missing Assets](https://wallet.universalprofile.cloud/settings/missing-assets) page
+- Connect your profile
+- Add the token or NFT contract address and click "continue"
