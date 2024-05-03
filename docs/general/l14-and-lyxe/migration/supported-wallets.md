@@ -20,7 +20,7 @@ If you have LYXe on a hardware wallet like Ledger or Trezor, you can send them t
 
 :::tip
 
-You can also check our [Hardware Wallet](../general/hardware-wallets) page for related information.
+You can also check our [Hardware Wallet](../../general/hardware-wallets) page for related information.
 
 :::
 

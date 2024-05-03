@@ -29,7 +29,7 @@ If you encounter high gas fees when migrating LYXe to LYX, there could be severa
 
 ## What can I do if my wallet is not showing up?
 
-The migration page supports [multiple wallets](../general/wallet-support.md). If you have various wallet extensions installed within your browser, it might happen that instead of MetaMask, other wallets will open up when connecting to [migrate.lukso.network](https://migrate.lukso.network/). To **solve this issue**, please temporarily turn off your other wallet extensions within your browser.
+The migration page supports [multiple wallets](../../../general/wallet-support.md). If you have various wallet extensions installed within your browser, it might happen that instead of MetaMask, other wallets will open up when connecting to [migrate.lukso.network](https://migrate.lukso.network/). To **solve this issue**, please temporarily turn off your other wallet extensions within your browser.
 
 1. **Open the Extension Menu of your browser**: Usually, you will be able to access the extension menu by clicking the 3-Dot-Menu on
    the top right corner, and selecting _Extensions_ or _Manage Extensions_.

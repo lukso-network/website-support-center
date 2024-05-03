@@ -72,7 +72,7 @@ export default {
         },
         {
           type: 'doc',
-          docId: 'general/migration/introduction',
+          docId: 'general/l14-and-lyxe/migration/introduction',
           position: 'left',
           label: 'LYXe Migration',
         },
