@@ -29,7 +29,7 @@ function Index() {
 
           <Box
             icon={MigrationIcon}
-            link="./migration/introduction"
+            link="./general/l14-and-lyxe/migration/introduction"
             title="LYXe Migration"
             className="migration"
             content="Get help on the LYXe migration service"
