@@ -6,6 +6,10 @@ description: 'Frequently asked questions'
 
 # FAQ
 
+## Does LUKSO have a grants programme?
+
+Yes, absolutely! Please go to our main page [here](https://lukso.network/grants) for more information and to apply!
+
 ## Why can't I delete my old private keys?
 
 At the moment, the Universal Profile Browser Extension only allows to disable permissions of old controller keys. If you want to improve security, please disable all permissions of an old controller. You can learn more within the [Controllers](/docs/general/Extension/controllers.md) page. Soon, there will be a feature to manually remove controllers completely.
