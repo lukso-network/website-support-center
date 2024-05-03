@@ -23,7 +23,7 @@ This error occurs if a user deployed his Universal Profile through a 3rd party p
 <div style={{textAlign: 'center'}}>
 
 <img
-    src="/img/general/relay-service-tx-error.png"
+    src="/../../img/general/relay-service-tx-error.png"
     alt="Relay Service Transaction Error"
     width="400"
 />
@@ -45,7 +45,7 @@ When you want to recover a profile using 2FA on the [my.universalprofile.cloud](
 <div style={{textAlign: 'center'}}>
 
 <img
-    src="/img/extension/recovery-failed.png"
+    src="/../img/extension/recovery-failed.png"
     alt="Recovery Error Message"
     width="600"
 />
@@ -54,7 +54,7 @@ When you want to recover a profile using 2FA on the [my.universalprofile.cloud](
 
 To **solve this issue**, please
 
-- [**verify that 2FA is set up on a specific profile**](../extension/guides/check-2fa-recovery.md): If 2FA was not set up, you can not recover your profile from the dashboard. Please look into the optional [Backup](./guides/create-backup.md) solutions.
+- [**verify that 2FA is set up on a specific profile**](../../extension/guides/check-2fa-recovery.md): If 2FA was not set up, you can not recover your profile from the dashboard. Please look into the optional [Backup](./guides/create-backup.md) solutions.
 - **verify that you logged in with the correct email account**: The email or Google Account you've used might differ from the one that you previously set for authentication. Chrome may automatically connect with the Google account of your browser profile instead of asking for another login. If the accounts do not match, the Transaction Relay Service won't recognize the account, indicating that no recovery was set up.
 
 :::danger
@@ -68,7 +68,7 @@ If you neither have 2FA, access to the profile within the extension, or the back
 <div style={{textAlign: 'center'}}>
 
 <img
-    src="/img/extension/add-up-stall.png"
+    src="/../img/extension/add-up-stall.png"
     alt="Add Profile to Extension Error"
     width="600"
 />
@@ -100,7 +100,7 @@ It might happen that your profile data, like pictures and name, can not be fetch
 <div style={{textAlign: 'center'}}>
 
 <img
-    src="/img/extension/error-fetch-data.png"
+    src="/../img/extension/error-fetch-data.png"
     alt="Error fetching profile data"
     width="300"
 />
@@ -109,7 +109,7 @@ It might happen that your profile data, like pictures and name, can not be fetch
 
 To **solve this issue**, please **edit and re-deploy** your profile metadata **within the Universal Profile Browser Extension**. This will update the metadata file using the correct and up-to-date schema, so apps are able to fetch it again:
 
-![Edit Universal Profile](../../static/img/general/edit-profile.png)
+![Edit Universal Profile](../../../../static/img/general/edit-profile.png)
 
 ## Incorrect 2FA Code
 
@@ -118,7 +118,7 @@ This error might occur when you want to recover your Universal Profile using the
 <div style={{textAlign: 'center'}}>
 
 <img
-    src="/img/extension/2fa-auth-fail.png"
+    src="/../img/extension/2fa-auth-fail.png"
     alt="Incorrect 2FA Code"
     width="300"
 />
@@ -134,7 +134,7 @@ This error might occur when you are trying to recover your profile from 2FA and 
 <div style={{textAlign: 'center'}}>
 
 <img
-    src="/img/extension/re-authenticate.png"
+    src="/../img/extension/re-authenticate.png"
     alt="Authentication Expired"
     width="300"
 />

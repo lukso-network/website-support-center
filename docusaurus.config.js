@@ -20,11 +20,11 @@ export default {
           // General links to products page
           {
             from: '/extension/',
-            to: '/extension/introduction',
+            to: '/general/extension/introduction',
           },
           {
             from: '/migration/',
-            to: '/migration/introduction',
+            to: '/general/migration/introduction',
           },
           {
             from: '/general/',
@@ -38,11 +38,11 @@ export default {
           },
           {
             from: '/general/common-errors',
-            to: '/extension/common-errors',
+            to: '/general/extension/common-errors',
           },
           {
             from: '/migration/incidents/delay-incident',
-            to: '/migration/incidents/january',
+            to: '/general/migration/incidents/january',
           },
         ],
       },
@@ -72,20 +72,14 @@ export default {
         },
         {
           type: 'doc',
-          docId: 'extension/introduction',
-          position: 'left',
-          label: 'Extension',
-        },
-        {
-          type: 'doc',
-          docId: 'migration/introduction',
+          docId: 'general/migration/introduction',
           position: 'left',
           label: 'LYXe Migration',
         },
         {
           type: 'doc',
           docId: 'contact-us/contact-us',
-          position: 'left',
+          position: 'right',
           label: 'Contact Us',
         },
       ],

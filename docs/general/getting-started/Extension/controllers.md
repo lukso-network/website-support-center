@@ -13,7 +13,7 @@ Each Universal Profile within an extension holds a separate private key to send 
 <div style={{textAlign: 'center'}}>
 
 <img
-    src="/img/extension/controller-window.png"
+    src="../../../../static/img/extension/controller-window.png"
     alt="Controller Window"
     width="400"
 />
@@ -31,7 +31,7 @@ After the initial creation, there can be up to 3 controllers:
 The names of the controllers can vary, depending on the time of your Universal Profile setup. The controller of the extension will either be named **UP Extension** or have the **name of it's blockchain address**. The recovery controller can either be named **UP Recovery**, **Create and manage your UP**, or **recovery-up\<number\>**. Every controller can be _renamed locally_ in your extension at any time.
 
 <img
-    src="/img/extension/controller-name.png"
+    src="../../../../static/img/extension/controller-name.png"
     alt="Controller Name Change"
     width="600"
 />
@@ -59,7 +59,7 @@ Otherwise, **you will not be able to access your profile, including LYX and asse
 
 To check the 2FA recovery status and add 2FA, please visit the dashboard on [my.universalprofile.cloud](https://my.universalprofile.cloud/). The Universal Profile card will show the current **2FA recovery status** at the top right corner. If 2FA has not been added yet, continue by clicking the **Add Recovery** button.
 
-![2FA Recovery Dashboard](/img/general/recovery-dashboard.png)
+![2FA Recovery Dashboard](../../../../static/img/general/recovery-dashboard.png)
 
 :::warning
 
@@ -96,27 +96,27 @@ If you want to reset the controller permissions to their initial state, you can 
 <details>
     <summary>Show default permissions of the Universal Profile Extension</summary>
 
-![Default Permissions of the Universal Profile Extension](../../static/img/extension/default-permission-up-extension.png)
+![Default Permissions of the Universal Profile Extension](../../../../static/img/extension/default-permission-up-extension.png)
 
 </details>
 
 <details>
     <summary>Show default permissions of the Universal Receiver</summary>
 
-![Default Permissions of the Universal Receiver](../../static/img/extension/default-permission-universal-receiver.png)
+![Default Permissions of the Universal Receiver](../../../../static/img/extension/default-permission-universal-receiver.png)
 
 </details>
 
 <details>
     <summary>Show default permissions of the Universal Profile Recovery</summary>
 
-![Default Permissions of the Universal Profile Recovery](../../static/img/extension/default-permission-up-recovery.png)
+![Default Permissions of the Universal Profile Recovery](../../../../static/img/extension/default-permission-up-recovery.png)
 
 </details>
 
 ## Can I add a Ledger account as a controller of my profile?
 
-Yes, you can add blockchain accounts or hardware wallets (like Ledger or Trezor) for recovery using the [Wallet Recovery Setup](../extension/guides/set-wallet-recovery.md).
+Yes, you can add blockchain accounts or hardware wallets (like Ledger or Trezor) for recovery using the [Wallet Recovery Setup](../../../extension/guides/set-wallet-recovery.md).
 
 ## How can I remove controllers and permissions?
 
@@ -124,7 +124,7 @@ To remove permissions, use the extension to view all controllers with permission
 
 :::success Upcoming Feature
 
-The team is currently working on a [feature request](../general/feature-requests.md) to _completely remove old controllers_, not only their individual permissions.
+The team is currently working on a [feature request](../../../general/feature-requests.md) to _completely remove old controllers_, not only their individual permissions.
 
 :::
 

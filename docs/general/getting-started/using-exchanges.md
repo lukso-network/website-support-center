@@ -1,6 +1,6 @@
 ---
-sidebar_label: '🏦 Using Exchanges'
-sidebar_position: 8
+sidebar_label: ' 💸 Where can I buy LYX'
+sidebar_position: 3
 description: Support Page for using exchanges on the LUKSO network
 ---
 

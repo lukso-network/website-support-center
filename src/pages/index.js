@@ -26,13 +26,7 @@ function Index() {
             className="general"
             content="Get help related to wallet support and network interactions"
           />
-          <Box
-            icon={ExtensionIcon}
-            link="./extension/introduction"
-            title="Extension"
-            className="extension"
-            content="Get help on the Universal Profile Browser Extension"
-          />
+
           <Box
             icon={MigrationIcon}
             link="./migration/introduction"
