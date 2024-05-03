@@ -1,10 +1,10 @@
 ---
-sidebar_label: '👛 Wallet Support'
+sidebar_label: '👜 Supported Wallets'
 sidebar_position: 2
-description: LUKSO Wallet Support
+description: Wallet's that LUKSO is available on
 ---
 
-import AddNetworkButton from '../../src/components/AddNetworkButton'
+import AddNetworkButton from '../../../src/components/AddNetworkButton'
 
 # Wallet Support
 
