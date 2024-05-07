@@ -6,4 +6,6 @@ description: Some interesting dapps built on LUKSO
 
 # Popular Dapps and Projects
 
-BLAH BLAH DAPPY DAPP
+:::info
+This page is under construction
+:::
