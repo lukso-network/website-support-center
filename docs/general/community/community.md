@@ -21,4 +21,4 @@ You can also contact us on [Discord](https://discord.com/invite/lukso).
 
 We're very active so you can speak to our support teams, devs, designers....pretty much anyone.
 
-Most importantly, you'll find the community here. People building apps on LUKSO, people using LUKSO.
+Most importantly, you'll find the community here. People building dapps on LUKSO, or LUKSO dApps users.
