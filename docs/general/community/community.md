@@ -13,7 +13,7 @@ If you'd like to stay up to date with all of the latest LUKSO news, then we reco
 We have two main accounts:
 
 1. [LUKSO](https://twitter.com/lukso_io) - where we tweet about all things happening in LUKSO
-2. [ERC725](https://twitter.com/ERC725Account) - where we tweet about mainly technology focussed topics
+2. [ERC725](https://twitter.com/ERC725Account) - where we tweet about mainly developer oriented topics
 
 ## Discord
 
