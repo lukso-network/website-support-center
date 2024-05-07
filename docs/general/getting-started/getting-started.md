@@ -13,4 +13,4 @@ This section is aimed at getting your from zero knowledge --> interacting with d
 1. Creating your Universal Profile
 2. Downloading our 🆙 browser extension
 3. Buying some LYX
-4. Sign posting your to some popular dapps on our network
+4. Sign posting you to some popular dapps on LUKSO
