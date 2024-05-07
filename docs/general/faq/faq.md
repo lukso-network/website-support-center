@@ -8,7 +8,7 @@ description: 'Frequently asked questions'
 
 ## Does LUKSO have a grants program?
 
-Yes, absolutely! Please go to our main page [here](https://lukso.network/grants) for more information and to apply!
+Yes, absolutely! Please go to our main [grants program page](https://lukso.network/grants) for more information and to apply!
 
 ## Why can't I delete my old private keys?
 
