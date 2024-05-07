@@ -26,6 +26,3 @@ If you have questions regarding personal matters like the migration of LYXe, Uni
 
 Suppose it's a vulnerability or something that should not be shared with the public, please reach out to official team members within our developer channel on [Discord](https://discord.gg/lukso). You can send a friend request in order to exchange more detailed information. We are also preparing a workflow to handle investigations and bug bounties in a unified format.
 
-## Does LUKSO have a grants programme?
-
-Yes, absolutely! Please go to our main page [here](https://lukso.network/grants) for more information and to apply!
