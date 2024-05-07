@@ -6,7 +6,7 @@ description: 'Frequently asked questions'
 
 # FAQ
 
-## Does LUKSO have a grants programme?
+## Does LUKSO have a grants program?
 
 Yes, absolutely! Please go to our main page [here](https://lukso.network/grants) for more information and to apply!
 
