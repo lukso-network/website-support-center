@@ -25,4 +25,3 @@ If you have questions regarding personal matters like the migration of LYXe, Uni
 ## Where can security issues be reported to?
 
 Suppose it's a vulnerability or something that should not be shared with the public, please reach out to official team members within our developer channel on [Discord](https://discord.gg/lukso). You can send a friend request in order to exchange more detailed information. We are also preparing a workflow to handle investigations and bug bounties in a unified format.
-
