@@ -20,30 +20,30 @@ export default {
           // General links to products page
           {
             from: '/extension/',
-            to: '/general/extension/introduction',
+            to: '/general/getting-started/Extension/introduction',
           },
           {
             from: '/migration/',
-            to: '/general/migration/introduction',
+            to: '/general/l14-and-lyxe/migration/introduction',
           },
           {
             from: '/general/',
-            to: '/general/introduction',
+            to: '/general/getting-started',
           },
 
           // Outdated and updated pages
-          {
-            from: '/extension/feature-requests',
-            to: '/general/feature-requests',
-          },
-          {
-            from: '/general/common-errors',
-            to: '/general/extension/common-errors',
-          },
-          {
-            from: '/migration/incidents/delay-incident',
-            to: '/general/migration/incidents/january',
-          },
+          // {
+          //   from: '/extension/feature-requests',
+          //   to: '/general/feature-requests',
+          // },
+          // {
+          //   from: '/general/common-errors',
+          //   to: '/general/extension/common-errors',
+          // },
+          // {
+          //   from: '/migration/incidents/delay-incident',
+          //   to: '/general/migration/incidents/january',
+          // },
         ],
       },
     ],

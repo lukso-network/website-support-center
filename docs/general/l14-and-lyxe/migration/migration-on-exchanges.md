@@ -29,6 +29,6 @@ You can trade or swap LYX using the following platforms:
 
 :::danger Smart Contract Transactions
 
-Never send LYX directly from your Universal Profile to an Exchange. This might result in your funds being locked. Please check out the [Exchange Guide](../../../general/using-exchanges.md) in case you want to send your migrated LYX back to the exchange.
+Never send LYX directly from your Universal Profile to an Exchange. This might result in your funds being locked. Please check out the [Exchange Guide](docs/general/getting-started/using-exchanges.md) in case you want to send your migrated LYX back to the exchange.
 
 :::

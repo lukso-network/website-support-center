@@ -10,7 +10,8 @@
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
-    "prettier": "prettier \"src/**/*.js\" \"docs/**/*.md\" --check"
+    "prettier": "prettier \"src/**/*.js\" \"docs/**/*.md\" --check",
+    "prettier:fix": "prettier \"src/**/*.js\" \"docs/**/*.md\" --write"
   },
   "dependencies": {
     "@docusaurus/core": "3.1.0",

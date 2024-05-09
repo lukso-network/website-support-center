@@ -49,7 +49,7 @@ You can't send any assets to the address if you do not deploy the Universal Prof
 
 :::danger LYXe Transactions
 
-You can not send aquired LYXe directly to your Universal Profile address, as LYXe is deployed on Ethereum, but Universal Profiles are deployed on LUKSO. Please migrate your LYXe to LYX first using the [LUKSO Migration Service](https://migrate.lukso.network/). For further details, please visit the [Migration Support](../migration/introduction.md) page.
+You can not send aquired LYXe directly to your Universal Profile address, as LYXe is deployed on Ethereum, but Universal Profiles are deployed on LUKSO. Please migrate your LYXe to LYX first using the [LUKSO Migration Service](https://migrate.lukso.network/). For further details, please visit the [Migration Support](docs/general/l14-and-lyxe/migration/introduction.md) page.
 
 :::
 
@@ -75,7 +75,7 @@ Currently, there's no way to delete profiles showing up on [universalprofile.clo
 
 :::success Upcoming Feature
 
-Removing profiles [is planned](./feature-requests.md) for upcoming releases of the _Universal Profile Browser Extension_ and [universalprofile.cloud](https://universalprofile.cloud).
+Removing profiles is planned for upcoming releases of the _Universal Profile Browser Extension_ and [universalprofile.cloud](https://universalprofile.cloud).
 
 :::
 
