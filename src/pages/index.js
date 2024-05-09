@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import OriginalSearchBar from '../components/SearchBar';
 
 import styles from './index.module.scss';
 
@@ -8,7 +7,6 @@ import Box from '../components/Box';
 import Headline from '../components/Headline';
 
 import GeneralIcon from '../../static/img/icons/icon-general-gradient.png';
-import ExtensionIcon from '../../static/img/icons/icon-extension-gradient.png';
 import MigrationIcon from '../../static/img/icons/icon-migration-gradient.png';
 
 function Index() {
@@ -16,8 +14,6 @@ function Index() {
     <Layout description="LUKSO Support Center">
       <div className={styles.container}>
         <Headline />
-        <OriginalSearchBar />
-        <br />
         <div className={styles.cardContainer}>
           <Box
             icon={GeneralIcon}
