@@ -20,30 +20,30 @@ export default {
           // General links to products page
           {
             from: '/extension/',
-            to: '/extension/introduction',
+            to: '/general/getting-started/Extension/introduction',
           },
           {
             from: '/migration/',
-            to: '/migration/introduction',
+            to: '/general/l14-and-lyxe/migration/introduction',
           },
           {
             from: '/general/',
-            to: '/general/introduction',
+            to: '/general/getting-started',
           },
 
           // Outdated and updated pages
-          {
-            from: '/extension/feature-requests',
-            to: '/general/feature-requests',
-          },
-          {
-            from: '/general/common-errors',
-            to: '/extension/common-errors',
-          },
-          {
-            from: '/migration/incidents/delay-incident',
-            to: '/migration/incidents/january',
-          },
+          // {
+          //   from: '/extension/feature-requests',
+          //   to: '/general/feature-requests',
+          // },
+          // {
+          //   from: '/general/common-errors',
+          //   to: '/general/extension/common-errors',
+          // },
+          // {
+          //   from: '/migration/incidents/delay-incident',
+          //   to: '/general/migration/incidents/january',
+          // },
         ],
       },
     ],
@@ -72,20 +72,14 @@ export default {
         },
         {
           type: 'doc',
-          docId: 'extension/introduction',
-          position: 'left',
-          label: 'Extension',
-        },
-        {
-          type: 'doc',
-          docId: 'migration/introduction',
+          docId: 'general/l14-and-lyxe/migration/introduction',
           position: 'left',
           label: 'LYXe Migration',
         },
         {
           type: 'doc',
           docId: 'contact-us/contact-us',
-          position: 'left',
+          position: 'right',
           label: 'Contact Us',
         },
       ],

@@ -10,7 +10,7 @@ If you've set a **recovery controller** using the [Wallet Recovery Setup](./set-
 
 ## Preparation
 
-In order to recover your Universal Profile, you will need the [Universal Profile Browser Extension](https://chromewebstore.google.com/detail/universal-profiles/abpickdkkbnbcoepogfhkhennhfhehfn) and an [Ethereum wallet with custom network support](../../general/wallet-support.md) installed **in the same [supported browser](../introduction.md#which-browsers-does-the-extension-support)**.
+In order to recover your Universal Profile, you will need the [Universal Profile Browser Extension](https://chromewebstore.google.com/detail/universal-profiles/abpickdkkbnbcoepogfhkhennhfhehfn) and an [Ethereum wallet with custom network support](docs/general/supported-wallets/wallet-support.md) installed **in the same [supported browser](../introduction.md#which-browsers-does-the-extension-support)**.
 
 :::tip Wallet Support
 
@@ -27,7 +27,7 @@ Before you can recover your Universal Profile, ensure that:
 
 :::info Using Hardware Wallets
 
-If you are using a hardware wallet to recover your Universal Profile, please ensure that the correct security settings are enabled. For Ledger, you must allow **blind signing** within the Ethereum app on the device to execute smart contract transactions like the recovery. If you are using Trezor, you will have to adjust the [strict security rules](../../general/hardware-wallets.md#how-to-send-transactions-using-trezor-wallet) due to the network ID.
+If you are using a hardware wallet to recover your Universal Profile, please ensure that the correct security settings are enabled. For Ledger, you must allow **blind signing** within the Ethereum app on the device to execute smart contract transactions like the recovery. If you are using Trezor, you will have to adjust the [strict security rules](docs/general/supported-wallets/hardware-wallets.md#how-to-send-transactions-using-trezor-wallet) due to the network ID.
 
 :::
 

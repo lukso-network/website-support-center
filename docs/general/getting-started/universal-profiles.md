@@ -1,11 +1,11 @@
 ---
 sidebar_label: '🆙 Universal Profiles'
-sidebar_position: 5
+sidebar_position: 1
 description: Support Page for Universal Profiles
 ---
 
 import React from 'react'
-import LoomVideo from '../../src/components/LoomVideo'
+import LoomVideo from '../../../src/components/LoomVideo'
 
 # Universal Profiles
 
@@ -13,7 +13,7 @@ import LoomVideo from '../../src/components/LoomVideo'
 
 You can find your Universal Profile on the Universal Profile Explorer at [universalprofile.cloud](https://universalprofile.cloud/). Just select the correct network on the bottom left corner and use the global search bar to search for your name.
 
-![Universal Profile Explorer](../../static/img/general/up-cloud.png)
+![Universal Profile Explorer](../../../static/img/general/up-cloud.png)
 
 ## How can I send assets from my Universal Profile?
 
@@ -25,7 +25,7 @@ The Universal Profile Extension **does not directly manage token information**. 
 
 You can connect your Universal Profile to [my.universalprofile.cloud](https://my.universalprofile.cloud/) to check and add 2FA recovery or create new profiles.
 
-![Universal Profile Management](../../static/img/general/recovery-dashboard.png)
+![Universal Profile Management](../../../static/img/general/recovery-dashboard.png)
 
 ## Is my Universal Profile name unique?
 
@@ -49,7 +49,7 @@ You can't send any assets to the address if you do not deploy the Universal Prof
 
 :::danger LYXe Transactions
 
-You can not send aquired LYXe directly to your Universal Profile address, as LYXe is deployed on Ethereum, but Universal Profiles are deployed on LUKSO. Please migrate your LYXe to LYX first using the [LUKSO Migration Service](https://migrate.lukso.network/). For further details, please visit the [Migration Support](../migration/introduction.md) page.
+You can not send aquired LYXe directly to your Universal Profile address, as LYXe is deployed on Ethereum, but Universal Profiles are deployed on LUKSO. Please migrate your LYXe to LYX first using the [LUKSO Migration Service](https://migrate.lukso.network/). For further details, please visit the [Migration Support](docs/general/l14-and-lyxe/migration/introduction.md) page.
 
 :::
 
@@ -75,7 +75,7 @@ Currently, there's no way to delete profiles showing up on [universalprofile.clo
 
 :::success Upcoming Feature
 
-Removing profiles [is planned](./feature-requests.md) for upcoming releases of the _Universal Profile Browser Extension_ and [universalprofile.cloud](https://universalprofile.cloud).
+Removing profiles is planned for upcoming releases of the _Universal Profile Browser Extension_ and [universalprofile.cloud](https://universalprofile.cloud).
 
 :::
 

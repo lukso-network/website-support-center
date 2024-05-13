@@ -14,7 +14,7 @@ export default function TOC({ className, ...props }) {
         linkClassName={LINK_CLASS_NAME}
         linkActiveClassName={LINK_ACTIVE_CLASS_NAME}
       />
-      <div>
+      {/* <div>
         <a
           className="table-of-contents table-of-contents__link toc-highlight"
           href="https://github.com/lukso-network/docs/issues/new/choose"
@@ -23,7 +23,7 @@ export default function TOC({ className, ...props }) {
         >
           Question? Give us feedback →
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }

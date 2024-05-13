@@ -1,6 +1,6 @@
 ---
 sidebar_label: '🔒 Security'
-sidebar_position: 7
+sidebar_position: 5
 description: Support for Universal Profile Security
 ---
 
