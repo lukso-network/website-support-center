@@ -21,4 +21,4 @@ Here we have various channels to help you, such as the ones below:
 
 ### Email
 
-Alternatively, Email us @ [support@lukso.network](mailto:support@lukso.network)
+Alternatively, email us @ [support@lukso.network](mailto:support@lukso.network)
