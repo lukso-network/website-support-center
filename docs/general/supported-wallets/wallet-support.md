@@ -27,7 +27,7 @@ Please ensure you are using the [Official LUKSO Parameters](https://docs.lukso.t
 | Setting               | Value                                             |
 | --------------------- | ------------------------------------------------- |
 | Network Name          | LUKSO                                             |
-| RPC URL               | https://rpc.lukso.gateway.fm                      |
+| RPC URL               | https://42.rpc.thirdweb.com                       |
 | Chain ID / Network ID | 42                                                |
 | Currency Symbol       | LYX                                               |
 | Block explorer URL    | https://explorer.execution.mainnet.lukso.network/ |
