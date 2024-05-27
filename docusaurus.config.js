@@ -57,6 +57,12 @@ export default {
       // transformItems: function (items) {},
       // searchParameters: {},
     },
+    announcementBar: {
+      id: 'may_migration_incident',
+      content:
+        'Ongoing incident on LYXe -> LYX migration service. <a href="https://support.lukso.network/general/l14-and-lyxe/migration/incidents/may">More information.</a>',
+      backgroundColor: '#fff8e6',
+    },
     navbar: {
       title: 'LUKSO Support',
       logo: {
