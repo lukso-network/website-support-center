@@ -19,11 +19,11 @@ export default {
         redirects: [
           // General links to products page
           {
-            from: '/extension/',
+            from: '/extension',
             to: '/general/getting-started/Extension/introduction',
           },
           {
-            from: '/migration/',
+            from: '/migration',
             to: '/general/l14-and-lyxe/migration/introduction',
           },
           {
@@ -31,23 +31,63 @@ export default {
             to: '/general/l14-and-lyxe/migration/incidents/may',
           },
           {
-            from: '/general/',
-            to: '/general/getting-started',
+            from: '/general',
+            to: '/general/getting-started/',
           },
 
           // Outdated and updated pages
-          // {
-          //   from: '/extension/feature-requests',
-          //   to: '/general/feature-requests',
-          // },
-          // {
-          //   from: '/general/common-errors',
-          //   to: '/general/extension/common-errors',
-          // },
-          // {
-          //   from: '/migration/incidents/delay-incident',
-          //   to: '/general/migration/incidents/january',
-          // },
+          {
+            from: '/extension/feature-requests',
+            to: '/general/getting-started',
+          },
+          {
+            from: '/general/common-errors',
+            to: '/general/getting-started/Extension/common-errors',
+          },
+          {
+            from: '/migration/incidents/delay-incident',
+            to: '/general/l14-and-lyxe/migration/incidents/january',
+          },
+          {
+            from: '/extension/guides/fund-controller',
+            to: '/general/getting-started/Extension/guides/fund-controller',
+          },
+          {
+            from: '/extension/guides/docs/general/check-2fa-recovery',
+            to: '/general/getting-started/Extension/guides/check-2fa-recovery',
+          },
+          {
+            from: '/extension/guides/check-extension-version',
+            to: '/general/getting-started/Extension/guides/check-extension-version',
+          },
+          {
+            from: '/extension/guides/create-backup',
+            to: '/general/getting-started/Extension/guides/create-backup',
+          },
+          {
+            from: '/extension/guides/get-controller-funds',
+            to: '/general/getting-started/Extension/guides/get-controller-funds',
+          },
+          {
+            from: '/extension/guides/set-wallet-recovery',
+            to: '/general/getting-started/Extension/guides/set-wallet-recovery',
+          },
+          {
+            from: '/extension/guides/wallet-recovery',
+            to: '/general/getting-started/Extension/guides/wallet-recovery',
+          },
+          {
+            from: '/extension/incidents/controller-recovery/',
+            to: '/general/getting-started/Extension/incidents/controller-recovery',
+          },
+          {
+            from: '/extension/universal-profiles',
+            to: '/general/getting-started/universal-profiles',
+          },
+          {
+            from: '/extension/using-exchanges',
+            to: '/general/getting-started/using-exchanges',
+          },
         ],
       },
     ],
