@@ -18,12 +18,9 @@ export default {
       {
         redirects: [
           // General links to products page
+
           {
-            from: '/extension/',
-            to: '/general/getting-started/Extension/introduction',
-          },
-          {
-            from: '/migration/',
+            from: '/migration',
             to: '/general/l14-and-lyxe/migration/introduction',
           },
           {
@@ -31,24 +28,33 @@ export default {
             to: '/general/l14-and-lyxe/migration/incidents/may',
           },
           {
-            from: '/general/',
-            to: '/general/getting-started',
+            from: '/general',
+            to: '/general/introduction',
           },
 
           // Outdated and updated pages
-          // {
-          //   from: '/extension/feature-requests',
-          //   to: '/general/feature-requests',
-          // },
-          // {
-          //   from: '/general/common-errors',
-          //   to: '/general/extension/common-errors',
-          // },
-          // {
-          //   from: '/migration/incidents/delay-incident',
-          //   to: '/general/migration/incidents/january',
-          // },
+
+          {
+            from: '/general/common-errors',
+            to: '/general/getting-started/Extension/common-errors',
+          },
+          {
+            from: '/migration/incidents/delay-incident',
+            to: '/general/l14-and-lyxe/migration/incidents/january',
+          },
         ],
+        createRedirects(existingPath) {
+          if (existingPath.startsWith('/general/getting-started/Extension/')) {
+            return [
+              existingPath.replace(
+                '/general/getting-started/Extension',
+                '/extension',
+              ),
+              existingPath,
+            ];
+          }
+          return undefined; // Return a falsy value: no redirect created
+        },
       },
     ],
   ],

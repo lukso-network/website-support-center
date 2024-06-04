@@ -14,10 +14,10 @@
     "prettier:fix": "prettier \"src/**/*.js\" \"docs/**/*.md\" --write"
   },
   "dependencies": {
-    "@docusaurus/core": "3.1.0",
-    "@docusaurus/plugin-client-redirects": "3.1.0",
-    "@docusaurus/plugin-google-gtag": "3.1.0",
-    "@docusaurus/preset-classic": "3.1.0",
+    "@docusaurus/core": "^3.3.2",
+    "@docusaurus/plugin-client-redirects": "^3.3.2",
+    "@docusaurus/plugin-google-gtag": "^3.3.2",
+    "@docusaurus/preset-classic": "^3.3.2",
     "@mdx-js/react": "^3.0.0",
     "@svgr/webpack": "^8.1.0",
     "clsx": "^2.1.0",
@@ -31,8 +31,8 @@
     "url-loader": "^4.1.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.1.0",
-    "@docusaurus/types": "3.1.0"
+    "@docusaurus/module-type-aliases": "^3.3.2",
+    "@docusaurus/types": "^3.3.2"
   },
   "browserslist": {
     "production": [

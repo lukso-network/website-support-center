@@ -75,7 +75,8 @@ html[data-theme='dark'] {
 .admonition_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-Layout-styles-module {
   margin-bottom: 2em !important;
 }
-.admonition_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-Layout-styles-module p {
+.admonition_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-Layout-styles-module
+  p {
   margin: 0 0 1rem;
 }
 
