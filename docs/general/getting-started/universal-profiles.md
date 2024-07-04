@@ -47,9 +47,18 @@ What is unique about a Universal Profile are its address and the identicon. The 
 
 You can't send any assets to the address if you do not deploy the Universal Profile on Ethereum. Users will lose their assets if they send them to other networks without having access to the controller key.
 
-:::danger LYXe Transactions
+:::danger LYXe vs LYX Transactions
 
-You can not send aquired LYXe directly to your Universal Profile address, as LYXe is deployed on Ethereum, but Universal Profiles are deployed on LUKSO. Please migrate your LYXe to LYX first using the [LUKSO Migration Service](https://migrate.lukso.network/). For further details, please visit the [Migration Support](docs/general/l14-and-lyxe/migration/introduction.md) page.
+‼️⚠️ If you hold LYXe, **do not send them to your Universal Profile's address!**
+
+- LYXe is the token deployed on Ethereum.
+- LYX is the native currency of the LUKSO Network
+
+Therefore, you cannot send LYXe to your Universal Profile's address, as your Universal Profile is deployed and only exists on the LUKSO network.
+
+To transfer your LYXe to your UP, **you must first, migrate your LYXe to LYX the [LUKSO Migration Service](https://migrate.lukso.network/)**.
+
+For further details, please visit the [Migration Support](docs/general/l14-and-lyxe/migration/introduction.md) page.
 
 :::
 
