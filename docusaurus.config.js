@@ -24,10 +24,6 @@ export default {
             to: '/general/l14-and-lyxe/migration/introduction',
           },
           {
-            from: '/migration/incidents/may-2024',
-            to: '/general/l14-and-lyxe/migration/incidents/may',
-          },
-          {
             from: '/general',
             to: '/general/introduction',
           },
