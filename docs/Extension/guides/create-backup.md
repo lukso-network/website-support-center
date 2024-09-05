@@ -21,7 +21,7 @@ Please note that each Universal Profile has to add a **separate** [UP Recovery c
 
 :::tip
 
-To reduce risk of losing access, it is **recommended** to set up **[2FA](../controllers.md#how-can-i-add-2fa-recovery-to-an-existing-universal-profile)** or **[Wallet Recovery](./set-wallet-recovery.md)**.
+To reduce risk of losing access, it is **recommended** to set up **[2FA](../controllers.md#how-can-i-add-2fa-recovery-to-an-existing-universal-profile)** or **[Wallet Recovery](../../universalprofilecloud/Recovery/set-wallet-recovery.md)**.
 
 :::
 
@@ -52,4 +52,4 @@ The 2FA recovery system for Universal Profiles on [my.universalprofile.cloud](ht
 
 ### Is there a fully decentralized backup method?
 
-If you do not trust 2FA and want an personal backup solution, you can restore your Universal Profile by [recovering from a private key](./wallet-recovery.md) add by adding additional recovery controllers using the [Wallet Recovery Setup](./set-wallet-recovery.md).
+If you do not trust 2FA and want an personal backup solution, you can restore your Universal Profile by [recovering from a private key](../../universalprofilecloud/Recovery/wallet-recovery.md) add by adding additional recovery controllers using the [Wallet Recovery Setup](../../universalprofilecloud/Recovery/set-wallet-recovery.md).

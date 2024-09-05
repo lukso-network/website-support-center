@@ -10,7 +10,7 @@ If you want a personal backup solution for your Universal Profile, you can add a
 
 ## Preparation
 
-To add a new controller account to your Universal Profile, you will need the [Universal Profile Browser Extension](https://chromewebstore.google.com/detail/universal-profiles/abpickdkkbnbcoepogfhkhennhfhehfn) as well as an [Ethereum wallet with custom network support](/general/supported-wallets/wallet-support.md) installed **in the same [supported browser](../introduction.md#which-browsers-does-the-extension-support)**.
+To add a new controller account to your Universal Profile, you will need the [Universal Profile Browser Extension](https://chromewebstore.google.com/detail/universal-profiles/abpickdkkbnbcoepogfhkhennhfhehfn) as well as an [Ethereum wallet with custom network support](/general/supported-wallets/wallet-support.md) installed **in the same [supported browser](../../Extension/introduction.md#which-browsers-does-the-extension-support)**.
 
 :::tip Wallet Support
 
