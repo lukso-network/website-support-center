@@ -46,9 +46,9 @@ If you **import or recover** your Universal Profile, it will result in the addit
 
 Please do not **reinstall or reset** your extension if you do not have either of the following safeguards:
 
-- [2FA Recovery set up correctly](docs/general/getting-started/Extension/guides/check-2fa-recovery.md)
-- [Wallet Recovery](docs/general/getting-started/Extension/guides/set-wallet-recovery.md)
-- [Revealed the private key using File Export](docs/general/getting-started/Extension/guides/create-backup.md)
+- [2FA Recovery set up correctly](guides/check-2fa-recovery.md)
+- [Wallet Recovery](../universalprofilecloud/Recovery/set-wallet-recovery.md)
+- [Revealed the private key using File Export](guides/create-backup.md)
 - Access to the profile within another extension
 
 Otherwise, **you will not be able to access your profile, including LYX and assets**, as no new controller can be added without a transaction from one of the existing ones. Not having access to a working controller will cause endless import screens, waiting for a recovery transaction that can never be signed.
@@ -59,7 +59,7 @@ Otherwise, **you will not be able to access your profile, including LYX and asse
 
 To check the 2FA recovery status and add 2FA, please visit the dashboard on [my.universalprofile.cloud](https://my.universalprofile.cloud/). The Universal Profile card will show the current **2FA recovery status** at the top right corner. If 2FA has not been added yet, continue by clicking the **Add Recovery** button.
 
-![2FA Recovery Dashboard](../../../../static/img/general/recovery-dashboard.png)
+![2FA Recovery Dashboard](../../static/img/general/recovery-dashboard.png)
 
 :::warning
 
@@ -83,7 +83,7 @@ If the dashboard is not showing the _recovery indicators_ or _Add Recovery_ butt
 
 ## Can I use a regular wallet to control my Universal Profile?
 
-As a developer, you can connect a regular wallet to the network where the Universal Profile was deployed and **manually add its EOA** as a controller. You will then have to send all transactions through the [Key Manager](https://docs.lukso.tech/standards/universal-profile/lsp6-key-manager../../standards/universal-profile/lsp6-key-manager) of the Universal Profile to execute them as your persona. However, we recommend directly using the [Universal Profile Extension](https://docs.lukso.tech/install-up-browser-extension) to interact with dApps on LUKSO.
+As a developer, you can connect a regular wallet to the network where the Universal Profile was deployed and **manually add its EOA** as a controller. You will then have to send all transactions through the [Key Manager](https://docs.lukso.tech/standards/universal-profile/lsp6-key-manager) of the Universal Profile to execute them as your persona. However, we recommend directly using the [Universal Profile Extension](https://docs.lukso.tech/install-up-browser-extension) to interact with dApps on LUKSO.
 
 ## Can I use an existing EOA to control my Universal Profile?
 
@@ -96,27 +96,27 @@ If you want to reset the controller permissions to their initial state, you can 
 <details>
     <summary>Show default permissions of the Universal Profile Extension</summary>
 
-![Default Permissions of the Universal Profile Extension](../../../../static/img/extension/default-permission-up-extension.png)
+![Default Permissions of the Universal Profile Extension](../../static/img/extension/default-permission-up-extension.png)
 
 </details>
 
 <details>
     <summary>Show default permissions of the Universal Receiver</summary>
 
-![Default Permissions of the Universal Receiver](../../../../static/img/extension/default-permission-universal-receiver.png)
+![Default Permissions of the Universal Receiver](../../static/img/extension/default-permission-universal-receiver.png)
 
 </details>
 
 <details>
     <summary>Show default permissions of the Universal Profile Recovery</summary>
 
-![Default Permissions of the Universal Profile Recovery](../../../../static/img/extension/default-permission-up-recovery.png)
+![Default Permissions of the Universal Profile Recovery](../../static/img/extension/default-permission-up-recovery.png)
 
 </details>
 
 ## Can I add a Ledger account as a controller of my profile?
 
-Yes, you can add blockchain accounts or hardware wallets (like Ledger or Trezor) for recovery using the [Wallet Recovery Setup](docs/general/getting-started/Extension/guides/set-wallet-recovery.md).
+Yes, you can add blockchain accounts or hardware wallets (like Ledger or Trezor) for recovery using the [Wallet Recovery Setup](../universalprofilecloud/Recovery/set-wallet-recovery.md).
 
 ## How can I remove controllers and permissions?
 

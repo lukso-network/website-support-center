@@ -12,7 +12,7 @@ Yes, absolutely! Please go to our main [grants program page](https://lukso.netwo
 
 ## Why can't I delete my old private keys?
 
-At the moment, the Universal Profile Browser Extension only allows to disable permissions of old controller keys. If you want to improve security, please disable all permissions of an old controller. You can learn more within the [Controllers](/docs/general/getting-started/Extension/controllers.md) page. Soon, there will be a feature to manually remove controllers completely.
+At the moment, the Universal Profile Browser Extension only allows to disable permissions of old controller keys. If you want to improve security, please disable all permissions of an old controller. You can learn more within the [Controllers](../../Extension/controllers.md) page. Soon, there will be a feature to manually remove controllers completely.
 
 ## Why I can't I see all my controllers?
 

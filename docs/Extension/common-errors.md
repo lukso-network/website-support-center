@@ -30,11 +30,11 @@ This error occurs if a user deployed his Universal Profile through a 3rd party p
 
 </div>
 
-To **solve this issue**, users have to [**fund the extension's controller**](/general/getting-started/Extension/guides/fund-controller.md) with LYX to execute transactions without any Transaction Relay Service. Within the transaction screen, users can then select to use their own controller's funds.
+To **solve this issue**, users have to [**fund the extension's controller**](guides/fund-controller.md) with LYX to execute transactions without any Transaction Relay Service. Within the transaction screen, users can then select to use their own controller's funds.
 
 :::caution
 
-If you face this error in combination with **no sign permissions** after recovering your profile, the issue is likely related to [our recent controller incident](/general/getting-started/Extension/incidents/controller-recovery.md). Therefore, please make sure that you either have [2FA recovery set up correctly](/general/getting-started/Extension/guides/check-2fa-recovery.md) or revealed the private key of the [extension's controller](controllers.md) within the Settings screen. Both methods will ensure you will be able to regain access to your Universal Profile. More information can be found in the [Backup](/general/getting-started/Extension/guides/create-backup.md) section.
+If you face this error in combination with **no sign permissions** after recovering your profile, the issue is likely related to [our recent controller incident](../Extension/incidents/controller-recovery.md). Therefore, please make sure that you either have [2FA recovery set up correctly](../Extension/guides/check-2fa-recovery.md) or revealed the private key of the [extension's controller](controllers.md) within the Settings screen. Both methods will ensure you will be able to regain access to your Universal Profile. More information can be found in the [Backup](../Extension/guides/create-backup.md) section.
 
 :::
 
@@ -54,7 +54,7 @@ When you want to recover a profile using 2FA on the [my.universalprofile.cloud](
 
 To **solve this issue**, please
 
-- [**verify that 2FA is set up on a specific profile**](general/getting-started/Extension/guides/check-2fa-recovery.md): If 2FA was not set up, you can not recover your profile from the dashboard. Please look into the optional [Backup](general/getting-started/Extension/guides/create-backup.md) solutions.
+- [**verify that 2FA is set up on a specific profile**](../Extension/guides/check-2fa-recovery.md): If 2FA was not set up, you can not recover your profile from the dashboard. Please look into the optional [Backup](../Extension/guides/create-backup.md) solutions.
 - **verify that you logged in with the correct email account**: The email or Google Account you've used might differ from the one that you previously set for authentication. Chrome may automatically connect with the Google account of your browser profile instead of asking for another login. If the accounts do not match, the Transaction Relay Service won't recognize the account, indicating that no recovery was set up.
 
 :::danger
@@ -109,7 +109,7 @@ It might happen that your profile data, like pictures and name, can not be fetch
 
 To **solve this issue**, please **edit and re-deploy** your profile metadata **within the Universal Profile Browser Extension**. This will update the metadata file using the correct and up-to-date schema, so apps are able to fetch it again:
 
-![Edit Universal Profile](../../../../static/img/general/edit-profile.png)
+![Edit Universal Profile](../../static/img/general/edit-profile.png)
 
 ## Incorrect 2FA Code
 

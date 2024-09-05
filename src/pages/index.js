@@ -7,6 +7,7 @@ import Box from '../components/Box';
 import Headline from '../components/Headline';
 
 import GeneralIcon from '../../static/img/icons/icon-general-gradient.png';
+import ExtensionIcon from '../../static/img/icons/icon-extension-gradient.png';
 import MigrationIcon from '../../static/img/icons/icon-migration-gradient.png';
 
 function Index() {
@@ -24,8 +25,16 @@ function Index() {
           />
 
           <Box
+            icon={ExtensionIcon}
+            link="./Extension/introduction"
+            title="Extension"
+            className="Extension"
+            content="Get help related to Universal Profiles browser extension"
+          />
+
+          <Box
             icon={MigrationIcon}
-            link="./general/l14-and-lyxe/migration/introduction"
+            link="./migration/introduction"
             title="LYXe Migration"
             className="migration"
             content="Get help on the LYXe migration service"

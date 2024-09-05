@@ -21,7 +21,7 @@ export default {
 
           {
             from: '/migration',
-            to: '/general/l14-and-lyxe/migration/introduction',
+            to: '/migration/introduction',
           },
           {
             from: '/general',
@@ -32,11 +32,11 @@ export default {
 
           {
             from: '/general/common-errors',
-            to: '/general/getting-started/Extension/common-errors',
+            to: '/Extension/common-errors',
           },
           {
             from: '/migration/incidents/delay-incident',
-            to: '/general/l14-and-lyxe/migration/incidents/january',
+            to: '/migration/incidents/january',
           },
         ],
         createRedirects(existingPath) {
@@ -75,6 +75,24 @@ export default {
           docId: 'general/introduction',
           position: 'left',
           label: 'General',
+        },
+        {
+          type: 'doc',
+          docId: 'Extension/introduction',
+          position: 'left',
+          label: 'Extension',
+        },
+        {
+          type: 'doc',
+          docId: 'universalprofilecloud/universal-profiles',
+          position: 'left',
+          label: 'UniversalProfile.cloud',
+        },
+        {
+          type: 'doc',
+          docId: 'migration/introduction',
+          position: 'left',
+          label: 'Migration',
         },
         {
           type: 'doc',

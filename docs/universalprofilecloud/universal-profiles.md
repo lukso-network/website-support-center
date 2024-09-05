@@ -1,11 +1,11 @@
 ---
-sidebar_label: '🆙 Universal Profiles'
+sidebar_label: '🆙 universalprofile.cloud'
 sidebar_position: 1
 description: Support Page for Universal Profiles
 ---
 
 import React from 'react'
-import LoomVideo from '../../../src/components/LoomVideo'
+import LoomVideo from '../../src/components/LoomVideo'
 
 # Universal Profiles
 
@@ -13,7 +13,7 @@ import LoomVideo from '../../../src/components/LoomVideo'
 
 You can find your Universal Profile on the Universal Profile Explorer at [universalprofile.cloud](https://universalprofile.cloud/). Just select the correct network on the bottom left corner and use the global search bar to search for your name.
 
-![Universal Profile Explorer](../../../static/img/general/up-cloud.png)
+![Universal Profile Explorer](../../static/img/general/up-cloud.png)
 
 ## How can I send assets from my Universal Profile?
 
@@ -25,7 +25,7 @@ The Universal Profile Extension **does not directly manage token information**. 
 
 You can connect your Universal Profile to [my.universalprofile.cloud](https://my.universalprofile.cloud/) to check and add 2FA recovery or create new profiles.
 
-![Universal Profile Management](../../../static/img/general/recovery-dashboard.png)
+![Universal Profile Management](../../static/img/general/recovery-dashboard.png)
 
 ## Is my Universal Profile name unique?
 
@@ -58,7 +58,7 @@ Therefore, you cannot send LYXe to your Universal Profile's address, as your Uni
 
 To transfer your LYXe to your UP, **you must first, migrate your LYXe to LYX the [LUKSO Migration Service](https://migrate.lukso.network/)**.
 
-For further details, please visit the [Migration Support](docs/general/l14-and-lyxe/migration/introduction.md) page.
+For further details, please visit the [Migration Support](../migration/introduction.md) page.
 
 :::
 

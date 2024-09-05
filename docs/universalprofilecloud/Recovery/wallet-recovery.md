@@ -10,7 +10,7 @@ If you've set a **recovery controller** using the [Wallet Recovery Setup](./set-
 
 ## Preparation
 
-In order to recover your Universal Profile, you will need the [Universal Profile Browser Extension](https://chromewebstore.google.com/detail/universal-profiles/abpickdkkbnbcoepogfhkhennhfhehfn) and an [Ethereum wallet with custom network support](docs/general/supported-wallets/wallet-support.md) installed **in the same [supported browser](../introduction.md#which-browsers-does-the-extension-support)**.
+In order to recover your Universal Profile, you will need the [Universal Profile Browser Extension](https://chromewebstore.google.com/detail/universal-profiles/abpickdkkbnbcoepogfhkhennhfhehfn) and an [Ethereum wallet with custom network support](../../general/supported-wallets/wallet-support.md) installed **in the same [supported browser](../../Extension/introduction.md#which-browsers-does-the-extension-support)**.
 
 :::tip Wallet Support
 
@@ -27,13 +27,13 @@ Before you can recover your Universal Profile, ensure that:
 
 :::info Using Hardware Wallets
 
-If you are using a hardware wallet to recover your Universal Profile, please ensure that the correct security settings are enabled. For Ledger, you must allow **blind signing** within the Ethereum app on the device to execute smart contract transactions like the recovery. If you are using Trezor, you will have to adjust the [strict security rules](docs/general/supported-wallets/hardware-wallets.md#how-to-send-transactions-using-trezor-wallet) due to the network ID.
+If you are using a hardware wallet to recover your Universal Profile, please ensure that the correct security settings are enabled. For Ledger, you must allow **blind signing** within the Ethereum app on the device to execute smart contract transactions like the recovery. If you are using Trezor, you will have to adjust the [strict security rules](../../general/supported-wallets/hardware-wallets.md#how-to-send-transactions-using-trezor-wallet) due to the network ID.
 
 :::
 
 :::caution Restarting the Recovery Process
 
-The recovery transaction will be sent **after the profile is imported**. As already existing profiles in the extension can not be recovered, this might cause problems if the process needs to be restarted from scratch. Therefore, please ensure that the controller address is funded with enough LYX/LYXt and can easily be retried. Otherwise, you might have to reinstall the extension. After recovering a profile, the remaining funds can be [sent back to one of your accounts](./get-controller-funds.md).
+The recovery transaction will be sent **after the profile is imported**. As already existing profiles in the extension can not be recovered, this might cause problems if the process needs to be restarted from scratch. Therefore, please ensure that the controller address is funded with enough LYX/LYXt and can easily be retried. Otherwise, you might have to reinstall the extension. After recovering a profile, the remaining funds can be [sent back to one of your accounts](../../Extension/guides/get-controller-funds.md).
 
 :::
 
