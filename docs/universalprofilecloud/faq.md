@@ -42,9 +42,13 @@ Removing profiles is planned for upcoming releases of the _Universal Profile Bro
 
 ## Wallet & Assets
 
-### Which tokens and coins can my Universal Profile hold?
+### Which tokens and NFTs can my Universal Profile hold?
 
 A Universal Profile can hold any asset on the same network it's deployed on. On LUKSO, the native coin is LYX. While native coins from other networks can't be held directly in Universal Profiles deployed on LUKSO, external services might also create token bridges for external assets.
+
+### How can I send assets from my Universal Profile?
+
+See our dedicated page [**"Wallet & Assets"**](./wallet.md) for support and guides on how to transfer assets from your 🆙.
 
 ### My Tokens or NFTs are missing from universalprofile.cloud, how do I add them?
 
