@@ -43,3 +43,5 @@ With a Universal Profile, transactions are _executed either via a relayer or dir
 When you use your Universal Profile to transfer LYX or any assets (tokens or NFTs), some custom logic must be executed before transferring the asset itself (_this includes checking the permissions, if the UP has enough LYX that it is trying to send, EVM internal logic, etc..._). Therefore the actual _"transfer"_ is part of a larger execution logic. This is the reason why actual LYX and token transfers appear as internal transactions.
 
 In a transaction on the block explorer, you can see the actual transfer being made as part of the **internal transactions**. For example in the screenshot below, you can see the LYX transfer being one of the internal transactions (the other internal transactions before and after are related to what is mentioned above).
+
+![Internal transaction value transfer](/img/universalprofilecloud/internal-tx-value-transfer.png)

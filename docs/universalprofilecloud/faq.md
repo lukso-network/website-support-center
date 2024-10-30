@@ -10,7 +10,7 @@ description: General questions related to universalprofile.cloud
 
 ### Where can I see my Universal Profile?
 
-You can find your Universal Profile on the Universal Profile Explorer at [universalprofile.cloud](https://universalprofile.cloud/). Just select the correct network on the bottom left corner and use the global search bar to search for your name.
+You can find your Universal Profile on the Universal Profile Explorer at [universalprofile.cloud](https://universalprofile.cloud/). Just select the correct network on the bottom left corner and use the global search bar to search by your UP name or address.
 
 ### Where can I manage my Universal Profile?
 
@@ -24,7 +24,7 @@ The profile name displayed on dApps is retrieved from the metadata linked to the
 
 Such metadata, images, or descriptions can be set when creating or updating your Universal Profile. Therefore, multiple users can choose similar names or pictures, which does not guarantee its uniqueness
 
-What is unique about a Universal Profile is its address (and associated identicon for anonymous profiles). The address is indicated with the first four characters behind the profile name (_`0F41` in the example above_). In case the first characters of the address are similar or identical, you can compare the full address to see that they will remain different (aside of the first four characters).
+What is unique about a Universal Profile is its address and associated identicon. The address is indicated with the first four characters behind the profile name (_`0F41` in the example above_). In case the first characters of the address are similar or identical, you can compare the full address to see that they will remain different (aside of the first four characters).
 
 For anonymous profiles, the identicon further helps to distinguish between two profiles if the first four characters of the address are similar. The combination of attributes was done to allow complete customization without lacking authentication.
 

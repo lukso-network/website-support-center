@@ -37,7 +37,7 @@ You can connect your Universal Profile to [my.universalprofile.cloud](https://my
 - See the Universal Profiles you have created.
 - Add Recovery with 2FA authentication.
 - Recover a Universal Profile you have created.
-- See you relayer quota
+- See your quota left on relayer
 - View your universal profile and edit it (pictures, infos, etc...)
 
 ![Universal Profile Management](/img/general/recovery-dashboard.png)

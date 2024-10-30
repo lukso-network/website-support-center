@@ -12,9 +12,9 @@ import LoomVideo from '@site/src/components/LoomVideo'
 
 The Universal Profile Extension **does not enable you to transfer tokens directly from the extension itself**.
 
-Instead, it is designed to work with various decentralized applications (dApps) that can seamlessly integrate wallet features in their UI. T
+Instead, it is designed to work with various decentralized applications (dApps) that can seamlessly integrate wallet features in their UI.
 
-with your Universal Profile and interact with its information and controllers. You can connect your Universal Profile to [wallet.universalprofile.cloud](https://wallet.universalprofile.cloud/) to send token transactions.
+You can connect your Universal Profile to [wallet.universalprofile.cloud](https://wallet.universalprofile.cloud/) to send native tokens (LYX) or any token or NFT.
 
 <LoomVideo src="https://www.loom.com/embed/47b4f4e671b248219cac48726358a791?sid=a88bd596-8860-4677-83c9-33384ccfdcb1" />
 
