@@ -84,7 +84,7 @@ export default {
         },
         {
           type: 'doc',
-          docId: 'universalprofilecloud/universal-profiles',
+          docId: 'universalprofilecloud/dashboard',
           position: 'left',
           label: 'UniversalProfile.cloud',
         },

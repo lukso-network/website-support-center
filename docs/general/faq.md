@@ -30,4 +30,16 @@ If your deployed assets do not appear on your profile on [universalprofile.cloud
 
 Due to some changes in how data is added to the Universal Profile in the early days, it might happen that your profile does not have a name to it or shows completely anonymous on [universalprofile.cloud](https://universalprofile.cloud/) without any pictures. If you experience such an issue, please **edit and deploy your profile metadata** again within the Universal Profile Browser Extension as shown in the following picture:
 
-![Edit Universal Profile](../../../static/img/general/edit-profile.png)
+![Edit Universal Profile](/img/general/edit-profile.png)
+
+## Why do Universal Profile transactions show up as internal transactions?
+
+Unlike regular wallets that are Externally Owned Accounts (EOA), a Universal Profile is an account powered by a **smart contract**.
+
+With EOA wallets, _transactions are made directly by the address itself_ (which own the funds like native tokens, ERC20 tokens or NFTs).
+
+With a Universal Profile, transactions are _executed either via a relayer or directly by one of it's controllers_.
+
+When you use your Universal Profile to transfer LYX or any assets (tokens or NFTs), some custom logic must be executed before transferring the asset itself (_this includes checking the permissions, if the UP has enough LYX that it is trying to send, EVM internal logic, etc..._). Therefore the actual _"transfer"_ is part of a larger execution logic. This is the reason why actual LYX and token transfers appear as internal transactions.
+
+In a transaction on the block explorer, you can see the actual transfer being made as part of the **internal transactions**. For example in the screenshot below, you can see the LYX transfer being one of the internal transactions (the other internal transactions before and after are related to what is mentioned above).

@@ -1,5 +1,5 @@
 ---
-sidebar_label: '🔐 Recover from Wallet'
+sidebar_label: '🔐 Recover from 3rd party Wallet'
 sidebar_position: 7
 description: 'How to recover a Universal Profile using your private key or 3rd-party wallet'
 ---
