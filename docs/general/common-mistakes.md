@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Common Mistakes & Misconceptions'
+sidebar_label: '❌ Common Mistakes & Misconceptions'
 sidebar_position: 4
 description: Description of common mistakes and errors that users should understand and prevent from doing
 ---
@@ -8,7 +8,7 @@ description: Description of common mistakes and errors that users should underst
 
 ## Mistakes to avoid!
 
-## Can I send Ether / LYXe or any Token from Ethereum to my Universal Profile?
+### Can I send Ether / LYXe or any Token from Ethereum to my Universal Profile?
 
 No you cannot send any Ethers, [LYXe (the ERC20 token on Ethereum)](https://etherscan.io/token/0xA8b919680258d369114910511cc87595aec0be6D) or any tokens on Ethereum to your Universal Profile address.
 
@@ -33,11 +33,11 @@ For further details, please visit the [Migration Support](../migration/introduct
 
 ## Common misconceptions
 
-## Can I control assets using Universal Profiles on any blockchain?
+### Can I control assets using Universal Profiles on any blockchain?
 
 You can manage your assets through a Universal Profile on any blockchain the contract is deployed on. If a service or project would allow you to create Universal Profiles on Ethereum, you could manage your assets through it.
 
-## Is it possible to create a profile with the same address as my wallet?
+### Is it possible to create a profile with the same address as my wallet?
 
 The Universal Profile is a smart contract account deployed on its own with its own unique address.
 
