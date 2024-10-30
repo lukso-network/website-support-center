@@ -1,5 +1,5 @@
 ---
-sidebar_label: '👛 Set Wallet Recovery'
+sidebar_label: '👛 Set 3rd party Wallet Recovery'
 sidebar_position: 6
 description: 'How to set up wallet recovery on the LUKSO Universal Profile Extension?'
 ---
