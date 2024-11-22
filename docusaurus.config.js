@@ -11,6 +11,13 @@ export default {
   favicon: 'img/favicon.png',
   organizationName: 'lukso-network', // Usually your GitHub org/user name.
   projectName: 'website-support-center', // Usually your repo name.
+  scripts: [
+    {
+      src: 'https://plausible.io/js/script.js',
+      defer: true,
+      'data-domain': 'support.lukso.network',
+    },
+  ],
   plugins: [
     'docusaurus-plugin-sass',
     [
