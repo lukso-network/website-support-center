@@ -14,10 +14,6 @@ No, the official [LUKSO Migration Bridge](https://migrate.lukso.network/) acts a
 
 The token migration usually takes about 10-15min for the transaction to be finalized and the LYX sent to the wallet on the LUKSO mainnet. This time is needed to ensure security throughout every step.
 
-## What happens with LYXe sent to the LYXe contract?
-
-Any account that accidentally sent LYXe to the [LYXe Token address](https://etherscan.io/token/0xA8b919680258d369114910511cc87595aec0be6D) on Ethereum will [receive the equal amount of LYX](https://medium.com/lukso/the-lyxe-migration-process-374053e5ddf5) on the LUKSO Blockchain.
-
 ## How can I make sure that the migration was successful?
 
 You can check your LYX balance using the [LUKSO Mainnet Block Explorer](https://explorer.execution.testnet.lukso.network/), searching for your address.
