@@ -62,14 +62,20 @@ export default {
     ],
   ],
   themeConfig: {
-    algolia: {
-      appId: '3CF67NQPKT',
-      apiKey: 'ef0674e3be4fd52a84b6f37fba3dc333',
-      indexName: 'lukso_support_center',
-      // container: '<YOUR_CSS_CONTAINER_SELECTOR>',
-      // transformItems: function (items) {},
-      // searchParameters: {},
-    },
+    metadata: [
+      {
+        name: 'algolia-site-verification',
+        content: '68D8FADB7494DC51',
+      },
+    ],
+    // algolia: {
+    //   appId: '3CF67NQPKT',
+    //   apiKey: 'ef0674e3be4fd52a84b6f37fba3dc333',
+    //   indexName: 'lukso_support_center',
+    //   // container: '<YOUR_CSS_CONTAINER_SELECTOR>',
+    //   // transformItems: function (items) {},
+    //   // searchParameters: {},
+    // },
     navbar: {
       title: 'LUKSO Support',
       logo: {
