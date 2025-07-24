@@ -11,6 +11,7 @@ export default {
   favicon: 'img/favicon.png',
   organizationName: 'lukso-network', // Usually your GitHub org/user name.
   projectName: 'website-support-center', // Usually your repo name.
+  trailingSlash: false,
   scripts: [
     {
       src: 'https://plausible.io/js/script.js',
@@ -62,20 +63,14 @@ export default {
     ],
   ],
   themeConfig: {
-    metadata: [
-      {
-        name: 'algolia-site-verification',
-        content: '68D8FADB7494DC51',
-      },
-    ],
-    // algolia: {
-    //   appId: '3CF67NQPKT',
-    //   apiKey: 'ef0674e3be4fd52a84b6f37fba3dc333',
-    //   indexName: 'lukso_support_center',
-    //   // container: '<YOUR_CSS_CONTAINER_SELECTOR>',
-    //   // transformItems: function (items) {},
-    //   // searchParameters: {},
-    // },
+    algolia: {
+      appId: 'D64CIIV4DI',
+      apiKey: '4f2dbff88f9b035f4e2a01b815de486e',
+      indexName: 'support_center',
+      // container: '<YOUR_CSS_CONTAINER_SELECTOR>',
+      // transformItems: function (items) {},
+      // searchParameters: {},
+    },
     navbar: {
       title: 'LUKSO Support',
       logo: {
