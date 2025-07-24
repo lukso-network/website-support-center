@@ -66,7 +66,7 @@ export default {
     algolia: {
       appId: 'D64CIIV4DI',
       apiKey: '4f2dbff88f9b035f4e2a01b815de486e',
-      indexName: 'support_center',
+      indexName: 'support_lukso_network_d64ciiv4di_pages',
       // container: '<YOUR_CSS_CONTAINER_SELECTOR>',
       // transformItems: function (items) {},
       // searchParameters: {},
