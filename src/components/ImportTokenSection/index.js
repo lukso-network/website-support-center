@@ -1,0 +1,126 @@
+import React, { useState } from 'react';
+import { BRIDGED_TOKENS_CONFIGS } from '../../constants.js';
+import styles from './ImportTokenSection.module.scss';
+
+const ImportTokenButton = ({ tokenKey }) => {
+  const [isImporting, setIsImporting] = useState(false);
+  const [importStatus, setImportStatus] = useState(null);
+
+  const tokenConfig = BRIDGED_TOKENS_CONFIGS[tokenKey];
+
+  const importToken = async () => {
+    if (!window.ethereum) {
+      setImportStatus({
+        type: 'error',
+        message:
+          'No wallet provider found. Please install MetaMask, Rabby, or another Web3 wallet.',
+      });
+      return;
+    }
+
+    setIsImporting(true);
+    setImportStatus(null);
+
+    try {
+      const wasAdded = await window.ethereum.request({
+        method: 'wallet_watchAsset',
+        params: {
+          type: 'ERC20',
+          options: {
+            address: tokenConfig.address,
+            symbol: tokenConfig.symbol,
+            decimals: tokenConfig.decimals,
+          },
+        },
+      });
+
+      if (wasAdded) {
+        setImportStatus({
+          type: 'success',
+          message: `${tokenConfig.symbol} token has been added to your wallet!`,
+        });
+      } else {
+        setImportStatus({
+          type: 'warning',
+          message: 'Token import was cancelled or failed.',
+        });
+      }
+    } catch (error) {
+      console.error('Error importing token:', error);
+
+      let errorMessage = 'Failed to import token. ';
+
+      if (error.code === 4001) {
+        errorMessage += 'User rejected the request.';
+      } else {
+        errorMessage += error.message || 'Please try again.';
+      }
+
+      setImportStatus({
+        type: 'error',
+        message: errorMessage,
+      });
+    } finally {
+      setIsImporting(false);
+    }
+  };
+
+  const handleClick = () => !isImporting && importToken();
+
+  React.useEffect(() => {
+    if (importStatus) {
+      const timer = setTimeout(() => {
+        setImportStatus(null);
+      }, 5000);
+      return () => clearTimeout(timer);
+    }
+  }, [importStatus]);
+
+  return (
+    <div className={styles.container}>
+      <button
+        className={`${styles.importButton} ${isImporting ? styles.importing : ''}`}
+        onClick={handleClick}
+        disabled={isImporting}
+        type="button"
+        title={`Import ${tokenConfig.symbol} token to your wallet`}
+      >
+        {isImporting ? (
+          <span className={styles.loadingContainer}>
+            <span className={styles.spinner}></span>
+            Importing...
+          </span>
+        ) : (
+          <span className={styles.buttonContent}>
+            <span className={styles.tokenSymbol}>{tokenConfig.symbol}</span>
+            <span className={styles.buttonText}>Import to Wallet</span>
+          </span>
+        )}
+      </button>
+
+      {importStatus && (
+        <div className={`${styles.statusMessage} ${styles[importStatus.type]}`}>
+          {importStatus.message}
+        </div>
+      )}
+    </div>
+  );
+};
+
+const ImportTokenSection = () => {
+  return (
+    <div className={styles.tokenButtonsWrapper}>
+      <div className={styles.tokenSection}>
+        <h3 className={styles.tokenSectionTitle}>LYXt on Ethereum Sepolia</h3>
+        <ImportTokenButton tokenKey="lyxt_ethereum_sepolia" />
+      </div>
+      <div className={styles.separator}></div>
+      <div className={styles.tokenSection}>
+        <h3 className={styles.tokenSectionTitle}>LYXt on Base Sepolia</h3>
+        <ImportTokenButton tokenKey="lyxt_base_sepolia" />
+      </div>
+    </div>
+  );
+};
+
+export default ImportTokenSection;
