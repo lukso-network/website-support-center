@@ -46,21 +46,7 @@ The simplest way to fund your controller:
 2. Send LYX directly to this address
 3. Verify the balance in your profile dashboard
 
-```
-Controller Address: 0x1234...5678
-Recommended Amount: 10-50 LYX
-```
-
-### Method 2: Using Universal Profile Interface
-
-1. Open your Universal Profile
-2. Navigate to "Controllers" section
-3. Click "Fund Controller"
-4. Select the controller to fund
-5. Enter the amount of LYX
-6. Confirm the transaction
-
-### Method 3: From External Wallet
+### Method 2: From External Wallet
 
 If you have LYX in an external wallet:
 
@@ -69,7 +55,7 @@ If you have LYX in an external wallet:
 3. Send LYX to the controller address
 4. Wait for confirmation (usually 15-30 seconds)
 
-### Method 4: Using the LUKSO Faucet (Testnet Only)
+### Method 3: Using the LUKSO Faucet (Testnet Only)
 
 For testing purposes on testnet:
 
