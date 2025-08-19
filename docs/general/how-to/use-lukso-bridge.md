@@ -9,9 +9,9 @@ import TabItem from '@theme/TabItem';
 
 # Use the LUKSO Bridge
 
-LUKSO uses the Hyperlane Warp UI for the bridging tokens to/from LUKSO Mainnet.
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_home.png)
 
-![Bridge UI](../../../static/img/general/bridge_ui.png)
+This guide is for understanding how bridging works from and to LUKSO Network.
 
 ## Prerequisites
 
@@ -26,49 +26,69 @@ Before using the bridge, ensure you have:
 
 ## How to Bridge Tokens
 
-**Visit [_Hyperlane NEXUS_](https://usenexus.org/) page** : Make sure to visit the official webpage
-![Bridge UI](../../../static/img/general/bridge_ui.png)
+**Visit [_Hyperlane NEXUS_](https://usenexus.org/) page** : Make sure to visit the official webpage:
+
+:::info
+LUKSO uses the Hyperlane's NEXUS Bridge for the bridging to/from LUKSO Mainnet.
+:::
+
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_home.png)
+
+:::danger Important
+
+As Universal Profiles are currently only available on LUKSO, please do not enter a UP address as the <strong>recipient</strong> when bridging from LUKSO to other networks.
+
+:::
 
 ### Are you ⤵️
 
 <Tabs>
-  <TabItem value="eoa" label={<h3>🌉 Bridging from an EOA wallet?</h3>} default>
+  <TabItem value="eoa" label={<h3>🌉 Bridging from another Web3 wallet?</h3>} default>
 
 1. **Connect Your Wallet**: Connect your Web3 wallet (MetaMask, Rabby, etc.) to the bridge interface
-   ![Bridge UI](../../../static/img/general/bridge_ui.png)
+   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_home.png)
 
 ---
 
 2. **Select Networks**: Choose the **from**(source) and **to**(destination) networks
-   ![Bridge UI](../../../static/img/general/bridge_ui.png)
+   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_from_to.png)
 
 ---
 
 3. **Select Tokens from the dropdown list**: Select **LYX**
-   ![Bridge UI](../../../static/img/general/bridge_ui.png)
+   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_token.png)
 
 ---
 
 4. **Enter Amount**: Specify the amount of tokens to bridge
-   ![Bridge UI](../../../static/img/general/bridge_ui.png)
+   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_amount.png)
 
 ---
 
-5. **Enter the Recipient Address**: Input the destination wallet address where tokens will be sent
-   ![Bridge UI](../../../static/img/general/bridge_ui.png)
+5. **Enter the Recipient Address**: Input the destination wallet address where tokens will be sent. Use the <strong>Self</strong> button if you're going to use the same wallet on the destination network.
+
+:::danger Using UP address as a recipient
+
+If you are not bridging <strong>to LUKSO</strong>, please do not use a Universal Profile address as a recipient!
+:::
+
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_destination.png)
 
 ---
 
 6. **Confirm Transaction**: Review and confirm the transaction in your wallet
-   ![Bridge UI](../../../static/img/general/bridge_ui.png)
+
+   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_send.png)
 
 ---
 
 7. **Follow your status**: Bridge transactions typically take a few minutes
 
-Visit Hyperlane Explorer with your Message ID to see the status of your transaction
+:::tip Check your status
+Visit [Hyperlane Explorer](https://explorer.hyperlane.xyz/) with your Message ID to see the status of your transaction.
+:::
 
-![Bridge UI](../../../static/img/general/bridge_ui.png)
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_message.png)
 
 ---
 
@@ -77,38 +97,38 @@ Visit Hyperlane Explorer with your Message ID to see the status of your transact
   </TabItem>
   <TabItem value="up" label={<h3>Bridging from a 🆙?</h3>}>
 
-1. **Connect Your Universal Profile**: Connect your UP through the Universal Profile Extension or compatible wallet
-   ![Bridge UI](../../../static/img/general/bridge_ui.png)
+1. **Connect Your Universal Profile**: Connect your UP through the Universal Profile Extension
+   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_connect.png)
 
 ---
 
 2. **Select Networks**: Choose the **from**(source) and **to**(destination) networks
-   ![Bridge UI](../../../static/img/general/bridge_ui.png)
+   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_ui.png)
 
 ---
 
 3. **Select Tokens from the dropdown list**: Select **LYX**
-   ![Bridge UI](../../../static/img/general/bridge_ui.png)
+   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_ui.png)
 
 ---
 
 4. **Enter Amount**: Specify the amount of tokens to bridge
-   ![Bridge UI](../../../static/img/general/bridge_ui.png)
+   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_ui.png)
 
 ---
 
 5. **Enter the Recipient Address**: Input the destination address
 
-:::warning
+:::danger Important
 
-Please do not enter a UP address as recipient on Ethereum, otherwise you will lose your tokens
+As Universal Profiles are on LUKSO, please do not enter a UP address as recipient when bridging from LUKSO! This action might cause to lose your tokens.
 
 :::
 
 ---
 
 6. **Confirm Transaction**: Review and approve the transaction using your UP controller
-   ![Bridge UI](../../../static/img/general/bridge_ui.png)
+   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_ui.png)
 
 ---
 
@@ -116,7 +136,7 @@ Please do not enter a UP address as recipient on Ethereum, otherwise you will lo
 
 Visit Hyperlane Explorer with your Message ID to see the status of your transaction
 
-![Bridge UI](../../../static/img/general/bridge_ui.png)
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_ui.png)
 
 ---
 
@@ -125,7 +145,7 @@ Visit Hyperlane Explorer with your Message ID to see the status of your transact
   </TabItem>
 </Tabs>
 
-### --- GIF FOR THE IMPORT ACTION ---
+--- GIF FOR THE IMPORT ACTION ---
 
 :::tip Import Bridged Tokens to Your Wallet
 

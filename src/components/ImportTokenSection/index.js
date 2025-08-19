@@ -119,21 +119,27 @@ const ImportTokenSection = () => {
           </tr>
         </thead>
         <tbody>
-          {Object.entries(BRIDGED_TOKENS_CONFIGS).map(([tokenKey, tokenConfig]) => (
-            <tr key={tokenKey}>
-              <td className={styles.networkName}>
-                {tokenConfig.bridgeNetwork.chainName}
-              </td>
-              <td className={styles.contractAddress}>
-                <a href={`http://etherscan.io/address/${tokenConfig.address}`} target="_blank" rel="noopener noreferrer">
-                  <code>{tokenConfig.address}</code>
-                </a>
-              </td>
-              <td className={styles.importButtonCell}>
-                <ImportTokenButton tokenKey={tokenKey} />
-              </td>
-            </tr>
-          ))}
+          {Object.entries(BRIDGED_TOKENS_CONFIGS).map(
+            ([tokenKey, tokenConfig]) => (
+              <tr key={tokenKey}>
+                <td className={styles.networkName}>
+                  {tokenConfig.bridgeNetwork.chainName}
+                </td>
+                <td className={styles.contractAddress}>
+                  <a
+                    href={`http://etherscan.io/address/${tokenConfig.address}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <code>{tokenConfig.address}</code>
+                  </a>
+                </td>
+                <td className={styles.importButtonCell}>
+                  <ImportTokenButton tokenKey={tokenKey} />
+                </td>
+              </tr>
+            ),
+          )}
         </tbody>
       </table>
     </div>
