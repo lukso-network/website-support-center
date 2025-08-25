@@ -114,7 +114,7 @@ const ImportTokenSection = () => {
         <thead>
           <tr>
             <th>Network Name</th>
-            <th>wLYX Contract Address</th>
+            <th>Bridged LYX Contract Address</th>
             <th></th>
           </tr>
         </thead>

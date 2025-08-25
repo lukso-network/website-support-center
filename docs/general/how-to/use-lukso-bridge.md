@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_home.png)
 
-This guide is for understanding how bridging works from and to LUKSO Network.
+This guide is for understanding how bridging works <strong>from</strong> and <strong>to</strong> LUKSO Network.
 
 ## Prerequisites
 
@@ -92,7 +92,7 @@ Visit [Hyperlane Explorer](https://explorer.hyperlane.xyz/) with your Message ID
 
 ---
 
-8. **Import Token**: Use the buttons [**below**](#import-wlyx-to-wallet) to add the bridged token to your wallet
+8. **Import Token**: Use the buttons [**below**](#import-bridged-lyx-hyperlane) to add the bridged token to your wallet
 
   </TabItem>
   <TabItem value="up" label={<h3>Bridging from a 🆙?</h3>}>
@@ -103,17 +103,17 @@ Visit [Hyperlane Explorer](https://explorer.hyperlane.xyz/) with your Message ID
 ---
 
 2. **Select Networks**: Choose the **from**(source) and **to**(destination) networks
-   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_ui.png)
+   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/up_from_to.png)
 
 ---
 
 3. **Select Tokens from the dropdown list**: Select **LYX**
-   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_ui.png)
+   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_token.png)
 
 ---
 
 4. **Enter Amount**: Specify the amount of tokens to bridge
-   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_ui.png)
+   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/up_amount.png)
 
 ---
 
@@ -125,37 +125,41 @@ As Universal Profiles are on LUKSO, please do not enter a UP address as recipien
 
 :::
 
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/up_destination.png)
+
 ---
 
-6. **Confirm Transaction**: Review and approve the transaction using your UP controller
-   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_ui.png)
+6. **Confirm Transaction**: Review and approve the transaction using your Universal Profile
+   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_send.png)
 
 ---
 
 7. **Follow your status**: Bridge transactions typically take a few minutes
 
-Visit Hyperlane Explorer with your Message ID to see the status of your transaction
+:::tip Check your status
+Visit [Hyperlane Explorer](https://explorer.hyperlane.xyz/) with your Message ID to see the status of your transaction.
+:::
 
-![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_ui.png)
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_message.png)
 
 ---
 
-8. **Import Token**: Use the buttons [**below**](#import-wlyx-to-wallet) to add the bridged token to your wallet
+8. **Import Token**: Use the buttons [**below**](#import-bridged-lyx-hyperlane) to add the bridged token to your wallet
 
   </TabItem>
 </Tabs>
 
---- GIF FOR THE IMPORT ACTION ---
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/import_token.gif)
 
 :::tip Import Bridged Tokens to Your Wallet
 
-After bridging tokens, you need to **import wLYX to your wallet** to see your balance.
+After bridging tokens, you need to **import Bridged LYX to your wallet** to see your balance.
 
 :::
 
-## Import wLYX to Wallet
+## Import Bridged LYX (Hyperlane)
 
-wLYX is an ERC20 token on Ethereum. It needs to be imported in your wallet and will be visible under your list of tokens.
+Bridged LYX (Hyperlane) is an ERC20 token on Ethereum. It needs to be imported in your wallet and will be visible under your list of tokens.
 
 <ImportTokenSection />
 

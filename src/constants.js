@@ -39,8 +39,8 @@ export const BRIDGED_NETWORKS_CONFIGS = {
 
 export const BRIDGED_TOKENS_CONFIGS = {
   lyx_ethereum_mainnet: {
-    address: '0x0000000000000000000000000000000000000000',
-    symbol: 'wLYX',
+    address: '0xC210B2cB65ed3484892167F5e05F7ab496Ab0598',
+    symbol: 'LYX',
     decimals: 18,
     bridgeNetwork: BRIDGED_NETWORKS_CONFIGS.ethereum_mainnet,
   },
