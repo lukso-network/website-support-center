@@ -9,159 +9,168 @@ import TabItem from '@theme/TabItem';
 
 # Use the LUKSO Bridge
 
-![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_home.png)
+<!-- TODO: put video demo of bridging -->
+<!-- ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_home.png) -->
 
-This guide is for understanding how bridging works <strong>from</strong> and <strong>to</strong> LUKSO Network.
+This page will guide you on how to use the Hyperlane NEXUS dApp to bridge assets from and to the LUKSO Network.
+
+:::danger Warning
+
+**When bridging from LUKSO to other chains, DO NOT enter a UP address as the `recipient`**.
+
+Otherwise, you will lose access to your bridged tokens on Ethereum (or the destination chain you have selected). This is because Universal Profiles are currently only available on the LUKSO network.
+
+:::
 
 ## Prerequisites
 
-Before using the bridge, ensure you have:
+Before using the Hyperlane bridge, ensure you have:
 
-1. **A Web3 Wallet**: MetaMask, Rabby, or another compatible wallet
-2. **Network Configuration**: The correct network added to your wallet
-3. **Native Tokens for**:
-   - the amount you want to bridge
+1. **A Web3 Wallet**: MetaMask, Rabby, or any other compatible EVM wallet.
+2. **Network Configuration**: The correct network added to your wallet.
+3. **Native Tokens** (Ethereum mainnet requires ETH, LUKSO Mainnet requires LYX):
    - to pay for the gas fees
-   - to pay for the processing fee (Interchain Gas Payment)
+   - to pay for the processing fee ([Interchain Gas Payment](https://docs.hyperlane.xyz/docs/protocol/core/interchain-gas-payment#interchain-gas-payments))
 
-## How to Bridge Tokens
+<details>
+  <summary>What is the Interchain Gas Payment?</summary>
 
-**Visit [_Hyperlane NEXUS_](https://usenexus.org/) page** : Make sure to visit the official webpage:
+When performing a bridge transaction, Hyperlane require users to pay a processing fee called an _“interchain gas payment”_ (IGP) in the form of native tokens.
+
+These funds go directly to Hyperlane relayers that use them to pay for the gas fee when processing the final bridge transaction on the destination chain.
+
+Users can see the IGP amount required to pay in the UI before confirming the bridge transaction.
+
+Note that these fees are not accumulated by any specific parties. They are cross-chain bridging fee part of the Hyperlane cross-chain messaging protocol and solely used for processing bridge transactions.
+
+</details>
+
+## Go to [_Hyperlane NEXUS Bridge dApp_](https://usenexus.org/?origin=lukso&destination=ethereum&token=0xC210B2cB65ed3484892167F5e05F7ab496Ab0598)
 
 :::info
-LUKSO uses the Hyperlane's NEXUS Bridge for the bridging to/from LUKSO Mainnet.
+LUKSO uses the Hyperlane NEXUS Bridge dApp for bridging from/to LUKSO Mainnet.
+
+**Make sure to visit the official webpage at** [https://usenexus.org](https://usenexus.org)
 :::
 
 ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_home.png)
 
-:::danger Important
+## How to bridge?
 
-As Universal Profiles are currently only available on LUKSO, please do not enter a UP address as the <strong>recipient</strong> when bridging from LUKSO to other networks.
+<Tabs>
+  <TabItem value="eoa" label={<h3>👝 Bridging from a web3 wallet</h3>} default>
+
+**1. Connect Your Wallet**: Connect your Web3 wallet (MetaMask, Rabby, etc.) to the bridge interface
+
+:::info
+
+Make sure you have the [LUKSO Mainnet added to your network in your wallet](/general/supported-wallets/wallet-support.md#is-there-a-faster-way).
 
 :::
 
-### Are you ⤵️
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_connect_eoa.png)
 
-<Tabs>
-  <TabItem value="eoa" label={<h3>🌉 Bridging from another Web3 wallet?</h3>} default>
+**2. Select Networks**: Choose the **from** (source) and **to** (destination) networks
 
-1. **Connect Your Wallet**: Connect your Web3 wallet (MetaMask, Rabby, etc.) to the bridge interface
-   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_home.png)
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_from_to.png)
 
----
+**3. Select Tokens from the dropdown list**: Select **`LYX`**
 
-2. **Select Networks**: Choose the **from**(source) and **to**(destination) networks
-   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_from_to.png)
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_token.png)
 
----
+**4. Enter Amount**: Specify the amount of tokens to bridge
 
-3. **Select Tokens from the dropdown list**: Select **LYX**
-   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_token.png)
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_amount.png)
 
----
-
-4. **Enter Amount**: Specify the amount of tokens to bridge
-   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_amount.png)
-
----
-
-5. **Enter the Recipient Address**: Input the destination wallet address where tokens will be sent. Use the <strong>Self</strong> button if you're going to use the same wallet on the destination network.
+**5. Enter the Recipient Address**: Input the address of the wallet that will receive the tokens on the destination chain. You can also use the <strong>Self</strong> button if you want to bridge to the same wallet on the destination network.
 
 :::danger Using UP address as a recipient
 
-If you are not bridging <strong>to LUKSO</strong>, please do not use a Universal Profile address as a recipient!
+If you are bridging from LUKSO -> to Ethereum (or any other chain), **DO NOT use a Universal Profile address as `recipient`!** This would lead to losing access to your bridged tokens on the destination chain.
+
 :::
 
 ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_destination.png)
 
----
+**6. Confirm Transaction**: Review and confirm the transaction in your wallet
 
-6. **Confirm Transaction**: Review and confirm the transaction in your wallet
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_send.png)
 
-   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_send.png)
+**7. Follow the status of your bridge transaction**: Bridge transactions typically take a few minutes
 
----
+:::tip Check the status of your transaction
 
-7. **Follow your status**: Bridge transactions typically take a few minutes
+Visit the [🔍 Hyperlane Explorer](https://explorer.hyperlane.xyz/?origin=lukso), select LUKSO as _"Origin"_ and paste your Message ID to find your bridge transaction and see its status (if it is still being processed or it has been delivered on the destination chain).
 
-:::tip Check your status
-Visit [Hyperlane Explorer](https://explorer.hyperlane.xyz/) with your Message ID to see the status of your transaction.
 :::
 
 ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_message.png)
 
----
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/hyperlane_explorer_message_id_field.png)
 
-8. **Import Token**: Use the buttons [**below**](#import-bridged-lyx-hyperlane) to add the bridged token to your wallet
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/hyperlane_explorer_bridge_tx_details.png)
 
   </TabItem>
-  <TabItem value="up" label={<h3>Bridging from a 🆙?</h3>}>
+  <TabItem value="up" label={<h3>🆙 Bridging from a Universal Profile</h3>}>
 
-1. **Connect Your Universal Profile**: Connect your UP through the Universal Profile Extension
-   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_connect.png)
+**1. Connect Your Universal Profile**: Connect your UP through the Universal Profile Extension
 
----
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_connect_up.png)
 
-2. **Select Networks**: Choose the **from**(source) and **to**(destination) networks
-   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/up_from_to.png)
+**2. Select Networks**: Choose the **from**(source) and **to**(destination) networks
 
----
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/up_from_to.png)
 
-3. **Select Tokens from the dropdown list**: Select **LYX**
-   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_token.png)
+**3. Select Tokens from the dropdown list**: Select **`LYX`**
 
----
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/up_token.png)
 
-4. **Enter Amount**: Specify the amount of tokens to bridge
-   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/up_amount.png)
+**4. Enter Amount**: Specify the amount of tokens to bridge
 
----
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/up_amount.png)
 
-5. **Enter the Recipient Address**: Input the destination address
-
-:::danger Important
-
-As Universal Profiles are on LUKSO, please do not enter a UP address as recipient when bridging from LUKSO! This action might cause to lose your tokens.
-
-:::
+**5. Enter the Recipient Address**: Input the destination address
 
 ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/up_destination.png)
 
----
+:::danger Using UP address as a recipient
 
-6. **Confirm Transaction**: Review and approve the transaction using your Universal Profile
-   ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_send.png)
+If you are bridging from LUKSO -> to Ethereum (or any other chain), **DO NOT use a Universal Profile address as `recipient`!** This would lead to losing access to your bridged tokens on the destination chain.
 
----
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/up_destination_warning.png)
 
-7. **Follow your status**: Bridge transactions typically take a few minutes
+:::
 
-:::tip Check your status
-Visit [Hyperlane Explorer](https://explorer.hyperlane.xyz/) with your Message ID to see the status of your transaction.
+**6. Confirm Transaction**: Review and approve the transaction using your Universal Profile
+
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/up_send.png)
+
+**7. Follow the status of your bridge transaction**: Bridge transactions typically take a few minutes
+
+:::tip Check the status of your transaction
+
+Visit the [🔍 Hyperlane Explorer](https://explorer.hyperlane.xyz/?origin=lukso), select LUKSO as _"Origin"_ and paste your Message ID to find your bridge transaction and see its status (if it is still being processed or it has been delivered on the destination chain).
+
 :::
 
 ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/eoa_message.png)
 
----
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/hyperlane_explorer_message_id_field.png)
 
-8. **Import Token**: Use the buttons [**below**](#import-bridged-lyx-hyperlane) to add the bridged token to your wallet
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/hyperlane_explorer_bridge_tx_details.png)
 
   </TabItem>
 </Tabs>
 
-![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/import_token.gif)
+## Import `Bridged LYX` to your wallet
 
-:::tip Import Bridged Tokens to Your Wallet
+`Bridged LUKSO (Hyperlane)` (token symbol: `LYX`) is an ERC20 token on Ethereum. After bridging, you need to **import this token to your wallet** to see it under your list of tokens and to see your updated balance.
 
-After bridging tokens, you need to **import Bridged LYX to your wallet** to see your balance.
-
-:::
-
-## Import Bridged LYX (Hyperlane)
-
-Bridged LYX (Hyperlane) is an ERC20 token on Ethereum. It needs to be imported in your wallet and will be visible under your list of tokens.
+Use the buttons [**below**](#import-wlyx-to-wallet) to add the bridged token easily to your wallet.
 
 <ImportTokenSection />
+
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/import_token.gif)
 
 ## Important Notes
 

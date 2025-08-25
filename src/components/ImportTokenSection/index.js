@@ -113,9 +113,8 @@ const ImportTokenSection = () => {
       <table className={styles.tokenTable}>
         <thead>
           <tr>
-            <th>Network Name</th>
-            <th>Bridged LYX Contract Address</th>
-            <th></th>
+            <th>Network</th>
+            <th colspan="2">Bridged LYX Contract Address</th>
           </tr>
         </thead>
         <tbody>
