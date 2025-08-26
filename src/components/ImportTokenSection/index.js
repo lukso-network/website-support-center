@@ -109,16 +109,38 @@ const ImportTokenButton = ({ tokenKey }) => {
 
 const ImportTokenSection = () => {
   return (
-    <div className={styles.tokenButtonsWrapper}>
-      <div className={styles.tokenSection}>
-        <h3 className={styles.tokenSectionTitle}>LYXt on Ethereum Sepolia</h3>
-        <ImportTokenButton tokenKey="lyxt_ethereum_sepolia" />
-      </div>
-      <div className={styles.separator}></div>
-      <div className={styles.tokenSection}>
-        <h3 className={styles.tokenSectionTitle}>LYXt on Base Sepolia</h3>
-        <ImportTokenButton tokenKey="lyxt_base_sepolia" />
-      </div>
+    <div className={styles.tokenTableWrapper}>
+      <table className={styles.tokenTable}>
+        <thead>
+          <tr>
+            <th>Network</th>
+            <th colspan="2">Bridged LYX Contract Address</th>
+          </tr>
+        </thead>
+        <tbody>
+          {Object.entries(BRIDGED_TOKENS_CONFIGS).map(
+            ([tokenKey, tokenConfig]) => (
+              <tr key={tokenKey}>
+                <td className={styles.networkName}>
+                  {tokenConfig.bridgeNetwork.chainName}
+                </td>
+                <td className={styles.contractAddress}>
+                  <a
+                    href={`http://etherscan.io/address/${tokenConfig.address}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <code>{tokenConfig.address}</code>
+                  </a>
+                </td>
+                <td className={styles.importButtonCell}>
+                  <ImportTokenButton tokenKey={tokenKey} />
+                </td>
+              </tr>
+            ),
+          )}
+        </tbody>
+      </table>
     </div>
   );
 };
