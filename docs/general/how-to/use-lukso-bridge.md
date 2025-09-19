@@ -118,7 +118,7 @@ Visit the [🔍 Hyperlane Explorer](https://explorer.hyperlane.xyz/?origin=lukso
 
 :::warning Interchain Gas Payment Fee
 
-While the relayer pay for the gas(transaction fee), you must have sufficient LYX in your Universal Profile to cover the **[Interchain Gas Payment](#prerequisites)**(processing fee).
+While the relayer pay for the gas (transaction fee), you must have sufficient LYX in your Universal Profile to cover the **[Interchain Gas Payment](#prerequisites)** (processing fee).
 
 :::
 
