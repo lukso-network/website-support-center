@@ -9,8 +9,9 @@ import TabItem from '@theme/TabItem';
 
 # Use the LUKSO Bridge
 
-<!-- TODO: put video demo of bridging -->
-<!-- ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_home.png) -->
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U_8Zlhk7aPU?si=Mc9Eo_2coY7LcNCm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 This page will guide you on how to use the Hyperlane NEXUS dApp to bridge assets from and to the LUKSO Network.
 
@@ -60,7 +61,9 @@ LUKSO uses the Hyperlane NEXUS Bridge dApp for bridging from/to LUKSO Mainnet.
 <Tabs>
   <TabItem value="eoa" label={<h3>👝 Bridging from a web3 wallet</h3>} default>
 
-**1. Connect Your Wallet**: Connect your Web3 wallet (MetaMask, Rabby, etc.) to the bridge interface
+**1. Connect Your Wallet**: Connect your Web3 wallet (MetaMask, Rabby, etc.) to the bridge interface by selecting `Ethereum` on the `Connect Wallet` menu:
+
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/connect-wallet.png)
 
 :::info
 
@@ -113,7 +116,15 @@ Visit the [🔍 Hyperlane Explorer](https://explorer.hyperlane.xyz/?origin=lukso
   </TabItem>
   <TabItem value="up" label={<h3>🆙 Bridging from a Universal Profile</h3>}>
 
-**1. Connect Your Universal Profile**: Connect your UP through the Universal Profile Extension
+:::warning Interchain Gas Payment Fee
+
+While the relayer pay for the gas (transaction fee), you must have sufficient LYX in your Universal Profile to cover the **[Interchain Gas Payment](#prerequisites)** (processing fee).
+
+:::
+
+**1. Connect Your Universal Profile**: Connect your UP through the Universal Profile Extension by selecting `Ethereum` on the `Connect Wallet` menu:
+
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/connect-wallet.png)
 
 ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_connect_up.png)
 
