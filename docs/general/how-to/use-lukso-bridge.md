@@ -61,7 +61,9 @@ LUKSO uses the Hyperlane NEXUS Bridge dApp for bridging from/to LUKSO Mainnet.
 <Tabs>
   <TabItem value="eoa" label={<h3>👝 Bridging from a web3 wallet</h3>} default>
 
-**1. Connect Your Wallet**: Connect your Web3 wallet (MetaMask, Rabby, etc.) to the bridge interface
+**1. Connect Your Wallet**: Connect your Web3 wallet (MetaMask, Rabby, etc.) to the bridge interface by selecting `Ethereum` on the `Connect Wallet` menu:
+
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/connect-wallet.png)
 
 :::info
 
@@ -116,11 +118,13 @@ Visit the [🔍 Hyperlane Explorer](https://explorer.hyperlane.xyz/?origin=lukso
 
 :::warning Interchain Gas Payment Fee
 
-While the relayer handles the transaction fee, you must have sufficient LYX in your Universal Profile to cover the **Interchain Gas Payment fee**.
+While the relayer pay for the gas(transaction fee), you must have sufficient LYX in your Universal Profile to cover the **[Interchain Gas Payment](#prerequisites)**(processing fee).
 
 :::
 
-**1. Connect Your Universal Profile**: Connect your UP through the Universal Profile Extension
+**1. Connect Your Universal Profile**: Connect your UP through the Universal Profile Extension by selecting `Ethereum` on the `Connect Wallet` menu:
+
+![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/connect-wallet.png)
 
 ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/bridge_connect_up.png)
 
