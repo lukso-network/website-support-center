@@ -19,7 +19,7 @@
   --ifm-code-font-size: 95%;
   --color-cta-background: #ecf0f3;
   --color-cta-background-blue: #6270a4;
-  --ifm-heading-font-family: Apax, sans-serif;
+  --ifm-heading-font-family: Inter, sans-serif;
   --ifm-font-family-base: Inter, sans-serif;
   --ifm-heading-font-weight: 400;
   --ifm-h2-font-size: 1.5rem;
@@ -150,34 +150,6 @@ html[data-theme='dark'] .extension .img {
 .navbar__link {
   font-family: var(--ifm-heading-font-family);
   font-weight: var(--ifm-font-weight-normal);
-}
-
-@font-face {
-  font-family: 'Apax';
-  src: url('/static/fonts/Apax-Light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Apax';
-  src: url('/static/fonts/Apax-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Apax';
-  src: url('/static/fonts/Apax-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Apax';
-  src: url('/static/fonts/Apax-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
 }
 
 a.imageLink {
