@@ -89,7 +89,7 @@ Make sure you have the [LUKSO Mainnet added to your network in your wallet](/gen
 
 :::danger Using UP address as a recipient
 
-If you are bridging from LUKSO -> to Ethereum (or any other chain), **DO NOT use a Universal Profile address as `recipient`!** This would lead to losing access to your bridged tokens on the destination chain.
+If you are bridging from LUKSO -> to Ethereum (or any other chain), **DO NOT use a Universal Profile address as `recipient`!** This could lead to losing access to your bridged tokens on the destination chain. Your Universal Profile only exist on the LUKSO, not on Ethereum.
 
 :::
 
@@ -146,7 +146,7 @@ While the relayer pay for the gas (transaction fee), you must have sufficient LY
 
 :::danger Using UP address as a recipient
 
-If you are bridging from LUKSO -> to Ethereum (or any other chain), **DO NOT use a Universal Profile address as `recipient`!** This would lead to losing access to your bridged tokens on the destination chain.
+If you are bridging from LUKSO -> to Ethereum (or any other chain), **DO NOT use a Universal Profile address as `recipient`!** This could lead to losing access to your bridged tokens on the destination chain. Your Universal Profile only exist on the LUKSO, not on Ethereum.
 
 ![Bridge UI](../../../static/img/general/how-to/use-lukso-bridge/up_destination_warning.png)
 
