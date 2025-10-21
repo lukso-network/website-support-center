@@ -62,7 +62,7 @@ Select what your token represents. Examples include:
 
 The system automatically pre-selects the appropriate token type (LSP7 or LSP8), but you can change it if needed.
 
-![Category selection dropdown](../../../static/img/general/how-to/token-creator/tokentype-cheatsheet.png)
+![Category selection dropdown](../../../static/img/general/how-to/token-creator/tokentype-cheatsheet.jpg)
 
 ### 3. Review and Create!
 
@@ -93,12 +93,28 @@ Once you are done with entering details, click **Save** icon to add these detail
 
 ### Mint & Burn Tokens
 
-a. Mint More Tokens
+**a. Mint More Tokens**
+
+- It is possible to mint more tokens when **Edit** mode is enabled:
+
 ![Manage token screen](../../../static/img/general/how-to/token-creator/mint-more.png)
+
+- You can either mint it to your Universal Profile, or to an another UP by searching it's name!
+
 ![Manage token screen](../../../static/img/general/how-to/token-creator/mint-popup.png)
 
-b. Burn Tokens
+**b. Burn Tokens**
+
+- It is possible to burn the tokens you created on the token page directly without switching to Edit mode.
+
 ![Manage token screen](../../../static/img/general/how-to/token-creator/burn-token.png)
+
+:::warning Zero Address
+
+Burning the tokens would send them to **zero address(0x....dead)**, meaning that they are irrecoverable once sent.
+
+:::
+
 ![Manage token screen](../../../static/img/general/how-to/token-creator/burn-popup.png)
 
 ### Add Co-Creators
@@ -107,6 +123,15 @@ You can add one or more co-creators by selecting their **Universal Profiles**.
 Co-creators are recorded on-chain as part of the token’s provenance.
 
 ![Co-creator input field](../../../static/img/general/how-to/token-creator/add-co-creator.png)
+
+## Troubleshooting
+
+| Issue              | Solution                                                                                                                                                                                                                                                                                       |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Insufficient LYX   | If you are using the extension controller, make sure you have enough funds on the controller address. [See this guide for funding your controller](../../Extension/guides/fund-controller.md).                                                                                                 |
+| Wrong network      | Switch your Universal Profiles Browser Extension to the intended network and reload. If you are using an EOA Wallet to interact with, [make sure you added LUKSO Mainnet](../../general/supported-wallets/wallet-support.md#how-do-i-add-lukso-to-my-wallet) to your wallet as custom network. |
+| Transaction stuck  | Check the activity tab of your Universal Profiles Browser extension to see it's status.                                                                                                                                                                                                        |
+| Media not updating | Clear your browser's cache and/or wait for indexers to catch up with latest data.                                                                                                                                                                                                              |
 
 ## Need Help?
 
