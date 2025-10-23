@@ -19,7 +19,7 @@ The **Token Creator** allows you to:
 - Define categories, metadata, and co-creators
 - Manage and update tokens directly from your **Universal Profile**
 
-This process provides a straightforward way to issue on-chain assets for events, collectibles, memberships, and digital items.
+This process provides a straightforward way to issue on-chain assets such as proof of attendance for events, collectibles, memberships, and digital items.
 
 ## Accessing the Token Creator Tool
 
