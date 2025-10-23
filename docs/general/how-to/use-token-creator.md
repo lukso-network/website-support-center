@@ -45,7 +45,7 @@ Fill in the basic information for your token:
 | **Initial Mint Amount** | Initial amount of the created asset.                                 |
 
 :::warning \*Token name and Symbol
-Note that the `Name` and the `Symbol` values can not be changed later.
+Note that the `Name` and the `Symbol` can not be changed later.
 :::
 
 ![Metadata entry form](../../../static/img/general/how-to/token-creator/token-details.png)
