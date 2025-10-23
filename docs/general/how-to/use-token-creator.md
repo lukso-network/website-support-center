@@ -37,12 +37,12 @@ Follow these steps to create a new token:
 
 Fill in the basic information for your token:
 
-| Field                   | Description                                                          |
-| ----------------------- | -------------------------------------------------------------------- |
-| **Name**                | The display name of your token (e.g., MyCustomToken, Fan Token)      |
-| **Symbol**              | Short identifier (e.g., MCT, FAN).                                   |
-| **Category**            | The token type of the asset ([more details](#2-choosing-a-category)) |
-| **Initial Mint Amount** | Initial amount of the created asset.                                 |
+| Field                   | Description                                                                    |
+| ----------------------- | ------------------------------------------------------------------------------ |
+| **Name**                | The display name of your token (e.g., LUKSO Event Attendance Token, Fan Token) |
+| **Symbol**              | Short identifier (e.g., LEAT, FAN).                                            |
+| **Category**            | The token type of the asset ([more details](#2-choosing-a-category))           |
+| **Initial Mint Amount** | Initial amount of the created asset.                                           |
 
 :::warning Token name and Symbol
 Note that the `Name` and the `Symbol` can not be changed later.
