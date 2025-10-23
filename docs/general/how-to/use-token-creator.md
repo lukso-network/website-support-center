@@ -39,12 +39,12 @@ Fill in the basic information for your token:
 
 | Field                   | Description                                                          |
 | ----------------------- | -------------------------------------------------------------------- |
-| **Name\***              | The display name of your token (e.g., MyCustomToken, Fan Token)      |
-| **Symbol\***            | Short identifier (e.g., MCT, FAN).                                   |
+| **Name**                | The display name of your token (e.g., MyCustomToken, Fan Token)      |
+| **Symbol**              | Short identifier (e.g., MCT, FAN).                                   |
 | **Category**            | The token type of the asset ([more details](#2-choosing-a-category)) |
 | **Initial Mint Amount** | Initial amount of the created asset.                                 |
 
-:::warning \*Token name and Symbol
+:::warning Token name and Symbol
 Note that the `Name` and the `Symbol` can not be changed later.
 :::
 
@@ -111,7 +111,7 @@ Once you are done with entering details, click **Save** icon to add these detail
 
 :::warning Zero Address
 
-Burning the tokens would send them to **zero address(0x....dead)**, meaning that they are irrecoverable once sent.
+Burning the tokens would send them to **zero address(0x....dead)**, meaning that they are irrecoverable once sent. This will also reduce the token total supply.
 
 :::
 
@@ -120,7 +120,7 @@ Burning the tokens would send them to **zero address(0x....dead)**, meaning that
 ### Add Co-Creators
 
 You can add one or more co-creators by selecting their **Universal Profiles**.  
-Co-creators are recorded on-chain as part of the token’s provenance.
+Co-creators are recorded on-chain as part of the token’s creation history.
 
 ![Co-creator input field](../../../static/img/general/how-to/token-creator/add-co-creator.png)
 
