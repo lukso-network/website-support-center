@@ -1,6 +1,6 @@
 ---
 title: Use the LUKSO Bridge
-sidebar_position: 4
+sidebar_position: 1
 ---
 
 import ImportTokenSection from '@site/src/components/ImportTokenSection'
