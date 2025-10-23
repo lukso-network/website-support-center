@@ -26,7 +26,7 @@ This process provides a straightforward way to issue on-chain assets such as pro
 ![Connect wallet and select Token Creator](../../../static/img/general/how-to/token-creator/create-asset.png)
 
 1. Go to **[Universal Everything](https://universaleverything.io/)**.
-2. Connect your **Universal Profile** and visit your profile.
+2. Connect your **Universal Profile** and visit your profile page.
 3. On the Tokens tab, select **Create Asset**.
 
 ## Creating a Token
