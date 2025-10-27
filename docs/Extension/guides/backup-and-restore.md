@@ -6,7 +6,7 @@ description: 'Extension Support: Backup and Restore'
 
 # Backup and Restore
 
-<div>
+<div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hyXIKU66cvc?si=maJqk5iY8N9uLY9B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
@@ -22,6 +22,12 @@ Other safe options to restore your Universal Profile:
 :::
 
 ## Backup Profiles
+
+Some Text
+
+![Bridge UI](../../../static/img/extension/backup-and-restore/backup-profiles.png)
+
+More Text
 
 ### Backup with Protection (Recommended)
 
