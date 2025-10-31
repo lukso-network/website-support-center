@@ -177,7 +177,7 @@ Visit the [🔍 Hyperlane Explorer](https://explorer.hyperlane.xyz/?origin=lukso
 
 `Bridged LUKSO (Hyperlane)` (token symbol: `LYX`) is an ERC20 token on Ethereum. After bridging, you need to **import this token to your wallet** to see it under your list of tokens and to see your updated balance.
 
-Use the buttons [**below**](#import-wlyx-to-wallet) to add the bridged token easily to your wallet.
+Use the buttons below to add the bridged token easily to your wallet.
 
 <ImportTokenSection />
 
