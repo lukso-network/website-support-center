@@ -11,6 +11,7 @@ If you lost access to the Universal Profile Browser Extension, there are multipl
 - **2FA Recovery**: You can set up 2FA for the Universal Profile on [my.universalprofile.cloud](https://my.universalprofile.cloud/). 2FA is the recommended way of backing up a Universal Profile and will add a new recovery controller to the profile, secured on LUKSO's end. The recovery controller has permissions to add additional controllers if access to an old extension is lost. For security reasons, users must provide an authentication code from a mobile device and approve via email before a new controller can be added using LUKSO's recovery service.
 - **3rd Party Wallet Recovery**: You can give recovery rights to an other blockchain account or controller on [my.universalProfile.cloud](https://mw.universalprofile.cloud/). This blockchain account then gains permissions to add additional controllers if access to an old extension is lost. Wallet recovery can also be used if you want to regain access to your Universal Profile using the revealed private key of the profile's extension controller.
 - **QR Import**: You can import any Universal Profile address into your extension. The import process will create a new local controller. Before it can can be used, the new controller needs to added to the Universal Profile by one of your existing controllers with sufficient permissions. Within the new extension, you will receive a QR code of a transaction that can be scanned or copied. When this QR code is received and the related transaction executed by an existing extension, this new controller will gain permissions on the Universal Profile.
+- **File Export (Advanced)**: You can export the main controller private key from the settings of the Browser Extension. Make sure to export the text into a file and store it safe. This controller private key will allow anyone to regain access to the UP, based on the controller's permissions.
 
 :::info Individual 2FA Controllers
 
@@ -21,12 +22,6 @@ Please note that each Universal Profile has to add a **separate** [UP Recovery c
 :::tip
 
 To reduce risk of losing access, it is **recommended** to set up **[2FA](../controllers.md#how-can-i-add-2fa-recovery-to-an-existing-universal-profile)** or **[Wallet Recovery](../../universalprofilecloud/Recovery/set-wallet-recovery.md)**.
-
-:::
-
-:::danger Paused Import Functionality
-
-**QR Import** is currently disabled due to the recent [Controller Recovery Incident](../incidents/controller-recovery.md)
 
 :::
 
