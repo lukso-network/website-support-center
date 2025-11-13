@@ -1,6 +1,6 @@
 ---
 sidebar_label: '#️⃣ Check Extension Version'
-sidebar_position: 5
+sidebar_position: 6
 description: 'LUKSO Support: Check Extension Version'
 ---
 
