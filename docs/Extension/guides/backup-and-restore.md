@@ -57,7 +57,7 @@ Enter a strong password and a hint to help you remember this password.
 
 :::warning Utilizing the Hint
 
-Make sure to add a useful hint for yourself to remember your password. It is not possible to restore your UPs if you have added a password and don't remember.
+Make sure to add a useful hint for yourself to remember your password. It is not possible to restore your UPs if you have added a password and forgot it.
 
 :::
 
